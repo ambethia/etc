@@ -1,0 +1,10 @@
+ForwardAgent yes
+
+Host izzy
+    HostName 97.65.94.25
+    User admin
+
+Host jetsam
+    HostName 173.230.141.97
+    User root
+
