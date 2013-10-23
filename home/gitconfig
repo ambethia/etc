@@ -1,3 +1,15 @@
 [user]
 	name = Jason L Perry
 	email = jasper@ambethia.com
+[push]
+	default = matching
+[alias]
+        st = status
+        ci = commit
+        co = checkout
+[color]
+        status = auto
+        diff = auto
+        branch = auto
+        ui = auto
+
