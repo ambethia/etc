@@ -57,6 +57,8 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 export PATH
 
+export EDITOR='mate -w'
+
 if [ -f ~/.aliases ]; then
 	. ~/.aliases
 fi

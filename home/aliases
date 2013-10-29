@@ -1,0 +1,5 @@
+alias pgs="pg_ctl -D /usr/local/var/postgres start"
+alias pgx="pg_ctl -D /usr/local/var/postgres stop"
+
+alias rs="redis-server /usr/local/etc/redis.conf"
+alias rx="killall -SIGTERM redis-server"

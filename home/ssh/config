@@ -8,3 +8,6 @@ Host jetsam
     HostName 173.230.141.97
     User root
 
+Host pets
+    HostName pets.ambethia.com
+    User deploy
