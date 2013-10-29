@@ -47,10 +47,6 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
-PATH=$PATH:~/Library/Python/2.7/bin
-
-# . $HOME/Library/Python/2.7/lib/python/site-packages/Powerline/bindings/zsh/powerline.zsh
-
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
