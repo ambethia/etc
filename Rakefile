@@ -9,7 +9,6 @@ FILE_MAP = {}.tap do |map|
       map[file] = real_file
     end
     map['vim'] = '~/.vim'
-    map['powerline'] = '~/.config/powerline'
   end
 end
 

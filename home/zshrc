@@ -40,9 +40,7 @@ ZSH_THEME="wedisagree"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(brew bundler git osx rails3 ruby rvm ssh-agent tmux)
-
-source $ZSH/oh-my-zsh.sh
+plugins=(brew bundler git osx rails ruby rvm ssh-agent tmux)
 
 # Customize to your needs...
 PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
@@ -53,6 +51,8 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 export PATH
 
+source $ZSH/oh-my-zsh.sh
+
 export EDITOR='mate -w'
 
 if [ -f ~/.aliases ]; then
@@ -61,3 +61,26 @@ fi
 
 # brew install zsh-completions
 fpath=(/usr/local/share/zsh-completions $fpath)
+
+# Postgres equivalent to heroku db:pull.
+# Pulls latest heroku pgbackups dump into local database
+#
+# Usage:
+#
+# $ heroku_pg_pull [appname] [local database name]
+#
+function heroku_pg_pull(){
+  echo "!   WARNING: Data in the local database '$2' will be destroyed."
+  echo "    Type '$2' to overwrite data in local database '$2'"
+  read local_database_name\?"> "
+  echo
+  if [ "$local_database_name" "==" "$2" ]; then
+    curl -o heroku_pg_pull_latest_backup.dump `heroku pgbackups:url -a $1`;
+    pg_restore --verbose --clean --no-acl --no-owner -h localhost -U `whoami` -d $2 heroku_pg_pull_latest_backup.dump;
+    rm heroku_pg_pull_latest_backup.dump;
+  else
+    echo "Aborted"
+  fi
+}
+
+eval "$(direnv hook zsh)"

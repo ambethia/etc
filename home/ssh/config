@@ -11,3 +11,8 @@ Host jetsam
 Host pets
     HostName pets.ambethia.com
     User deploy
+
+Host heroku.nano
+  HostName heroku.com
+  User git
+  IdentityFile ~/.ssh/nano
