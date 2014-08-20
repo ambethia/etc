@@ -13,3 +13,8 @@
         branch = auto
         ui = auto
 
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+[core]
+	excludesfile = /Users/ambethia/.gitignore

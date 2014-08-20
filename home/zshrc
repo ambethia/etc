@@ -40,7 +40,7 @@ ZSH_THEME="wedisagree"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(brew bundler git osx rails ruby rvm ssh-agent tmux)
+plugins=(brew bundler git osx rails ruby rvm ssh-agent tmux zsh-syntax-highlighting)
 
 # Customize to your needs...
 PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
@@ -49,14 +49,24 @@ PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
+export PATH="/usr/local/share/npm/bin:$PATH"
+
+export PATH=$PATH:/opt/local/bin
+export MANPATH=$MANPATH:/opt/local/share/man
+export INFOPATH=$INFOPATH:/opt/local/share/info:
+
 export PATH
 
 source $ZSH/oh-my-zsh.sh
 
-export EDITOR='mate -w'
+export EDITOR='vim'
 
 if [ -f ~/.aliases ]; then
 	. ~/.aliases
+fi
+
+if [ -f ~/.private ]; then
+  . ~/.private
 fi
 
 # brew install zsh-completions
@@ -84,3 +94,6 @@ function heroku_pg_pull(){
 }
 
 eval "$(direnv hook zsh)"
+
+export JAVA_HOME=/Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin/Contents/Home
+

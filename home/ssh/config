@@ -1,18 +1,15 @@
 ForwardAgent yes
 
 Host izzy
-    HostName 97.65.94.25
+    HostName 74.143.36.254
     User admin
 
 Host jetsam
     HostName 173.230.141.97
     User root
 
-Host pets
-    HostName pets.ambethia.com
-    User deploy
+Host text-info
+  HostName 74.143.36.254
+  User joshjaboe
+  Port 2222
 
-Host heroku.nano
-  HostName heroku.com
-  User git
-  IdentityFile ~/.ssh/nano
