@@ -40,14 +40,10 @@ ZSH_THEME="wedisagree"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(brew bundler git osx rails ruby rvm ssh-agent tmux zsh-syntax-highlighting)
+plugins=(brew bundler git osx rails ruby ssh-agent tmux zsh-syntax-highlighting)
 
 # Customize to your needs...
 PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
-
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 export PATH="/usr/local/share/npm/bin:$PATH"
 
@@ -55,11 +51,9 @@ export PATH=$PATH:/opt/local/bin
 export MANPATH=$MANPATH:/opt/local/share/man
 export INFOPATH=$INFOPATH:/opt/local/share/info:
 
-export PATH
-
 source $ZSH/oh-my-zsh.sh
 
-export EDITOR='vim'
+export EDITOR='subl'
 
 if [ -f ~/.aliases ]; then
 	. ~/.aliases
@@ -96,4 +90,13 @@ function heroku_pg_pull(){
 eval "$(direnv hook zsh)"
 
 export JAVA_HOME=/Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin/Contents/Home
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
 
+eval "$(rbenv init -)"
+
+export GOPATH=$HOME/.go
+
+export PATH=$PATH:$GOPATH/bin
+
+source `brew --prefix`/etc/profile.d/z.sh
