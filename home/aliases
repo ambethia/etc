@@ -5,3 +5,5 @@ alias rs="redis-server /usr/local/etc/redis.conf"
 alias rx="killall -SIGTERM redis-server"
 
 alias dot="$EDITOR ~/.etc"
+
+alias cask="brew cask"
