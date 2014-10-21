@@ -19,3 +19,4 @@
 	smudge = git media smudge %f
 [core]
 	excludesfile = /Users/ambethia/.gitignore
+	editor = atom --wait

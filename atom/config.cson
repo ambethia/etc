@@ -1,0 +1,14 @@
+'global':
+  'exception-reporting':
+    'userId': 'a10c643c-cba3-79b5-895c-b1cbd137b869'
+  'welcome':
+    'showOnStartup': false
+  'metrics':
+    'userId': '15d051bf606ae5751075b86ce538bd746bfcfcff'
+  'core':
+    'themes': [
+      'seti-ui'
+      'seti-syntax'
+    ]
+  'editor':
+    'invisibles': {}

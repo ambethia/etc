@@ -9,6 +9,7 @@ FILE_MAP = {}.tap do |map|
       map[file] = real_file
     end
     map['vim'] = '~/.vim'
+    map['atom'] = '~/.atom'
   end
 end
 
@@ -39,6 +40,8 @@ task :install do
       link_file(source, target)
     end
   end
+
+  system "apm stars --install"
 end
 
 task :default => :install
@@ -52,4 +55,3 @@ def link_file(source, target)
   puts "linking #{target}"
   system %Q{ln -s "$PWD/#{source}" "#{File.expand_path(target)}"}
 end
-

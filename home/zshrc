@@ -1,59 +1,48 @@
-# Path to your oh-my-zsh configuration.
-ZSH=$HOME/.oh-my-zsh
+## Antigen
 
-# Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
-# time that oh-my-zsh is loaded.
-ZSH_THEME="wedisagree"
+ZSHA_BASE=$HOME/.etc/antigen
+source $ZSHA_BASE/antigen/antigen.zsh
 
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+antigen use oh-my-zsh
 
-# Set to this to use case-sensitive completion
-# CASE_SENSITIVE="true"
+antigen bundles <<-BUNDLES
+	brew
+	bundler
+	git
+	heroku
+	rails
+	ruby
+	ssh-agent
+	tmux
+	zsh-users/zsh-completions
+	zsh-users/zsh-syntax-highlighting
+	zsh-users/zsh-history-substring-search
+BUNDLES
 
-# Uncomment this to disable bi-weekly auto-update checks
-# DISABLE_AUTO_UPDATE="true"
+if [ "$OSTYPE"="darwin11.0" ]; then
+  antigen-bundle osx
+fi
 
-# Uncomment to change how often before auto-updates occur? (in days)
-# export UPDATE_ZSH_DAYS=13
+antigen theme wedisagree
 
-# Uncomment following line if you want to disable colors in ls
-# DISABLE_LS_COLORS="true"
+antigen apply
 
-# Uncomment following line if you want to disable autosetting terminal title.
-# DISABLE_AUTO_TITLE="true"
+## Editor
 
-# Uncomment following line if you want to disable command autocorrection
-# DISABLE_CORRECTION="true"
+export EDITOR='atom -nw'
+export VISUAL='atom -nw'
 
-# Uncomment following line if you want red dots to be displayed while waiting for completion
-# COMPLETION_WAITING_DOTS="true"
+## Path
 
-# Uncomment following line if you want to disable marking untracked files under
-# VCS as dirty. This makes repository status check for large repositories much,
-# much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
-
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(brew bundler git osx rails ruby ssh-agent tmux zsh-syntax-highlighting)
-
-# Customize to your needs...
 PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
 export PATH="/usr/local/share/npm/bin:$PATH"
 
 export PATH=$PATH:/opt/local/bin
 export MANPATH=$MANPATH:/opt/local/share/man
-export INFOPATH=$INFOPATH:/opt/local/share/info:
+export INFOPATH=$INFOPATH:/opt/local/share/info
 
-source $ZSH/oh-my-zsh.sh
-
-export EDITOR='subl'
+## Ext
 
 if [ -f ~/.aliases ]; then
 	. ~/.aliases
@@ -87,16 +76,23 @@ function heroku_pg_pull(){
   fi
 }
 
-eval "$(direnv hook zsh)"
+## Lang
 
-export JAVA_HOME=/Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin/Contents/Home
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
-eval "$(rbenv init -)"
+## Ruby
+
+export RBENV_ROOT=/usr/local/var/rbenv
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+## GO
 
 export GOPATH=$HOME/.go
+export PATH=$PATH:/usr/local/opt/go/libexec/bin:${GOPATH//://bin:}/bin
 
-export PATH=$PATH:$GOPATH/bin
+## Misc
 
 source `brew --prefix`/etc/profile.d/z.sh
+
+eval "$(direnv hook $0)"
