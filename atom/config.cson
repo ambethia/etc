@@ -10,5 +10,13 @@
       'seti-ui'
       'seti-syntax'
     ]
+    'disabledPackages': [
+      'symbols-view'
+      'autocomplete-plus'
+      'autocomplete'
+      'autocomplete-snippets'
+      'atom-sharper'
+    ]
   'editor':
     'invisibles': {}
+  'autocomplete-plus': {}

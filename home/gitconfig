@@ -18,5 +18,5 @@
 	clean = git media clean %f
 	smudge = git media smudge %f
 [core]
-	excludesfile = /Users/ambethia/.gitignore
-	editor = atom --wait
+	excludesfile = ~/.gitignore
+	editor = subl --wait
