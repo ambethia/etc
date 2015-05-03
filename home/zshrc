@@ -17,14 +17,12 @@ antigen bundles <<-BUNDLES
 	zsh-users/zsh-completions
 	zsh-users/zsh-syntax-highlighting
 	zsh-users/zsh-history-substring-search
-	arialdomartini/oh-my-git
+	therealklanni/purity
 BUNDLES
 
 if [ "$OSTYPE"="darwin11.0" ]; then
   antigen-bundle osx
 fi
-
-antigen theme arialdomartini/oh-my-git-themes arialdo-pathinline
 
 antigen apply
 
@@ -71,6 +69,10 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 export RUBYMOTION_ANDROID_SDK=~/Dev/Ext/android-sdk-macosx
 export RUBYMOTION_ANDROID_NDK=~/Dev/Ext/android-ndk-r10c
 
+## Android
+
+export ANDROID_HOME="/usr/local/opt/android-sdk"
+
 ## GO
 
 export GOPATH=$HOME/.go
@@ -82,4 +84,21 @@ export HOMEBREW_CASK_OPTS="--caskroom=/usr/local/Caskroom"
 
 source `brew --prefix`/etc/profile.d/z.sh
 
-eval "$(direnv hook $0)"
+source kvm.sh
+
+# added by travis gem
+[ -f /Users/ambethia/.travis/travis.sh ] && source /Users/ambethia/.travis/travis.sh
+
+# Init JS App
+# usage `init_js_app` to initialize currently directory
+# usage `init_js_app somedir` to initialize in a new directory
+init_js_app () {
+  if [ ! -d $1 ]
+   then
+    mkdir $1
+    cd $1
+  fi
+  zsh $HOME/.init_js_app
+}
+
+eval "$(direnv hook zsh)"
