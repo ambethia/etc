@@ -8,8 +8,8 @@ FILE_MAP = {}.tap do |map|
     else
       map[file] = real_file
     end
-    map['vim'] = '~/.vim'
-    map['atom'] = '~/.atom'
+    # map['vim'] = '~/.vim'
+    # map['atom'] = '~/.atom'
   end
 end
 
