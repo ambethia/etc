@@ -21,7 +21,7 @@
 	smudge = git media smudge %f
 [core]
 	excludesfile = ~/.gitignore
-	editor = subl --wait
+	editor = atom --wait
 [filter "hawser"]
 	clean = git hawser clean %f
 	smudge = git hawser smudge %f

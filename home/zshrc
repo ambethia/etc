@@ -28,8 +28,8 @@ antigen apply
 
 ## Editor
 
-export EDITOR='subl -w'
-export VISUAL='subl'
+export EDITOR='atom -nw'
+export VISUAL='atom -nw'
 
 ## Path
 

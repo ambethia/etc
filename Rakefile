@@ -9,7 +9,7 @@ FILE_MAP = {}.tap do |map|
       map[file] = real_file
     end
     # map['vim'] = '~/.vim'
-    # map['atom'] = '~/.atom'
+    map['atom'] = '~/.atom'
   end
 end
 
