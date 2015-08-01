@@ -14,7 +14,35 @@
       "autocomplete"
       "atom-sharper"
     ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "Thumbs.db"
+      ".codekit-cache"
+      "bower_components"
+      "node_modules"
+    ]
+    projectHome: "/Users/ambethia/Documents"
+    destroyEmptyPanes: false
   editor:
     invisibles: {}
     showIndentGuide: true
+    fontFamily: "Fira Code"
+    fontSize: 12
   "autocomplete-plus": {}
+  "atom-beautify":
+    _analyticsUserId: "ed13293f-589e-4559-957d-a6b62f9113f8"
+    language_rust_beautify_on_save: true
+  minimap:
+    plugins:
+      "minimap-autohide": true
+  linter: {}
+  "language-babel": {}
+  "linter-scss-lint": {}
+  "linter-jshint":
+    jshintExecutablePath: "/usr/local/bin/jshint"
+  "linter-csslint": {}
+  "atom-ternjs": {}
+  emmet: {}

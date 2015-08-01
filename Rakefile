@@ -41,7 +41,7 @@ task :install do
     end
   end
 
-  system "apm stars --install"
+  # system "apm stars --install"
 end
 
 task :default => :install

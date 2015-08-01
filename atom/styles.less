@@ -9,10 +9,38 @@
  */
 
 .tree-view {
+  font-family: "Fira Sans";
 
+  .list-item.file {
+    font-weight: 200;
+  }
 }
 
-atom-text-editor::shadow {
+.atom-panel {
+  font-family: "Fira Sans";
+  font-weight: 200;
+}
+
+.command-palette {
+  font-family: "Fira Sans";
+}
+
+.tab-bar .tab {
+  font-family: "Fira Sans";
+  font-weight: 200;
+
+  &.active {
+    font-weight: 400;
+  }
+}
+
+atom-text-editor {
+  font-family: "Fira Code";
+  // text-rendering: optimizeLegibility;
+  // -webkit-font-feature-settings: "liga" 1;
+}
+
+atom-text-editor {
 
   .cursor {
 

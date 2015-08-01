@@ -1,0 +1,40 @@
+AllCops:
+  Exclude:
+    - bin/**/*
+    - config/**/*
+    - db/**/*
+    - Guardfile
+
+Metrics/LineLength:
+  Max: 160
+
+# Style/HashSyntax:
+#   EnforcedStyle: hash_rockets
+
+# Style/AccessModifierIndentation:
+#   EnforcedStyle: outdent
+
+# Style/CollectionMethods:
+#   PreferredMethods:
+#     map:      'collect'
+#     reduce:   'inject'
+#     find:     'detect'
+#     find_all: 'select'
+
+# Style/Documentation:
+#   Enabled: false
+
+# Style/DotPosition:
+#   EnforcedStyle: trailing
+
+# Style/ClassAndModuleChildren:
+#   Enabled: false
+
+# Style/DoubleNegation:
+#   Enabled: false
+
+# Style/SpaceAroundEqualsInParameterDefault:
+#   EnforcedStyle: no_space
+
+# Style/StringLiterals:
+#   EnforcedStyle: double_quotes
