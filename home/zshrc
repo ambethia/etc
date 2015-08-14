@@ -28,8 +28,8 @@ antigen apply
 
 ## Editor
 
-export EDITOR='subl -w'
-export VISUAL='subl'
+export EDITOR='atom -n'
+export VISUAL='atom -n'
 
 ## Path
 
@@ -84,7 +84,7 @@ export HOMEBREW_CASK_OPTS="--caskroom=/usr/local/Caskroom"
 
 source `brew --prefix`/etc/profile.d/z.sh
 
-source kvm.sh
+# source kvm.sh
 
 # added by travis gem
 [ -f /Users/ambethia/.travis/travis.sh ] && source /Users/ambethia/.travis/travis.sh
