@@ -28,8 +28,8 @@ antigen apply
 
 ## Editor
 
-export EDITOR='atom -n'
-export VISUAL='atom -n'
+# export EDITOR='mate -w'
+# export VISUAL='mate -w'
 
 ## Path
 
@@ -66,17 +66,23 @@ export ARCHFLAGS="-arch x86_64"
 export RBENV_ROOT=/usr/local/var/rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
-export RUBYMOTION_ANDROID_SDK=~/Dev/Ext/android-sdk-macosx
-export RUBYMOTION_ANDROID_NDK=~/Dev/Ext/android-ndk-r10c
+## Android & Java
 
-## Android
+export RUBYMOTION_ANDROID_SDK=/Users/ambethia/.rubymotion-android/sdk
+export RUBYMOTION_ANDROID_NDK=/Users/ambethia/.rubymotion-android/ndk
 
 export ANDROID_HOME="/usr/local/opt/android-sdk"
+
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home"
 
 ## GO
 
 export GOPATH=$HOME/.go
 export PATH=$PATH:/usr/local/opt/go/libexec/bin:${GOPATH//://bin:}/bin
+
+## Rust
+
+export RUST_SRC_PATH=/usr/local/src/rust/src
 
 ## Misc
 
@@ -102,3 +108,7 @@ init_js_app () {
 }
 
 eval "$(direnv hook zsh)"
+
+eval "$(thefuck --alias)"
+
+test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh

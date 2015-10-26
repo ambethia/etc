@@ -13,6 +13,8 @@
     disabledPackages: [
       "autocomplete"
       "atom-sharper"
+      "atom-css-comb"
+      "vim-mode-next"
     ]
     ignoredNames: [
       ".git"
@@ -30,19 +32,34 @@
     invisibles: {}
     showIndentGuide: true
     fontFamily: "Fira Code"
-    fontSize: 12
+    fontSize: 23
   "autocomplete-plus": {}
   "atom-beautify":
     _analyticsUserId: "ed13293f-589e-4559-957d-a6b62f9113f8"
     language_rust_beautify_on_save: true
+    language_scss_default_beautifier: "CSScomb"
+    language_css_default_beautifier: "CSScomb"
+    language_scss_beautify_on_save: true
   minimap:
     plugins:
       "minimap-autohide": true
-  linter: {}
+  linter:
+    showErrorPanel: false
   "language-babel": {}
-  "linter-scss-lint": {}
+  "linter-scss-lint":
+    executablePath: "/usr/local/var/rbenv/shims/scss-lint"
   "linter-jshint":
     jshintExecutablePath: "/usr/local/bin/jshint"
   "linter-csslint": {}
   "atom-ternjs": {}
   emmet: {}
+  racer:
+    rustSrcPath: "/usr/local/src/rust/src"
+  "tree-view":
+    hideIgnoredNames: true
+  react: {}
+  "linter-eslint":
+    useGlobalEslint: true
+    disableWhenNoEslintrcFileInPath: true
+  "markdown-preview": {}
+  "vim-mode": {}

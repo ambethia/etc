@@ -19,3 +19,6 @@
 # You can find more information about keymaps in these guides:
 # * https://atom.io/docs/latest/customizing-atom#customizing-key-bindings
 # * https://atom.io/docs/latest/advanced/keymaps
+
+'atom-text-editor[data-grammar="source js jsx"]:not([mini])':
+    'ctrl-e': 'emmet:expand-abbreviation-with-tab'
