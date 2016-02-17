@@ -1,20 +1,10 @@
 "*":
-  "exception-reporting":
-    userId: "a10c643c-cba3-79b5-895c-b1cbd137b869"
-  welcome:
-    showOnStartup: false
-  metrics:
-    userId: "15d051bf606ae5751075b86ce538bd746bfcfcff"
+  "atom-ternjs": {}
   core:
-    themes: [
-      "seti-ui"
-      "seti-syntax"
-    ]
     disabledPackages: [
       "autocomplete"
-      "atom-sharper"
-      "atom-css-comb"
-      "vim-mode-next"
+      "linter-htmlhint"
+      "linter-rubocop"
     ]
     ignoredNames: [
       ".git"
@@ -27,39 +17,16 @@
       "node_modules"
     ]
     projectHome: "/Users/ambethia/Documents"
-    destroyEmptyPanes: false
   editor:
+    fontSize: 22
     invisibles: {}
-    showIndentGuide: true
-    fontFamily: "Fira Code"
-    fontSize: 23
-  "autocomplete-plus": {}
-  "atom-beautify":
-    _analyticsUserId: "ed13293f-589e-4559-957d-a6b62f9113f8"
-    language_rust_beautify_on_save: true
-    language_scss_default_beautifier: "CSScomb"
-    language_css_default_beautifier: "CSScomb"
-    language_scss_beautify_on_save: true
-  minimap:
-    plugins:
-      "minimap-autohide": true
-  linter:
-    showErrorPanel: false
-  "language-babel": {}
-  "linter-scss-lint":
-    executablePath: "/usr/local/var/rbenv/shims/scss-lint"
-  "linter-jshint":
-    jshintExecutablePath: "/usr/local/bin/jshint"
-  "linter-csslint": {}
-  "atom-ternjs": {}
-  emmet: {}
-  racer:
-    rustSrcPath: "/usr/local/src/rust/src"
-  "tree-view":
-    hideIgnoredNames: true
-  react: {}
+  "exception-reporting":
+    userId: "a10c643c-cba3-79b5-895c-b1cbd137b869"
   "linter-eslint":
-    useGlobalEslint: true
     disableWhenNoEslintrcFileInPath: true
-  "markdown-preview": {}
-  "vim-mode": {}
+  "linter-rubocop": {}
+  metrics:
+    userId: "15d051bf606ae5751075b86ce538bd746bfcfcff"
+  react: {}
+  welcome:
+    showOnStartup: false

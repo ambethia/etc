@@ -33,7 +33,7 @@ antigen apply
 
 ## Path
 
-PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+PATH=/usr/local/bin:/usr/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
 export PATH="/usr/local/share/npm/bin:$PATH"
 
@@ -87,10 +87,6 @@ export RUST_SRC_PATH=/usr/local/src/rust/src
 ## Misc
 
 export HOMEBREW_CASK_OPTS="--caskroom=/usr/local/Caskroom"
-
-source `brew --prefix`/etc/profile.d/z.sh
-
-# source kvm.sh
 
 # added by travis gem
 [ -f /Users/ambethia/.travis/travis.sh ] && source /Users/ambethia/.travis/travis.sh

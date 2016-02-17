@@ -3,6 +3,8 @@ alias pgx="pg_ctl -D /usr/local/var/postgres stop"
 
 alias rs="redis-server /usr/local/etc/redis.conf"
 alias rx="killall -SIGTERM redis-server"
+alias rdu="launchctl load /usr/local/opt/redis/homebrew.mxcl.redis.plist"
+alias rdd="launchctl unload /usr/local/opt/redis/homebrew.mxcl.redis.plist"
 
 alias dot="$VISUAL ~/.etc"
 alias etc=dot
@@ -12,6 +14,8 @@ alias cask="brew cask"
 alias git=hub
 
 alias rm="if [ -x /usr/local/bin/figlet ]; then figlet 'use trash'; else; echo 'use trash'; fi #"
+
+alias k5k="kill -9 \$(lsof -i tcp:5000 -t)"
 
 # Postgres equivalent to heroku db:pull.
 # Pulls latest heroku pgbackups dump into local database

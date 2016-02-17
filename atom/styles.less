@@ -8,31 +8,23 @@
  * http://www.lesscss.org
  */
 
- atom-text-editor {
-  font-family: "Hack";
+atom-workspace {
+  // font-family: "Monoisome";
 }
 
-atom-pane:not(.active) {
-  opacity: 1;
+* {
+  -webkit-font-smoothing: antialiased;
+  -webkit-font-feature-settings: "liga" on, "calt" on;
 }
 
-.browser-plus {
+atom-text-editor {
+  text-rendering: optimizeLegibility;
+  font-family: "Fira Code";
+  font-size: 16px;
+}
 
-  .uri {
-    opacity: 0.5;
-  }
-
-  .mega-octicon {
-    font-size: 1.2em;
-  }
-
-  #uri {
-    font-size: 1em;
-    background-color: transparent;
-    color: #ccc;
-    font-family: "Fira Sans";
-
-    &:focus {
-    }
+ atom-text-editor::shadow {
+  .cursor-line, .string.regexp, .string.quoted {
+    -webkit-font-feature-settings: "liga" off, "calt" off;
   }
 }

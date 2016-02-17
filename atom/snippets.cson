@@ -13,3 +13,8 @@
 #     'prefix': 'log'
 #     'body': 'console.log $1'
 #
+
+'.source.jsx':
+  'React Icon':
+    prefix: 'i'
+    body: "<Icon name='${1}' />"
