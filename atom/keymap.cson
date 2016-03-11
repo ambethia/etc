@@ -28,7 +28,7 @@
 #
 # Wiki: https://github.com/zhuochun/md-writer/wiki/Settings-for-Keymaps
 #
-".platform-darwin atom-text-editor:not([mini])":
+'.platform-darwin atom-text-editor[data-grammar="source gfm"]:not([mini])':
   "shift-cmd-K": "markdown-writer:insert-link"
   "shift-cmd-I": "markdown-writer:insert-image"
   "cmd-i":       "markdown-writer:toggle-italic-text"
@@ -49,7 +49,10 @@
   "cmd-j cmd-n": "markdown-writer:jump-to-next-heading"
   "cmd-j cmd-d": "markdown-writer:jump-to-reference-definition"
   "cmd-j cmd-t": "markdown-writer:jump-to-next-table-cell"
-
+  'tab':         'markdown-folder:dwim-toggle'
+  'shift-tab':   'markdown-folder:foldall-h1'
+  'alt-x':       'markdown-folder:togglefenced'
+  'ctrl-alt-x':  'markdown-folder:toggleallfenced'
 
 # https://atom.io/packages/expand-region
 'atom-text-editor':
