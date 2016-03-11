@@ -1,10 +1,13 @@
 "*":
+  "atom-beautify":
+    _analyticsUserId: "45cfdcfc-3085-4a19-ae31-5e814a7e2f8b"
   "atom-ternjs": {}
   core:
     disabledPackages: [
       "autocomplete"
       "linter-htmlhint"
       "linter-rubocop"
+      "linter-csslint"
     ]
     ignoredNames: [
       ".git"
@@ -16,17 +19,42 @@
       "bower_components"
       "node_modules"
     ]
+    openEmptyEditorOnStart: false
+    packagesWithKeymapsDisabled: []
     projectHome: "/Users/ambethia/Documents"
   editor:
-    fontSize: 22
-    invisibles: {}
+    invisibles:
+      space: " "
+    preferredLineLength: 120
+    showIndentGuide: true
+    showInvisibles: true
+    zoomFontWhenCtrlScrolling: true
   "exception-reporting":
     userId: "a10c643c-cba3-79b5-895c-b1cbd137b869"
+  "expand-region": {}
   "linter-eslint":
     disableWhenNoEslintrcFileInPath: true
+  "linter-jscs":
+    onlyConfig: true
   "linter-rubocop": {}
+  "linter-stylelint":
+    disableWhenNoConfig: true
+  "linter-stylint":
+    onlyRunWhenConfig: true
+  "markdown-preview":
+    useGitHubStyle: true
+  "markdown-writer":
+    relativeImagePath: true
+    siteEngine: "html"
+    tableAlignment: "left"
   metrics:
     userId: "15d051bf606ae5751075b86ce538bd746bfcfcff"
+  "one-dark-ui":
+    layoutMode: "Compact"
+  pigments: {}
   react: {}
+  tabs:
+    enableVcsColoring: true
+    usePreviewTabs: true
   welcome:
     showOnStartup: false

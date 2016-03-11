@@ -44,6 +44,19 @@ task :install do
   # system "apm stars --install"
 end
 
+desc "Automatically commit changes to existing files, notifiy if new files need to be manually committed."
+task :update do
+  status = %x[git status]
+  case status
+  when /Untracked files/
+    notify "Untracked files present"
+  when /working directory clean/
+  else
+    notify "Committed changes"
+    %x[git add -u && git commit -m "Update\nAutomatic commit." && git push origin]
+  end
+end
+
 task :default => :install
 
 def replace_file(source, target)
@@ -54,4 +67,10 @@ end
 def link_file(source, target)
   puts "linking #{target}"
   system %Q{ln -s "$PWD/#{source}" "#{File.expand_path(target)}"}
+end
+
+def notify(msg)
+  unless %x[terminal-notifier -message "#{msg}" -title "~/.etc" -activate com.apple.Terminal -group dotfiles]
+    %x[osascript -e 'tell app "System Events" to display dialog "#{msg} (PS: install terminal-notifier, dummy)"']
+  end
 end
