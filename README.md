@@ -1,0 +1,11 @@
+# My Dotfiles.
+
+I keep eveything in `~/.etc` and use a rake task to link the contents of `~/.etc/home` to `~/.*`.
+
+I also keep some other crap in here.
+
+Automatically push changes to Github:
+```sh
+cp com.ambethia.update_dotfiles.plist ~/Library/LaunchAgents/com.ambethia.update_dotfiles.plist
+launchctl load -w ~/Library/LaunchAgents/com.ambethia.update_dotfiles.plist
+```
