@@ -1,6 +1,6 @@
 # My Dotfiles.
 
-I keep eveything in `~/.etc` and use a rake task to link the contents of `~/.etc/home` to `~/.*`.
+I keep everything in `~/.etc` and use a rake task to link the contents of `~/.etc/home` to `~/.*`.
 
 I also keep some other crap in here.
 
