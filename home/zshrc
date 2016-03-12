@@ -44,7 +44,7 @@ export INFOPATH=$INFOPATH:/opt/local/share/info
 ## Ext
 
 if [ -f ~/.aliases ]; then
-	. ~/.aliases
+  . ~/.aliases
 fi
 
 if [ -f ~/.private ]; then
