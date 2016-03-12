@@ -50,10 +50,10 @@ task :update do
   when /Untracked files/
     notify "Untracked files present"
   when /working directory clean/
+    # Do nothing.
   else
     notify "Committing changes"
     %x[git add -u && git commit -m "Update\nAutomatic commit."]
-
     pull = %x[git pull]
     if pull =~ /Automatic merge failed/
       notify "Merge conflict"
