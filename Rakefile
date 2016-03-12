@@ -52,8 +52,18 @@ task :update do
     notify "Untracked files present"
   when /working directory clean/
   else
-    notify "Committed changes"
-    %x[git add -u && git commit -m "Update\nAutomatic commit." && git push origin]
+    notify "Committing changes"
+    %x[git add -u && git commit -m "Update\nAutomatic commit."]
+
+    pull = %x[git pull]
+    if pull =~ /Automatic merge failed/
+      notify "Merge conflict"
+    else
+      push = %x[git push origin]
+      if push =~ /rejected/
+        notify "Failed to push"
+      end
+    end
   end
 end
 
