@@ -28,8 +28,9 @@ antigen apply
 
 ## Editor
 
-# export EDITOR='mate -w'
-# export VISUAL='mate -w'
+export EDITOR='atom -w'
+export VISUAL='atom -w'
+export BUNDLER_EDITOR='atom'
 
 ## Path
 
