@@ -20,7 +20,6 @@
       "node_modules"
     ]
     openEmptyEditorOnStart: false
-    packagesWithKeymapsDisabled: []
     projectHome: "/Users/ambethia/Documents"
   editor:
     fontSize: 16
