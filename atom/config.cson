@@ -33,6 +33,8 @@
     userId: "a10c643c-cba3-79b5-895c-b1cbd137b869"
   "expand-region": {}
   haxe: {}
+  linter:
+    errorPanelHeight: 26
   "linter-eslint":
     disableWhenNoEslintrcFileInPath: true
   "linter-jscs":
