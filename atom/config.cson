@@ -8,6 +8,7 @@
       "linter-htmlhint"
       "linter-rubocop"
       "linter-csslint"
+      "linter-glsl"
     ]
     ignoredNames: [
       ".git"
@@ -37,6 +38,7 @@
     errorPanelHeight: 26
   "linter-eslint":
     disableWhenNoEslintrcFileInPath: true
+  "linter-glsl": {}
   "linter-jscs":
     onlyConfig: true
   "linter-rubocop": {}
