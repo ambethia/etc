@@ -9,6 +9,7 @@
       "linter-rubocop"
       "linter-csslint"
       "linter-glsl"
+      "autocomplete-glsl"
     ]
     ignoredNames: [
       ".git"
