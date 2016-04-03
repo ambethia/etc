@@ -1,6 +1,8 @@
 "*":
   "atom-beautify":
     _analyticsUserId: "45cfdcfc-3085-4a19-ae31-5e814a7e2f8b"
+    general:
+      _analyticsUserId: "a371a4bf-68e6-47ff-a00e-1337ca5acd84"
   "atom-ternjs": {}
   core:
     disabledPackages: [
