@@ -23,13 +23,13 @@
       "bower_components"
       "node_modules"
     ]
-    openEmptyEditorOnStart: false
     projectHome: "/Users/ambethia/Documents"
   editor:
-    fontSize: 16
+    fontSize: 34
     invisibles:
       space: " "
     preferredLineLength: 120
+    scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
     zoomFontWhenCtrlScrolling: true
@@ -64,5 +64,8 @@
   tabs:
     enableVcsColoring: true
     usePreviewTabs: true
+  "tree-view":
+    hideIgnoredNames: true
+    squashDirectoryNames: true
   welcome:
     showOnStartup: false
