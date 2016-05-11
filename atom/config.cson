@@ -12,6 +12,8 @@
       "linter-csslint"
       "linter-glsl"
       "autocomplete-glsl"
+      "racer"
+      "tokamak"
     ]
     ignoredNames: [
       ".git"
@@ -25,7 +27,6 @@
     ]
     projectHome: "/Users/ambethia/Documents"
   editor:
-    fontSize: 37
     invisibles:
       space: " "
     preferredLineLength: 120
@@ -64,8 +65,16 @@
   tabs:
     enableVcsColoring: true
     usePreviewTabs: true
+  "terminal-plus":
+    style: {}
+    toggles: {}
+  "tool-bar":
+    position: "Left"
   "tree-view":
     hideIgnoredNames: true
     squashDirectoryNames: true
   welcome:
     showOnStartup: false
+".rust.source":
+  editor:
+    preferredLineLength: 99
