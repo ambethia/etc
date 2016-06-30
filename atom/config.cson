@@ -23,7 +23,7 @@
     packagesWithKeymapsDisabled: []
     projectHome: "/Users/ambethia/Documents"
   editor:
-    fontSize: 9
+    fontSize: 15
     invisibles:
       space: " "
     preferredLineLength: 120
