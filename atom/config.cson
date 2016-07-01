@@ -1,8 +1,9 @@
 "*":
   "atom-beautify":
-    _analyticsUserId: "45cfdcfc-3085-4a19-ae31-5e814a7e2f8b"
     general:
-      _analyticsUserId: "a371a4bf-68e6-47ff-a00e-1337ca5acd84"
+      _analyticsUserId: "45cfdcfc-3085-4a19-ae31-5e814a7e2f8b"
+    rust:
+      beautify_on_save: true
   "atom-ternjs": {}
   core:
     disabledPackages: [
@@ -12,7 +13,6 @@
       "linter-csslint"
       "linter-glsl"
       "autocomplete-glsl"
-      "racer"
       "tokamak"
       "linter-jscs"
     ]
@@ -25,6 +25,7 @@
       ".codekit-cache"
       "bower_components"
       "node_modules"
+      "._*"
     ]
     projectHome: "/Users/ambethia/Documents"
   editor:
@@ -62,6 +63,9 @@
   "one-dark-ui":
     layoutMode: "Compact"
   pigments: {}
+  racer:
+    racerBinPath: "/Users/ambethia/bin/racer"
+    rustSrcPath: "/Users/ambethia/.multirust/src/current/"
   react: {}
   tabs:
     enableVcsColoring: true
