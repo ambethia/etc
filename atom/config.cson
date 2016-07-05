@@ -63,6 +63,97 @@
   "one-dark-ui":
     layoutMode: "Compact"
   pigments: {}
+  "platformio-ide-terminal":
+    ansiColors:
+      normal:
+        blue:
+          red: 114
+          green: 190
+          blue: 242
+          alpha: 1
+        green:
+          red: 210
+          green: 145
+          blue: 228
+          alpha: 1
+        red:
+          red: 185
+          green: 192
+          blue: 203
+          alpha: 1
+        yellow:
+          red: 219
+          green: 170
+          blue: 121
+          alpha: 1
+      zBright:
+        brightBlack:
+          red: 111
+          green: 119
+          blue: 131
+          alpha: 1
+        brightBlue:
+          red: 114
+          green: 190
+          blue: 242
+          alpha: 1
+        brightCyan:
+          red: 101
+          green: 194
+          blue: 205
+          alpha: 1
+        brightGreen:
+          red: 167
+          green: 204
+          blue: 140
+          alpha: 1
+        brightMagenta:
+          red: 210
+          green: 145
+          blue: 228
+          alpha: 1
+        brightRed:
+          red: 232
+          green: 131
+          blue: 136
+          alpha: 1
+        brightYellow:
+          red: 255
+          green: 255
+          blue: 255
+          alpha: 1
+    core: {}
+    iconColors:
+      blue:
+        red: 101
+        green: 194
+        blue: 205
+        alpha: 1
+      green:
+        red: 210
+        green: 145
+        blue: 228
+        alpha: 1
+      magenta:
+        red: 207
+        green: 50
+        blue: 208
+        alpha: 1
+      orange:
+        red: 207
+        green: 161
+        blue: 116
+        alpha: 1
+      pink:
+        red: 232
+        green: 131
+        blue: 136
+        alpha: 1
+      yellow:
+        red: 243
+        green: 228
+        blue: 147
+        alpha: 1
   racer:
     racerBinPath: "/Users/ambethia/bin/racer"
     rustSrcPath: "/Users/ambethia/.multirust/src/current/"
