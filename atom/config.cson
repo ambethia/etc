@@ -36,6 +36,7 @@
     showIndentGuide: true
     showInvisibles: true
     zoomFontWhenCtrlScrolling: true
+  emmet: {}
   "exception-reporting":
     userId: "a10c643c-cba3-79b5-895c-b1cbd137b869"
   "expand-region": {}
