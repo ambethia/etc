@@ -17,6 +17,7 @@
       "autocomplete-glsl"
       "tokamak"
       "linter-jscs"
+      "linter-stylint"
     ]
     ignoredNames: [
       ".git"
@@ -43,6 +44,8 @@
     userId: "a10c643c-cba3-79b5-895c-b1cbd137b869"
   "expand-region": {}
   haxe: {}
+  "js-autoimport":
+    spaceForNamedImports: false
   linter:
     errorPanelHeight: 26
   "linter-eslint":
@@ -172,6 +175,8 @@
   react: {}
   "standard-formatter":
     checkStyleDevDependencies: true
+    formatOnSave: true
+  stylefmt:
     formatOnSave: true
   tabs:
     enableVcsColoring: true
