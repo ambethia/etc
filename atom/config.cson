@@ -1,4 +1,6 @@
 "*":
+  "activate-power-mode":
+    autoToggle: false
   "atom-beautify":
     general:
       _analyticsUserId: "45cfdcfc-3085-4a19-ae31-5e814a7e2f8b"
@@ -46,6 +48,9 @@
   "linter-eslint":
     disableWhenNoEslintrcFileInPath: true
   "linter-glsl": {}
+  "linter-js-standard":
+    checkStyleDevDependencies: true
+    lintMarkdownFiles: true
   "linter-jscs":
     onlyConfig: true
   "linter-rubocop": {}
@@ -165,6 +170,9 @@
     racerBinPath: "/Users/ambethia/bin/racer"
     rustSrcPath: "/Users/ambethia/.multirust/src/current/"
   react: {}
+  "standard-formatter":
+    checkStyleDevDependencies: true
+    formatOnSave: true
   tabs:
     enableVcsColoring: true
     usePreviewTabs: true
