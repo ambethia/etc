@@ -31,10 +31,6 @@
       "._*"
     ]
     projectHome: "/Users/ambethia/Documents"
-    themes: [
-      "one-light-ui"
-      "one-light-syntax"
-    ]
   editor:
     fontSize: 23
     invisibles:
@@ -80,8 +76,7 @@
       bookmarksDecorationsZIndex: 0
       codeglance: true
       codeglanceDecorationsZIndex: 0
-  "one-dark-ui":
-    layoutMode: "Compact"
+  "one-dark-ui": {}
   pigments: {}
   "platformio-ide-terminal":
     ansiColors:
