@@ -31,7 +31,12 @@
       "._*"
     ]
     projectHome: "/Users/ambethia/Documents"
+    themes: [
+      "one-light-ui"
+      "one-light-syntax"
+    ]
   editor:
+    fontSize: 23
     invisibles:
       space: " "
     preferredLineLength: 120
