@@ -72,9 +72,9 @@
     userId: "15d051bf606ae5751075b86ce538bd746bfcfcff"
   minimap:
     plugins:
-      bookmarks: true
+      bookmarks: false
       bookmarksDecorationsZIndex: 0
-      codeglance: true
+      codeglance: false
       codeglanceDecorationsZIndex: 0
   "one-dark-ui": {}
   pigments: {}
