@@ -58,7 +58,6 @@
     disableWhenNoEslintrcFileInPath: true
   "linter-glsl": {}
   "linter-js-standard":
-    checkStyleDevDependencies: true
     lintMarkdownFiles: true
   "linter-jscs":
     onlyConfig: true
