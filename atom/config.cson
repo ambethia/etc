@@ -23,6 +23,7 @@
       "tokamak"
       "linter-jscs"
       "linter-stylint"
+      "linter-js-standard"
     ]
     ignoredNames: [
       ".git"
