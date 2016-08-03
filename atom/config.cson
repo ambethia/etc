@@ -24,6 +24,7 @@
       "linter-jscs"
       "linter-stylint"
       "linter-js-standard"
+      "js-autoimport"
     ]
     ignoredNames: [
       ".git"
@@ -38,7 +39,7 @@
     ]
     projectHome: "/Users/ambethia/Documents"
   editor:
-    fontSize: 21
+    fontSize: 17
     invisibles:
       space: " "
     preferredLineLength: 120
