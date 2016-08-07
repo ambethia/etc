@@ -15,7 +15,6 @@
   core:
     disabledPackages: [
       "autocomplete"
-      "linter-htmlhint"
       "linter-rubocop"
       "linter-csslint"
       "linter-glsl"
@@ -23,8 +22,10 @@
       "tokamak"
       "linter-jscs"
       "linter-stylint"
-      "linter-js-standard"
       "js-autoimport"
+      "linter-haml"
+      "linter-less"
+      "linter-rust"
     ]
     ignoredNames: [
       ".git"
@@ -64,7 +65,8 @@
     onlyConfig: true
   "linter-rubocop": {}
   "linter-stylelint":
-    disableWhenNoConfig: true
+    disableWhenNoConfig: false
+    useStandard: true
   "linter-stylint":
     onlyRunWhenConfig: true
   "markdown-preview":
