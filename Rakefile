@@ -8,7 +8,6 @@ FILE_MAP = {}.tap do |map|
     else
       map[file] = real_file
     end
-    # map['vim'] = '~/.vim'
     map['atom'] = '~/.atom'
   end
 end
@@ -51,9 +50,19 @@ task :update do
   when /Untracked files/
     notify "Untracked files present"
   when /working directory clean/
+    # Do nothing.
   else
-    notify "Committed changes"
-    %x[git add -u && git commit -m "Update\nAutomatic commit." && git push origin]
+    notify "Committing changes"
+    %x[git add -u && git commit -m "Update\nAutomatic commit."]
+    pull = %x[git pull]
+    if pull =~ /Automatic merge failed/
+      notify "Merge conflict"
+    else
+      push = %x[git push origin]
+      if push =~ /rejected/
+        notify "Failed to push"
+      end
+    end
   end
 end
 
@@ -70,7 +79,7 @@ def link_file(source, target)
 end
 
 def notify(msg)
-  unless %x[terminal-notifier -message "#{msg}" -title "~/.etc" -activate com.apple.Terminal -group dotfiles]
+  unless system %[terminal-notifier -message "#{msg}" -title "~/.etc" -activate com.apple.Terminal -group dotfiles]
     %x[osascript -e 'tell app "System Events" to display dialog "#{msg} (PS: install terminal-notifier, dummy)"']
   end
 end
