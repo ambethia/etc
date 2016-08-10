@@ -21,12 +21,12 @@
       "linter-glsl"
       "autocomplete-glsl"
       "linter-haml"
-      "language-javascript"
       "language-glsl"
       "language-haml"
       "language-haxe"
-      "linter"
       "linter-clang"
+      "language-javascript"
+      "linter-js-standard"
     ]
     ignoredNames: [
       ".git"
