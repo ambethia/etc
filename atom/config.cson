@@ -181,8 +181,6 @@
         alpha: 1
   "project-viewer":
     convertOldData: false
-    hideHeader: true
-    startupVisibility: true
     statusBarVisibility: true
   stylefmt:
     formatOnSave: true
