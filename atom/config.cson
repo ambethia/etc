@@ -30,7 +30,7 @@
       "language-haxe"
       "linter-clang"
       "language-javascript"
-      "linter-eslint"
+      "linter-js-standard"
     ]
     ignoredNames: [
       ".git"
