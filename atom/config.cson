@@ -48,7 +48,7 @@
       "solarized-light-syntax"
     ]
   editor:
-    fontSize: 25
+    fontSize: 17
     invisibles:
       space: " "
     preferredLineLength: 120
