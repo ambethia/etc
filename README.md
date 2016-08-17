@@ -6,6 +6,8 @@ I also keep some other crap in here.
 
 Automatically push changes to Github:
 ```sh
-cp com.ambethia.update_dotfiles.plist ~/Library/LaunchAgents/com.ambethia.update_dotfiles.plist
+cp ~/.etc/com.ambethia.update_dotfiles.plist ~/Library/LaunchAgents/com.ambethia.update_dotfiles.plist
 launchctl load -w ~/Library/LaunchAgents/com.ambethia.update_dotfiles.plist
 ```
+
+See SETUP.md for more.
