@@ -31,6 +31,9 @@
       "linter-clang"
       "language-javascript"
       "linter-js-standard"
+      "activate-power-mode"
+      "automate-power-mode"
+      "project-viewer"
     ]
     ignoredNames: [
       ".git"
@@ -44,7 +47,7 @@
     ]
     projectHome: "/Users/ambethia/Documents"
   editor:
-    fontSize: 15
+    fontSize: 12
     invisibles:
       space: " "
     preferredLineLength: 120
@@ -197,6 +200,12 @@
     squashDirectoryNames: true
   welcome:
     showOnStartup: false
+".babel.regexp.source":
+  editor:
+    preferredLineLength: 120
+".js.jsx.source":
+  editor:
+    preferredLineLength: 120
 ".markdown.text":
   whitespace:
     removeTrailingWhitespace: false
