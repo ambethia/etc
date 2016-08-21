@@ -47,13 +47,14 @@
     ]
     projectHome: "/Users/ambethia/Documents"
   editor:
-    fontSize: 12
     invisibles:
       space: " "
     preferredLineLength: 120
     scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
+    softWrapAtPreferredLineLength: true
+    softWrapHangingIndent: 2
     zoomFontWhenCtrlScrolling: true
   emmet: {}
   "exception-reporting":
