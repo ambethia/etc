@@ -12,6 +12,10 @@
       _analyticsUserId: "45cfdcfc-3085-4a19-ae31-5e814a7e2f8b"
     html:
       indent_size: 2
+    js:
+      break_chained_methods: true
+      end_with_newline: true
+      indent_size: 2
     rust:
       beautify_on_save: true
   "atom-ternjs": {}
