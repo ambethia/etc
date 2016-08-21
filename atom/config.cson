@@ -47,11 +47,7 @@
     ]
     projectHome: "/Users/ambethia/Documents"
   editor:
-<<<<<<< HEAD
     fontSize: 12
-=======
-    fontSize: 21
->>>>>>> 352743f20b3200d9af3c6bc5eb67384f0a9e4851
     invisibles:
       space: " "
     preferredLineLength: 120
@@ -73,7 +69,6 @@
     disableWhenNoEslintrcFileInPath: false
     globalNodePath: "/Users/ambethia/.node"
     showRuleIdInMessage: false
-    useGlobalEslint: true
   "linter-glsl": {}
   "linter-js-standard":
     lintMarkdownFiles: true
