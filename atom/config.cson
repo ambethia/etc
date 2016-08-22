@@ -51,7 +51,7 @@
     ]
     projectHome: "/Users/ambethia/Documents"
   editor:
-    fontSize: 13
+    fontSize: 21
     invisibles:
       space: " "
     preferredLineLength: 120
@@ -69,7 +69,7 @@
   "js-autoimport":
     spaceForNamedImports: false
   linter:
-    errorPanelHeight: 39
+    errorPanelHeight: 81
   "linter-eslint":
     disableWhenNoEslintConfig: false
     disableWhenNoEslintrcFileInPath: false
