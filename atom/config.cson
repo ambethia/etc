@@ -51,7 +51,7 @@
     ]
     projectHome: "/Users/ambethia/Documents"
   editor:
-    fontSize: 21
+    fontSize: 18
     invisibles:
       space: " "
     preferredLineLength: 120
