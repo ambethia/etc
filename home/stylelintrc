@@ -42,7 +42,7 @@
           ]
         },
         {
-          "order": "strict",
+          "order": "flexible",
           "properties": [
             "align-content",
             "align-items",
@@ -120,7 +120,7 @@
           ]
         },
         {
-          "order": "strict",
+          "order": "flexible",
           "properties": [
             "border-collapse",
             "border-spacing",
@@ -130,7 +130,7 @@
           ]
         },
         {
-          "order": "strict",
+          "order": "flexible",
           "properties": [
             "color",
             "font-family",
@@ -156,7 +156,7 @@
           ]
         },
         {
-          "order": "strict",
+          "order": "flexible",
           "properties": [
             "content",
             "quotes",
@@ -171,7 +171,7 @@
           ]
         },
         {
-          "order": "strict",
+          "order": "flexible",
           "properties": [
             "background-attachment",
             "background-clip",

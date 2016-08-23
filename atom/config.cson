@@ -12,6 +12,10 @@
       _analyticsUserId: "45cfdcfc-3085-4a19-ae31-5e814a7e2f8b"
     html:
       indent_size: 2
+    js:
+      break_chained_methods: true
+      end_with_newline: true
+      indent_size: 2
     rust:
       beautify_on_save: true
   "atom-ternjs": {}
@@ -31,6 +35,9 @@
       "linter-clang"
       "language-javascript"
       "linter-js-standard"
+      "activate-power-mode"
+      "automate-power-mode"
+      "project-viewer"
     ]
     ignoredNames: [
       ".git"
@@ -48,12 +55,18 @@
       "solarized-light-syntax"
     ]
   editor:
+<<<<<<< HEAD
+=======
+    fontSize: 18
+>>>>>>> 5b6eecb5ffbd6b558682b6d3306dad1a77ba7117
     invisibles:
       space: " "
     preferredLineLength: 120
     scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
+    softWrapAtPreferredLineLength: true
+    softWrapHangingIndent: 2
     zoomFontWhenCtrlScrolling: true
   emmet: {}
   "exception-reporting":
@@ -63,13 +76,12 @@
   "js-autoimport":
     spaceForNamedImports: false
   linter:
-    errorPanelHeight: 75
+    errorPanelHeight: 81
   "linter-eslint":
     disableWhenNoEslintConfig: false
     disableWhenNoEslintrcFileInPath: false
     globalNodePath: "/Users/ambethia/.node"
     showRuleIdInMessage: false
-    useGlobalEslint: true
   "linter-glsl": {}
   "linter-js-standard":
     lintMarkdownFiles: true
@@ -201,6 +213,12 @@
     squashDirectoryNames: true
   welcome:
     showOnStartup: false
+".babel.regexp.source":
+  editor:
+    preferredLineLength: 120
+".js.jsx.source":
+  editor:
+    preferredLineLength: 120
 ".markdown.text":
   whitespace:
     removeTrailingWhitespace: false
