@@ -50,10 +50,6 @@
       "._*"
     ]
     projectHome: "/Users/ambethia/Documents"
-    themes: [
-      "one-dark-ui"
-      "solarized-light-syntax"
-    ]
   editor:
     fontSize: 20
     invisibles:
