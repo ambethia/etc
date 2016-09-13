@@ -38,7 +38,6 @@
       "activate-power-mode"
       "automate-power-mode"
       "project-viewer"
-      "emmet-jsx-css-modules"
     ]
     ignoredNames: [
       ".git"
@@ -51,8 +50,12 @@
       "._*"
     ]
     projectHome: "/Users/ambethia/Documents"
+    themes: [
+      "one-dark-ui"
+      "solarized-light-syntax"
+    ]
   editor:
-    fontSize: 23
+    fontSize: 20
     invisibles:
       space: " "
     preferredLineLength: 120
@@ -72,8 +75,8 @@
   linter:
     errorPanelHeight: 81
   "linter-eslint":
-    disableWhenNoEslintConfig: false
     disableWhenNoEslintrcFileInPath: false
+    fixOnSave: true
     globalNodePath: "/Users/ambethia/.node"
     showRuleIdInMessage: false
   "linter-glsl": {}
@@ -188,8 +191,6 @@
         green: 228
         blue: 147
         alpha: 1
-    style:
-      fontFamily: "Operator Mono"
   "project-viewer":
     convertOldData: false
     statusBarVisibility: true
