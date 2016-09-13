@@ -8,24 +8,55 @@
  * http://www.lesscss.org
  */
 
+atom-workspace,
+atom-text-editor {
+  text-rendering: optimizeLegibility;
+}
+
 atom-workspace {
-  // font-family: "Monoisome";s
+  font-family: "Operator SSm";
 }
 
 atom-text-editor {
-  text-rendering: optimizeLegibility;
-  font-family: "Fira Code";
+  font-family: "Operator Mono";
+  font-weight: 200;
+  line-height: 1.7;
 }
 
- atom-text-editor::shadow {
-  .cursor-line, .string.regexp, .string.quoted {
+atom-panel.tool-panel {
+  font-size: 1em;
+}
+
+atom-pane .texteditor.tab.modified .title {
+  font-style: italic;
+}
+
+atom-text-editor::shadow {
+
+  .storage.type.function.arrow,
+  .lines .keyword.operator {
+    font-family: "Fira Code";
+  }
+
+  .cursor-line,
+  .string.regexp,
+  .string.quoted {
+    text-rendering: auto;
     -webkit-font-feature-settings: "liga" off, "calt" off;
+  }
+
+  .variable.parameter,
+  .entity.other.inherited-class,
+  .storage.type,
+  .entity.other.attribute-name.pseudo-class.css,
+  .entity.other.attribute-name {
+    font-style: italic;
   }
 }
 
 .platformio-ide-terminal .xterm {
-  background-color: hsl(220, 13%, 13%);
   color: hsl(220, 14%, 71%);
+  background-color: hsl(220, 13%, 13%);
 
   ::selection {
     background-color: hsl(220, 10%, 60%);

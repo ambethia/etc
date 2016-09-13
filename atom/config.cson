@@ -38,6 +38,7 @@
       "activate-power-mode"
       "automate-power-mode"
       "project-viewer"
+      "emmet-jsx-css-modules"
     ]
     ignoredNames: [
       ".git"
@@ -51,7 +52,7 @@
     ]
     projectHome: "/Users/ambethia/Documents"
   editor:
-    fontSize: 11
+    fontSize: 21
     invisibles:
       space: " "
     preferredLineLength: 120
@@ -187,6 +188,8 @@
         green: 228
         blue: 147
         alpha: 1
+    style:
+      fontFamily: "Operator Mono"
   "project-viewer":
     convertOldData: false
     statusBarVisibility: true
