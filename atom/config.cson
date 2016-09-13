@@ -38,6 +38,7 @@
       "activate-power-mode"
       "automate-power-mode"
       "project-viewer"
+      "linter-eslint"
     ]
     ignoredNames: [
       ".git"
@@ -76,8 +77,6 @@
     errorPanelHeight: 81
   "linter-eslint":
     disableWhenNoEslintrcFileInPath: false
-    fixOnSave: true
-    globalNodePath: "/Users/ambethia/.node"
     showRuleIdInMessage: false
   "linter-glsl": {}
   "linter-js-standard":
