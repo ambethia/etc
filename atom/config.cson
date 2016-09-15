@@ -38,7 +38,6 @@
       "activate-power-mode"
       "automate-power-mode"
       "project-viewer"
-      "linter-eslint"
     ]
     ignoredNames: [
       ".git"
