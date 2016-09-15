@@ -38,6 +38,7 @@
       "activate-power-mode"
       "automate-power-mode"
       "project-viewer"
+      "emmet-jsx-css-modules"
     ]
     ignoredNames: [
       ".git"
