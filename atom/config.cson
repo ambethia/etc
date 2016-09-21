@@ -51,7 +51,7 @@
     ]
     projectHome: "/Users/ambethia/Documents"
   editor:
-    fontSize: 20
+    fontSize: 15
     invisibles:
       space: " "
     preferredLineLength: 120
@@ -71,10 +71,7 @@
   linter:
     errorPanelHeight: 81
   "linter-eslint":
-    disableWhenNoEslintConfig: false
     disableWhenNoEslintrcFileInPath: false
-    fixOnSave: true
-    globalNodePath: "/Users/ambethia/.node"
     showRuleIdInMessage: false
   "linter-glsl": {}
   "linter-js-standard":
