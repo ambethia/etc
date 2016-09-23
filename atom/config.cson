@@ -68,7 +68,7 @@
   "js-autoimport":
     spaceForNamedImports: false
   linter:
-    errorPanelHeight: 81
+    errorPanelHeight: 87
   "linter-eslint":
     disableWhenNoEslintConfig: false
     disableWhenNoEslintrcFileInPath: false
@@ -80,9 +80,9 @@
     lintMarkdownFiles: true
   "linter-jscs":
     onlyConfig: true
+  "linter-less": {}
   "linter-rubocop": {}
   "linter-stylelint":
-    disableWhenNoConfig: false
     useStandard: true
   "linter-stylint":
     onlyRunWhenConfig: true
