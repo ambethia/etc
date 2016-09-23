@@ -38,6 +38,7 @@
       "activate-power-mode"
       "automate-power-mode"
       "project-viewer"
+      "linter-less"
     ]
     ignoredNames: [
       ".git"
@@ -209,6 +210,10 @@
 ".babel.regexp.source":
   editor:
     preferredLineLength: 120
+".css.source":
+  editor:
+    preferredLineLength: 120
+    softWrapHangingIndent: 2
 ".js.jsx.source":
   editor:
     preferredLineLength: 120
