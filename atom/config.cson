@@ -101,93 +101,93 @@
     ansiColors:
       normal:
         blue:
-          alpha: 1
-          blue: 242
-          green: 190
           red: 114
+          green: 190
+          blue: 242
+          alpha: 1
         green:
-          alpha: 1
-          blue: 228
-          green: 145
           red: 210
+          green: 145
+          blue: 228
+          alpha: 1
         red:
-          alpha: 1
-          blue: 203
-          green: 192
           red: 185
-        yellow:
+          green: 192
+          blue: 203
           alpha: 1
-          blue: 121
-          green: 170
+        yellow:
           red: 219
+          green: 170
+          blue: 121
+          alpha: 1
       zBright:
         brightBlack:
-          alpha: 1
-          blue: 131
-          green: 119
           red: 111
+          green: 119
+          blue: 131
+          alpha: 1
         brightBlue:
-          alpha: 1
-          blue: 242
-          green: 190
           red: 114
+          green: 190
+          blue: 242
+          alpha: 1
         brightCyan:
-          alpha: 1
-          blue: 205
-          green: 194
           red: 101
+          green: 194
+          blue: 205
+          alpha: 1
         brightGreen:
-          alpha: 1
-          blue: 140
-          green: 204
           red: 167
+          green: 204
+          blue: 140
+          alpha: 1
         brightMagenta:
-          alpha: 1
-          blue: 228
-          green: 145
           red: 210
+          green: 145
+          blue: 228
+          alpha: 1
         brightRed:
-          alpha: 1
-          blue: 136
-          green: 131
           red: 232
-        brightYellow:
+          green: 131
+          blue: 136
           alpha: 1
-          blue: 255
-          green: 255
+        brightYellow:
           red: 255
+          green: 255
+          blue: 255
+          alpha: 1
     core: {}
     iconColors:
       blue:
-        alpha: 1
-        blue: 205
-        green: 194
         red: 101
+        green: 194
+        blue: 205
+        alpha: 1
       green:
-        alpha: 1
-        blue: 228
-        green: 145
         red: 210
+        green: 145
+        blue: 228
+        alpha: 1
       magenta:
-        alpha: 1
-        blue: 208
+        red: 207
         green: 50
-        red: 207
+        blue: 208
+        alpha: 1
       orange:
-        alpha: 1
-        blue: 116
-        green: 161
         red: 207
+        green: 161
+        blue: 116
+        alpha: 1
       pink:
-        alpha: 1
-        blue: 136
-        green: 131
         red: 232
-      yellow:
+        green: 131
+        blue: 136
         alpha: 1
-        blue: 147
-        green: 228
+      yellow:
         red: 243
+        green: 228
+        blue: 147
+        alpha: 1
   "project-viewer":
     convertOldData: false
     statusBarVisibility: true
@@ -223,3 +223,4 @@
 ".rust.source":
   editor:
     preferredLineLength: 99
+    softWrapHangingIndent: 2
