@@ -69,11 +69,7 @@
   "js-autoimport":
     spaceForNamedImports: false
   linter:
-<<<<<<< HEAD
     errorPanelHeight: 46
-=======
-    errorPanelHeight: 87
->>>>>>> 278f7b7154e76234372ecff5daea75aca8d6ca4d
   "linter-eslint":
     disableWhenNoEslintConfig: false
     disableWhenNoEslintrcFileInPath: false
