@@ -38,6 +38,7 @@
       "activate-power-mode"
       "automate-power-mode"
       "project-viewer"
+      "linter-less"
     ]
     ignoredNames: [
       ".git"
@@ -51,7 +52,6 @@
     ]
     projectHome: "/Users/ambethia/Documents"
   editor:
-    fontSize: 16
     invisibles:
       space: " "
     preferredLineLength: 120
@@ -69,7 +69,11 @@
   "js-autoimport":
     spaceForNamedImports: false
   linter:
+<<<<<<< HEAD
     errorPanelHeight: 46
+=======
+    errorPanelHeight: 87
+>>>>>>> 278f7b7154e76234372ecff5daea75aca8d6ca4d
   "linter-eslint":
     disableWhenNoEslintConfig: false
     disableWhenNoEslintrcFileInPath: false
@@ -81,9 +85,9 @@
     lintMarkdownFiles: true
   "linter-jscs":
     onlyConfig: true
+  "linter-less": {}
   "linter-rubocop": {}
   "linter-stylelint":
-    disableWhenNoConfig: false
     useStandard: true
   "linter-stylint":
     onlyRunWhenConfig: true
@@ -210,6 +214,10 @@
 ".babel.regexp.source":
   editor:
     preferredLineLength: 120
+".css.source":
+  editor:
+    preferredLineLength: 120
+    softWrapHangingIndent: 2
 ".js.jsx.source":
   editor:
     preferredLineLength: 120
@@ -219,3 +227,4 @@
 ".rust.source":
   editor:
     preferredLineLength: 99
+    softWrapHangingIndent: 2
