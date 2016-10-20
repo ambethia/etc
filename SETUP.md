@@ -4,6 +4,7 @@
   - Enable [Chrome Extensions](https://addons.opera.com/en/extensions/details/download-chrome-extension-9)
 - [1Password](https://my.1password.com) (install beta extension for Opera)
 - [Atom](https://atom.io)
+- [Hyper](https://hyper.is)
 - [Alfred](https://www.alfredapp.com)
   - Unassign default Spotlight hotkey (⌘-Space) in System Preferences
   - Assign ⌘-Space to Alfred in Alfred's Preferences
@@ -12,17 +13,10 @@
 
 # Misc
 
-- Install [Fira Code](https://github.com/tonsky/FiraCode)
+- Install [Operator](http://www.typography.com/fonts/operator/overview/) (Mono & SSm)
 
-# Setup Terminal Environment
+# Setup Development Environment
 
-- Install [One Dark](https://github.com/nathanbuchar/atom-one-dark-terminal) for Terminal.app
-- Set One Dark profile to default
-- Enable "Use bold fonts"
-- Set font to Fira Code 11 pt.
-- Set [Wallpaper](http://imgur.com/QSAkcly)
-- Set Background effects to 90% opactity and 20% blur
-- Set cursor to blinking vertical bar, with blue color from One Dark (to match Atom's cursor)
 - Setup a new SSH Key:
   - `ssh-keygen -t rsa -b 4096 -C "jasper@ambethia.com"`
   - `pbcopy < ~/.ssh/id_rsa.pub`
