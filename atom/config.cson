@@ -50,7 +50,11 @@
     projectHome: "/Users/ambethia/Documents"
     telemetryConsent: "limited"
   editor:
+<<<<<<< HEAD
     fontSize: 22
+=======
+    fontSize: 15
+>>>>>>> 25b166d4d9d481a5aa073d7a23cdadb0a8dc9c88
     invisibles:
       space: " "
     preferredLineLength: 120
@@ -68,7 +72,11 @@
   "js-autoimport":
     spaceForNamedImports: false
   linter:
+<<<<<<< HEAD
     errorPanelHeight: 44
+=======
+    errorPanelHeight: 46
+>>>>>>> 25b166d4d9d481a5aa073d7a23cdadb0a8dc9c88
   "linter-eslint":
     disableWhenNoEslintrcFileInPath: false
     fixOnSave: true
@@ -121,6 +129,12 @@
       orange: "#cfa174"
       pink: "#e88388"
       yellow: "#f3e493"
+<<<<<<< HEAD
+=======
+    style:
+      fontFamily: "Operator Mono"
+      fontSize: "12"
+>>>>>>> 25b166d4d9d481a5aa073d7a23cdadb0a8dc9c88
   "project-viewer":
     convertOldData: false
     statusBarVisibility: true
@@ -158,3 +172,4 @@
 ".rust.source":
   editor:
     preferredLineLength: 99
+    softWrapHangingIndent: 2
