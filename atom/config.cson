@@ -18,7 +18,15 @@
       indent_size: 2
     rust:
       beautify_on_save: true
-  "atom-ternjs": {}
+  "atom-ternjs":
+    inlineFnCompletionDocumentation: true
+    snippetsFirst: true
+    useSnippets: true
+    useSnippetsAndFunction: true
+  "autocomplete-plus":
+    backspaceTriggersAutocomplete: true
+    confirmCompletion: "tab always, enter when suggestion explicitly selected"
+    minimumWordLength: 4
   "color-picker":
     abbreviateValues: true
     automaticReplace: true
@@ -26,19 +34,8 @@
   core:
     disabledPackages: [
       "autocomplete"
-      "linter-glsl"
-      "autocomplete-glsl"
-      "linter-haml"
-      "language-glsl"
-      "language-haml"
-      "language-haxe"
       "linter-clang"
       "language-javascript"
-      "linter-js-standard"
-      "activate-power-mode"
-      "automate-power-mode"
-      "project-viewer"
-      "linter-less"
     ]
     ignoredNames: [
       ".git"
@@ -51,7 +48,9 @@
       "._*"
     ]
     projectHome: "/Users/ambethia/Documents"
+    telemetryConsent: "limited"
   editor:
+    fontSize: 22
     invisibles:
       space: " "
     preferredLineLength: 120
@@ -69,14 +68,14 @@
   "js-autoimport":
     spaceForNamedImports: false
   linter:
-    errorPanelHeight: 87
+    errorPanelHeight: 44
   "linter-eslint":
-    disableWhenNoEslintConfig: false
     disableWhenNoEslintrcFileInPath: false
     fixOnSave: true
     globalNodePath: "/Users/ambethia/.node"
     showRuleIdInMessage: false
   "linter-glsl": {}
+  "linter-htmlhint": {}
   "linter-js-standard":
     lintMarkdownFiles: true
   "linter-jscs":
@@ -87,6 +86,8 @@
     useStandard: true
   "linter-stylint":
     onlyRunWhenConfig: true
+  "linter-tidy":
+    executablePath: "/usr/local/bin/tidy"
   "markdown-preview":
     useGitHubStyle: true
   "markdown-writer":
@@ -100,94 +101,26 @@
   "platformio-ide-terminal":
     ansiColors:
       normal:
-        blue:
-          red: 114
-          green: 190
-          blue: 242
-          alpha: 1
-        green:
-          red: 210
-          green: 145
-          blue: 228
-          alpha: 1
-        red:
-          red: 185
-          green: 192
-          blue: 203
-          alpha: 1
-        yellow:
-          red: 219
-          green: 170
-          blue: 121
-          alpha: 1
+        blue: "#72bef2"
+        green: "#d291e4"
+        red: "#b9c0cb"
+        yellow: "#dbaa79"
       zBright:
-        brightBlack:
-          red: 111
-          green: 119
-          blue: 131
-          alpha: 1
-        brightBlue:
-          red: 114
-          green: 190
-          blue: 242
-          alpha: 1
-        brightCyan:
-          red: 101
-          green: 194
-          blue: 205
-          alpha: 1
-        brightGreen:
-          red: 167
-          green: 204
-          blue: 140
-          alpha: 1
-        brightMagenta:
-          red: 210
-          green: 145
-          blue: 228
-          alpha: 1
-        brightRed:
-          red: 232
-          green: 131
-          blue: 136
-          alpha: 1
-        brightYellow:
-          red: 255
-          green: 255
-          blue: 255
-          alpha: 1
+        brightBlack: "#6f7783"
+        brightBlue: "#72bef2"
+        brightCyan: "#65c2cd"
+        brightGreen: "#a7cc8c"
+        brightMagenta: "#d291e4"
+        brightRed: "#e88388"
+        brightYellow: "#ffffff"
     core: {}
     iconColors:
-      blue:
-        red: 101
-        green: 194
-        blue: 205
-        alpha: 1
-      green:
-        red: 210
-        green: 145
-        blue: 228
-        alpha: 1
-      magenta:
-        red: 207
-        green: 50
-        blue: 208
-        alpha: 1
-      orange:
-        red: 207
-        green: 161
-        blue: 116
-        alpha: 1
-      pink:
-        red: 232
-        green: 131
-        blue: 136
-        alpha: 1
-      yellow:
-        red: 243
-        green: 228
-        blue: 147
-        alpha: 1
+      blue: "#65c2cd"
+      green: "#d291e4"
+      magenta: "#cf32d0"
+      orange: "#cfa174"
+      pink: "#e88388"
+      yellow: "#f3e493"
   "project-viewer":
     convertOldData: false
     statusBarVisibility: true
@@ -199,6 +132,8 @@
   "terminal-plus":
     style: {}
     toggles: {}
+  "toggle-quotes":
+    quoteCharacters: "\"'`"
   "tool-bar":
     position: "Left"
   "tree-view":
