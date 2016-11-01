@@ -50,7 +50,11 @@
     projectHome: "/Users/ambethia/Documents"
     telemetryConsent: "limited"
   editor:
+<<<<<<< HEAD
     fontSize: 17
+=======
+    fontSize: 23
+>>>>>>> 15252b152d39e59e1f033241c189796da9d520f9
     invisibles:
       space: " "
     preferredLineLength: 120
