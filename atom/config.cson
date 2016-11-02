@@ -145,6 +145,10 @@
 ".babel.regexp.source":
   editor:
     preferredLineLength: 120
+".basic.html.text":
+  editor:
+    preferredLineLength: 120
+    softWrapHangingIndent: 2
 ".css.source":
   editor:
     preferredLineLength: 120
