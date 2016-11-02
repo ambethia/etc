@@ -1,6 +1,5 @@
 "*":
   "activate-power-mode":
-    autoToggle: false
     particles:
       totalCount:
         max: 200
@@ -36,7 +35,7 @@
       "autocomplete"
       "linter-clang"
       "language-javascript"
-      "linter-stylelint"
+      "automate-power-mode"
     ]
     ignoredNames: [
       ".git"
