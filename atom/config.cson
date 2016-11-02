@@ -36,6 +36,7 @@
       "autocomplete"
       "linter-clang"
       "language-javascript"
+      "linter-stylelint"
     ]
     ignoredNames: [
       ".git"
@@ -82,8 +83,7 @@
     onlyConfig: true
   "linter-less": {}
   "linter-rubocop": {}
-  "linter-stylelint":
-    useStandard: true
+  "linter-stylelint": {}
   "linter-stylint":
     onlyRunWhenConfig: true
   "linter-tidy":
