@@ -1,5 +1,6 @@
 "*":
   "activate-power-mode":
+    comboMode: {}
     particles:
       totalCount:
         max: 200
@@ -36,6 +37,7 @@
       "linter-clang"
       "language-javascript"
       "automate-power-mode"
+      "activate-power-mode"
     ]
     ignoredNames: [
       ".git"
@@ -165,3 +167,9 @@
 ".rust.source":
   editor:
     preferredLineLength: 99
+".slim.text":
+  editor:
+    autoIndent: true
+    autoIndentOnPaste: false
+    preferredLineLength: 120
+    softWrapHangingIndent: 2
