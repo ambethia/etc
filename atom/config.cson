@@ -134,7 +134,7 @@
     style: {}
     toggles: {}
   "toggle-quotes":
-    quoteCharacters: "\"'`"
+    quoteCharacters: "`\"'"
   "tool-bar":
     position: "Left"
   "tree-view":
