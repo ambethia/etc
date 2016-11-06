@@ -84,7 +84,9 @@ namespace :setup do
       puts 'Creating SSH keys'
       system %(ssh-keygen -t rsa -b 4096 -f "#{path}" -N "" -C "jasper@ambethia.com")
       system 'more ~/.ssh/id_rsa.pub | pbcopy'
-      puts 'Public key copied to pasteboard'
+      puts 'Public key copied to pasteboard. Go set it up in GitHub, then hit any key to continue...'
+      STDIN.gets
+      system 'git remote set-url origin git@github.com:ambethia/etc.git'
     end
   end
 
