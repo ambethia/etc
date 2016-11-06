@@ -1,0 +1,6 @@
+AllCops:
+  Excludes:
+    - Brewfile
+
+Metrics/LineLength:
+  Max: 140
