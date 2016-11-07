@@ -6,7 +6,6 @@ source $ZSHA_BASE/antigen/antigen.zsh
 antigen use oh-my-zsh
 
 antigen bundles <<-BUNDLES
-	brew
 	bundler
 	git
 	heroku
