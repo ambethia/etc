@@ -67,7 +67,7 @@ end
 namespace :setup do
   desc 'Install Homebrew'
   task :brew do |t|
-    brewed = `which brew`
+    brewed = system 'which brew'
     if brewed
       system 'brew update'
       system 'brew bundle' unless system 'brew bundle check'
