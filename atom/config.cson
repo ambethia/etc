@@ -56,7 +56,7 @@
       "one-light-syntax"
     ]
   editor:
-    fontSize: 21
+    fontSize: 16
     invisibles:
       space: " "
     preferredLineLength: 120
