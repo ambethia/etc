@@ -51,10 +51,6 @@
     ]
     projectHome: "/Users/ambethia/Documents"
     telemetryConsent: "limited"
-    themes: [
-      "one-dark-ui"
-      "one-light-syntax"
-    ]
   editor:
     fontSize: 25
     invisibles:
