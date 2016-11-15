@@ -52,7 +52,6 @@
     projectHome: "/Users/ambethia/Documents"
     telemetryConsent: "limited"
   editor:
-    fontSize: 22
     invisibles:
       space: " "
     preferredLineLength: 120
@@ -75,7 +74,6 @@
     disableWhenNoEslintrcFileInPath: false
     fixOnSave: true
     globalNodePath: "/Users/ambethia/.node"
-    showRuleIdInMessage: false
   "linter-glsl": {}
   "linter-htmlhint": {}
   "linter-js-standard":
