@@ -56,7 +56,7 @@
       "one-light-syntax"
     ]
   editor:
-    fontSize: 22
+    fontSize: 20
     invisibles:
       space: " "
     preferredLineLength: 120
@@ -74,7 +74,7 @@
   "js-autoimport":
     spaceForNamedImports: false
   linter:
-    errorPanelHeight: 84
+    errorPanelHeight: 24
   "linter-eslint":
     disableWhenNoEslintrcFileInPath: false
     fixOnSave: true
