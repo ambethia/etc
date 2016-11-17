@@ -51,10 +51,6 @@
     ]
     projectHome: "/Users/ambethia/Documents"
     telemetryConsent: "limited"
-    themes: [
-      "one-dark-ui"
-      "one-light-syntax"
-    ]
   editor:
     fontSize: 17
     invisibles:
@@ -922,6 +918,9 @@
   "terminal-plus":
     style: {}
     toggles: {}
+  "theme-switcher":
+    syntaxThemeOne: "one-dark-syntax"
+    syntaxThemeTwo: "one-light-syntax"
   "toggle-quotes":
     quoteCharacters: "`\"'"
   "tool-bar":
