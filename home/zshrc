@@ -6,19 +6,19 @@ source $ZSHA_BASE/antigen/antigen.zsh
 antigen use oh-my-zsh
 
 antigen bundles <<-BUNDLES
-	bundler
-	git
-	heroku
-	npm
-	rails
-	ruby
-	ssh-agent
-	tmux
-	zsh-users/zsh-completions
-	zsh-users/zsh-syntax-highlighting
-	zsh-users/zsh-history-substring-search
-	mafredri/zsh-async
-	sindresorhus/pure
+  bundler
+  git
+  heroku
+  npm
+  rails
+  ruby
+  ssh-agent
+  tmux
+  zsh-users/zsh-completions
+  zsh-users/zsh-syntax-highlighting
+  zsh-users/zsh-history-substring-search
+  mafredri/zsh-async
+  sindresorhus/pure
 BUNDLES
 
 if [ "$OSTYPE"="darwin11.0" ]; then
@@ -72,44 +72,11 @@ export ARCHFLAGS="-arch x86_64"
 export RBENV_ROOT=/usr/local/var/rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
-## Android & Java
-
-export RUBYMOTION_ANDROID_SDK=/Users/ambethia/.rubymotion-android/sdk
-export RUBYMOTION_ANDROID_NDK=/Users/ambethia/.rubymotion-android/ndk
-
-export ANDROID_HOME="/usr/local/opt/android-sdk"
-
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home"
-
-## GO
-
-export GOPATH=$HOME/.go
-export PATH=$PATH:/usr/local/opt/go/libexec/bin:${GOPATH//://bin:}/bin
-
 ## Rust
 
 export CARGO_HOME=$HOME/.cargo
 export RUST_SRC_PATH=/usr/local/src/rust/src
 
-## Misc
-
-export HOMEBREW_CASK_OPTS="--caskroom=/usr/local/Caskroom"
-
-# added by travis gem
-[ -f /Users/ambethia/.travis/travis.sh ] && source /Users/ambethia/.travis/travis.sh
-
-# Init JS App
-# usage `init_js_app` to initialize currently directory
-# usage `init_js_app somedir` to initialize in a new directory
-init_js_app () {
-  if [ ! -d $1 ]
-   then
-    mkdir $1
-    cd $1
-  fi
-  zsh $HOME/.init_js_app
-}
 
 eval "$(direnv hook zsh)"
-
 eval "$(thefuck --alias)"
