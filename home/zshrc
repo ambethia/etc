@@ -1,7 +1,7 @@
 ## Antigen
 
 ZSHA_BASE=$HOME/.etc/antigen
-source $ZSHA_BASE/antigen/antigen.zsh
+source $ZSHA_BASE/antigen.zsh
 
 antigen use oh-my-zsh
 
