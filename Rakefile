@@ -53,7 +53,7 @@ task :update do
     # Do nothing.
   else
     notify 'Committing changes'
-    system 'git add -u && git commit -m "Update\nAutomatic commit."'
+    system 'git add -u && git commit -m "Automatic update."'
     pull = `git pull -X ours`
     if pull =~ /Automatic merge failed/
       notify 'Merge conflict'
