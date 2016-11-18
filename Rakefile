@@ -8,8 +8,8 @@ FILE_MAP = {}.tap do |map|
     else
       map[file] = real_file
     end
-    map['atom'] = '~/.atom'
   end
+  map['atom'] = '~/.atom'
 end
 
 desc 'Links the dot files into home directory'
