@@ -37,6 +37,7 @@
       "language-javascript"
       "automate-power-mode"
       "activate-power-mode"
+      "linter-stylelint"
     ]
     ignoredNames: [
       ".git"
