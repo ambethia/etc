@@ -16,6 +16,7 @@ brew 'tidy-html5'
 brew 'tmux'
 brew 'trash'
 brew 'tree'
+brew 'yarn'
 brew 'zsh'
 
 cask '1password'

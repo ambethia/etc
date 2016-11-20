@@ -28,9 +28,8 @@
     includeCompletionsFromAllBuffers: false
     minimumWordLength: 4
   "color-picker":
-    abbreviateValues: true
     automaticReplace: true
-    preferredFormat: "HEX"
+    preferredFormat: "HSL"
   core:
     disabledPackages: [
       "autocomplete"
