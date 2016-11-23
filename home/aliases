@@ -6,34 +6,12 @@ alias rx="killall -SIGTERM redis-server"
 alias rdu="launchctl load /usr/local/opt/redis/homebrew.mxcl.redis.plist"
 alias rdd="launchctl unload /usr/local/opt/redis/homebrew.mxcl.redis.plist"
 
-alias dot="$VISUAL ~/.etc"
-alias etc=dot
+alias etc="atom ~/.etc"
+alias etc-run="cd ~/.etc && rake"
+alias etc-up="cd ~/.etc && rake update"
 
 alias cask="brew cask"
 
 alias git=hub
 
 alias rm="if [ -x /usr/local/bin/figlet ]; then figlet 'use trash'; else; echo 'use trash'; fi #"
-
-alias k5k="kill -9 \$(lsof -i tcp:5000 -t)"
-
-# Postgres equivalent to heroku db:pull.
-# Pulls latest heroku pgbackups dump into local database
-#
-# Usage:
-#
-# $ heroku_pg_pull [appname] [local database name]
-#
-function heroku_pg_pull(){
-  echo "!   WARNING: Data in the local database '$2' will be destroyed."
-  echo "    Type '$2' to overwrite data in local database '$2'"
-  read local_database_name\?"> "
-  echo
-  if [ "$local_database_name" "==" "$2" ]; then
-    curl -o heroku_pg_pull_latest_backup.dump `heroku pgbackups:url -a $1`;
-    pg_restore --verbose --clean --no-acl --no-owner -h localhost -U `whoami` -d $2 heroku_pg_pull_latest_backup.dump;
-    rm heroku_pg_pull_latest_backup.dump;
-  else
-    echo "Aborted"
-  fi
-}

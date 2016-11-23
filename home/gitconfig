@@ -33,11 +33,3 @@
 	showUntrackedFiles = all
 [merge]
 	tool = opendiff
-[http "https://git.r944.flynnhub.com"]
-	sslCAInfo = /Users/ambethia/.flynn/ca-certs/flynn-1447645183.pem
-[credential "https://git.r944.flynnhub.com"]
-	helper = /usr/local/bin/flynn git-credentials
-[http "https://git.l9qk.flynnhub.com"]
-	sslCAInfo = /Users/ambethia/.flynn/ca-certs/flynn-1447699278.pem
-[credential "https://git.l9qk.flynnhub.com"]
-	helper = /usr/local/bin/flynn git-credentials

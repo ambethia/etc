@@ -28,9 +28,8 @@
     includeCompletionsFromAllBuffers: false
     minimumWordLength: 4
   "color-picker":
-    abbreviateValues: true
     automaticReplace: true
-    preferredFormat: "HEX"
+    preferredFormat: "HSL"
   core:
     disabledPackages: [
       "autocomplete"
@@ -38,6 +37,7 @@
       "language-javascript"
       "automate-power-mode"
       "activate-power-mode"
+      "linter-stylelint"
     ]
     ignoredNames: [
       ".git"
@@ -51,12 +51,8 @@
     ]
     projectHome: "/Users/ambethia/Documents"
     telemetryConsent: "limited"
-    themes: [
-      "one-dark-ui"
-      "one-light-syntax"
-    ]
   editor:
-    fontSize: 22
+    fontSize: 21
     invisibles:
       space: " "
     preferredLineLength: 120
@@ -74,7 +70,7 @@
   "js-autoimport":
     spaceForNamedImports: false
   linter:
-    errorPanelHeight: 84
+    errorPanelHeight: 24
   "linter-eslint":
     disableWhenNoEslintrcFileInPath: false
     fixOnSave: true
@@ -1048,6 +1044,9 @@
   "terminal-plus":
     style: {}
     toggles: {}
+  "theme-switcher":
+    syntaxThemeOne: "one-dark-syntax"
+    syntaxThemeTwo: "one-light-syntax"
   "toggle-quotes":
     quoteCharacters: "`\"'"
   "tool-bar":
