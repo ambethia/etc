@@ -1,3 +1,5 @@
+#!/usr/bin/env zsh
+
 alias pgs="pg_ctl -D /usr/local/var/postgres start"
 alias pgx="pg_ctl -D /usr/local/var/postgres stop"
 

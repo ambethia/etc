@@ -1,8 +1,9 @@
 require 'rake'
 
 FILE_MAP = {}.tap do |map|
-  Dir['home/**/*'].each do |file|
-    real_file = '~/.' + file.gsub(%r{home/}, '')
+  files = Dir.glob('home/**/*', File::FNM_DOTMATCH).reject { |f| /DS_Store/ =~ f }
+  files.each do |file|
+    real_file = '~/' + file.gsub(%r{home/}, '')
     if File.directory?(file)
       `mkdir -p #{real_file}`
     else

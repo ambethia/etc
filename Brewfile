@@ -18,6 +18,7 @@ brew 'trash'
 brew 'tree'
 brew 'yarn'
 brew 'zsh'
+brew 'zsh-completions'
 
 cask '1password'
 cask 'alfred'

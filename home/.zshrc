@@ -48,8 +48,8 @@ export INFOPATH=$INFOPATH:/opt/local/share/info
 
 ## Ext
 
-if [ -f ~/.aliases ]; then
-  . ~/.aliases
+if [ -f ~/.aliases.zsh ]; then
+  . ~/.aliases.zsh
 fi
 
 if [ -f ~/.private ]; then
