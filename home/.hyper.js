@@ -22,10 +22,21 @@ module.exports = {
     borderColor: '#333',
 
     // custom css to embed in the main window
-    css: '',
+    css: `
+      .terms_terms {
+        background-image: url(file:///Users/ambethia/.etc/misc/totoro.svg);
+        background-position: right 95%;
+        background-size: 16vh;
+        background-repeat: no-repeat;
+      }
+    `,
 
     // custom css to embed in the terminal window
-    termCSS: '',
+    termCSS: `
+      x-screen {
+        background: transparent !important;
+      }
+    `,
 
     // custom padding (css format, i.e.: `top right bottom left`)
     padding: '12px 14px',
