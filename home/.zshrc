@@ -50,9 +50,6 @@ if [ -f ~/.private ]; then
   . ~/.private
 fi
 
-# brew install zsh-completions
-fpath=(/usr/local/share/zsh-completions $fpath)
-
 ## Lang
 
 export LANG=en_US.UTF-8
@@ -64,12 +61,6 @@ export ARCHFLAGS="-arch x86_64"
 
 export RBENV_ROOT=/usr/local/var/rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
-
-## Rust
-
-export CARGO_HOME=$HOME/.cargo
-export RUST_SRC_PATH=/usr/local/src/rust/src
-
 
 eval "$(direnv hook zsh)"
 eval "$(thefuck --alias)"
