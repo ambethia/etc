@@ -1,19 +1,13 @@
 ## Antigen
 
-ZSHA_BASE=$HOME/.etc/antigen
-source $ZSHA_BASE/antigen.zsh
+source $(brew --prefix)/share/antigen/antigen.zsh
 
 antigen use oh-my-zsh
 
 antigen bundles <<-BUNDLES
-  bundler
   git
   heroku
-  npm
-  rails
-  ruby
   ssh-agent
-  tmux
   mafredri/zsh-async
   sindresorhus/pure
   zsh-users/zsh-completions

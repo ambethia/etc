@@ -1,6 +1,7 @@
 tap 'homebrew/bundle'
 tap 'caskroom/versions'
 
+brew 'antigen'
 brew 'direnv'
 brew 'dockutil'
 brew 'git'
