@@ -57,10 +57,10 @@ export LC_ALL=en_US.UTF-8
 
 export ARCHFLAGS="-arch x86_64"
 
-## Ruby
+## Rust
 
-export RBENV_ROOT=/usr/local/var/rbenv
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+export CARGO_HOME=$HOME/.cargo
+export RUST_SRC_PATH=/usr/local/src/rust/src
 
 eval "$(direnv hook zsh)"
 eval "$(thefuck --alias)"
