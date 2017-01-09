@@ -38,6 +38,7 @@
       "automate-power-mode"
       "activate-power-mode"
       "image-view"
+      "emmet-jsx-css-modules"
     ]
     ignoredNames: [
       ".git"
@@ -52,7 +53,7 @@
     projectHome: "/Users/ambethia/Documents"
     telemetryConsent: "limited"
   editor:
-    fontSize: 16
+    fontSize: 22
     invisibles:
       space: " "
     preferredLineLength: 120
@@ -70,7 +71,7 @@
   "js-autoimport":
     spaceForNamedImports: false
   linter:
-    errorPanelHeight: 24
+    errorPanelHeight: 47
   "linter-eslint":
     disableWhenNoEslintrcFileInPath: false
     fixOnSave: true
