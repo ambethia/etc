@@ -64,3 +64,4 @@ export RUST_SRC_PATH=/usr/local/src/rust/src
 
 eval "$(direnv hook zsh)"
 eval "$(thefuck --alias)"
+eval "$(rbenv init -)"
