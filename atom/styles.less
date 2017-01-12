@@ -20,6 +20,7 @@ atom-workspace {
 }
 
 atom-text-editor {
+  text-rendering: optimizeLegibility;
   font-family: "Operator Mono";
   font-weight: 200;
   line-height: 1.7;
@@ -33,7 +34,25 @@ atom-pane .texteditor.tab.modified .title {
   font-style: italic;
 }
 
+atom-pane atom-text-editor {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
 atom-text-editor::shadow {
+  .storage.type.function.arrow,
+  .keyword.operator,
+  .meta.brace {
+    font-family: "Fira Code";
+  }
+
+  .string.quoted,
+  .string.regexp {
+    -webkit-font-feature-settings: "liga" off, "calt" off;
+  }
+
+
   .keyword.control,
   .entity.other.attribute-name.pseudo-class.css,
   .entity.other.attribute-name,
@@ -41,7 +60,7 @@ atom-text-editor::shadow {
   .storage.modifier,
   .storage.type,
   .variable.parameter {
-    // font-style: italic;
+    font-style: italic;
   }
 
   .constant.language.boolean,

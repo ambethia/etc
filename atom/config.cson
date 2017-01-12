@@ -158,7 +158,7 @@
       "attribute-name": "colorize"
       comment: "contrast"
       constant_numeric: "theme"
-      enabled: false
+      enabled: true
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
