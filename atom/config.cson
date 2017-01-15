@@ -31,6 +31,18 @@
     automaticReplace: true
     preferredFormat: "HSL"
   core:
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".hgrc"
+      ]
+      "source.json": [
+        ".arcconfig"
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
     disabledPackages: [
       "autocomplete"
       "linter-clang"
@@ -39,6 +51,7 @@
       "activate-power-mode"
       "image-view"
       "emmet-jsx-css-modules"
+      "tree-view"
     ]
     ignoredNames: [
       ".git"
@@ -101,6 +114,11 @@
     tableAlignment: "left"
   metrics:
     userId: "15d051bf606ae5751075b86ce538bd746bfcfcff"
+  nuclide:
+    "nuclide-home":
+      showHome: false
+    use:
+      "nuclide-hack": false
   "one-dark-ui": {}
   pigments: {}
   "platformio-ide-terminal":
@@ -412,6 +430,27 @@
       support_constant: "theme"
       support_type: "colorize"
     goLanguageGo:
+      "attribute-name": "colorize"
+      comment: "contrast"
+      constant_numeric: "theme"
+      enabled: true
+      everythingElse: "theme"
+      keyword: "mute"
+      language: "mute"
+      letiable: "colorize"
+      markup: "defer"
+      name: "colorize"
+      operator: "mute"
+      primitive: "mute"
+      punctuation: "defer"
+      regexp: "theme"
+      source: "colorize"
+      storage_modifier: "mute"
+      storage_type: "mute"
+      string_quoted: "theme"
+      support_constant: "theme"
+      support_type: "colorize"
+    hackNuclideLanguageHack:
       "attribute-name": "colorize"
       comment: "contrast"
       constant_numeric: "theme"
@@ -768,6 +807,27 @@
       support_constant: "theme"
       support_type: "colorize"
     pythonLanguagePython:
+      "attribute-name": "colorize"
+      comment: "contrast"
+      constant_numeric: "theme"
+      enabled: true
+      everythingElse: "theme"
+      keyword: "mute"
+      language: "mute"
+      letiable: "colorize"
+      markup: "defer"
+      name: "colorize"
+      operator: "mute"
+      primitive: "mute"
+      punctuation: "defer"
+      regexp: "theme"
+      source: "colorize"
+      storage_modifier: "mute"
+      storage_type: "mute"
+      string_quoted: "theme"
+      support_constant: "theme"
+      support_type: "colorize"
+    reasonNuclideLanguageReason:
       "attribute-name": "colorize"
       comment: "contrast"
       constant_numeric: "theme"
