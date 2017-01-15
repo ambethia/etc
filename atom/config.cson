@@ -99,7 +99,8 @@
   "linter-jscs":
     onlyConfig: true
   "linter-less": {}
-  "linter-rubocop": {}
+  "linter-rubocop":
+    disableWhenNoConfigFile: true
   "linter-stylelint":
     showIgnored: true
   "linter-stylint":
