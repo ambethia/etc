@@ -33,3 +33,5 @@
 	showUntrackedFiles = all
 [merge]
 	tool = opendiff
+[hub]
+	protocol = ssh:
