@@ -35,7 +35,10 @@ cask 'licecap'
 cask 'opera-developer'
 cask 'slack'
 cask 'spotify'
-cask 'wacom-bamboo-tablet'
+
+# Commented out because it flips out if the tablet
+#   is not connected when you install.
+# cask 'wacom-bamboo-tablet'
 
 mas 'Affinity Designer', id: 824171161
 mas 'Deckset', id: 847496013
