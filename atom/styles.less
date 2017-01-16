@@ -40,47 +40,47 @@ atom-pane atom-text-editor {
   padding: 0;
 }
 
-atom-text-editor::shadow {
-  .storage.type.function.arrow,
-  .keyword.operator,
-  .meta.brace {
+atom-text-editor.editor {
+  .syntax--storage.syntax--type.syntax--function.syntax--arrow,
+  .syntax--keyword.syntax--operator,
+  .syntax--meta.syntax--brace {
     font-family: "Fira Code";
   }
 
-  .string.quoted,
-  .string.regexp {
+  .syntax--string.syntax--quoted,
+  .syntax--string.syntax--regexp {
     -webkit-font-feature-settings: "liga" off, "calt" off;
   }
 
 
-  .keyword.control,
-  .entity.other.attribute-name.pseudo-class.css,
-  .entity.other.attribute-name,
-  .entity.other.inherited-class,
-  .storage.modifier,
-  .storage.type,
-  .variable.parameter {
+  .syntax--keyword.syntax--control,
+  .syntax--entity.syntax--other.syntax--attribute-name.syntax--pseudo-class.syntax--css,
+  .syntax--entity.syntax--other.syntax--attribute-name,
+  .syntax--entity.syntax--other.syntax--inherited-class,
+  .syntax--storage.syntax--modifier,
+  .syntax--storage.syntax--type,
+  .syntax--variable.syntax--parameter {
     font-style: italic;
   }
 
-  .constant.language.boolean,
-  .variable.language.this,
-  .entity.name.class {
+  .syntax--constant.syntax--language.syntax--boolean,
+  .syntax--variable.syntax--language.syntax--this,
+  .syntax--entity.syntax--name.syntax--class {
     font-weight: 600;
   }
 
   // Fade angle brackets on HTML/JSX tags
-  .punctuation.definition.tag {
+  .syntax--punctuation.syntax--definition.syntax--tag {
     opacity: 0.5;
   }
 
   // Don't do semantic colors on bare text in JSX
-  .syntax--JSXNested > .identifier {
+  .syntax--JSXNested > .syntax--identifier {
     color: hsl(95, 38%, 82%) !important;
   }
 
   // Default contrast to _too_ much
-  .semanticolor-contrast {
+  .syntax--semanticolor-contrast {
     color: hsl(220, 14%, 82%);
     background-color: transparent;
   }
