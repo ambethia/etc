@@ -31,10 +31,6 @@ export BUNDLER_EDITOR='atom'
 
 PATH=/usr/local/bin:/usr/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
-export PATH="$PATH:./node_modules/.bin"
-export PATH="$PATH:`yarn global bin`"
-export PATH="$HOME/.node/bin:$PATH"
-
 export PATH="$HOME/bin:$PATH"
 
 export MANPATH=$MANPATH:/opt/local/share/man
@@ -57,10 +53,21 @@ export LC_ALL=en_US.UTF-8
 
 export ARCHFLAGS="-arch x86_64"
 
-## Rust
+## Node.js
 
-export CARGO_HOME=$HOME/.cargo
-export RUST_SRC_PATH=/usr/local/src/rust/src
+export PATH="$PATH:./node_modules/.bin"
+export PATH="$PATH:`yarn global bin`"
+export PATH="$HOME/.node/bin:$PATH"
+
+## Android
+
+export ANDROID_HOME="$HOME/Library/Android/sdk"
+export ANDROID_NDK="$ANDROID_HOME/ndk-bundle"
+
+export PATH=${PATH}:${ANDROID_HOME}/tools
+export PATH=${PATH}:${ANDROID_HOME}/platform-tools
+
+## Hooks
 
 eval "$(direnv hook zsh)"
 eval "$(thefuck --alias)"
