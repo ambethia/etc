@@ -62,7 +62,8 @@ export PATH="$HOME/.node/bin:$PATH"
 ## Android
 
 export ANDROID_HOME="$HOME/Library/Android/sdk"
-export ANDROID_NDK="$ANDROID_HOME/ndk-bundle"
+export ANDROID_NDK="$HOME/Library/Android/android-ndk-r10e"
+export ANDROID_SDK=$ANDROID_HOME
 
 export PATH=${PATH}:${ANDROID_HOME}/tools
 export PATH=${PATH}:${ANDROID_HOME}/platform-tools
