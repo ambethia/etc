@@ -12,3 +12,12 @@ defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true
 
 # Show all filename extensions in Finder
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+
+# Only active apps on the dock
+defaults write com.apple.dock static-only -bool TRUE
+
+# Dock hiding.
+defaults write com.apple.dock autohide -bool true
+defaults write com.apple.dock autohide-time-modifier -float 1
+
+ killall Dock
