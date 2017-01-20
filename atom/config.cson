@@ -120,6 +120,26 @@
   nuclide:
     "nuclide-home":
       showHome: false
+    "nuclide-working-sets":
+      workingSets: [
+        {
+          name: "MVC"
+          uris: [
+            "/Users/ambethia/Developer/campfire-server/app/controllers/application_controller.rb"
+            "/Users/ambethia/Developer/campfire-server/app/controllers/comments_controller.rb"
+            "/Users/ambethia/Developer/campfire-server/app/controllers/stories_controller.rb"
+            "/Users/ambethia/Developer/campfire-server/app/controllers/tags_controller.rb"
+            "/Users/ambethia/Developer/campfire-server/app/models/comment.rb"
+            "/Users/ambethia/Developer/campfire-server/app/models/story.rb"
+            "/Users/ambethia/Developer/campfire-server/app/models/tag.rb"
+            "/Users/ambethia/Developer/campfire-server/app/models/tagging.rb"
+            "/Users/ambethia/Developer/campfire-server/app/models/user.rb"
+            "/Users/ambethia/Developer/campfire-server/app/serializers"
+            "/Users/ambethia/Developer/campfire-server/db/schema.rb"
+          ]
+          active: true
+        }
+      ]
     use:
       "nuclide-hack": false
   "one-dark-ui": {}
