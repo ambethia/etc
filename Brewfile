@@ -23,6 +23,7 @@ brew 'zsh-completions'
 
 cask '1password'
 cask 'alfred'
+cask 'android-studio'
 cask 'atom'
 cask 'blender'
 cask 'firefox'
