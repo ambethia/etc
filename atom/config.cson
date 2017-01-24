@@ -54,7 +54,6 @@
       "emmet-jsx-css-modules"
       "tree-view"
       "linter"
-      "semanticolor"
     ]
     ignoredNames: [
       ".git"
@@ -119,6 +118,8 @@
   metrics:
     userId: "15d051bf606ae5751075b86ce538bd746bfcfcff"
   nuclide:
+    "nuclide-flow":
+      canUseFlowBin: true
     "nuclide-home":
       showHome: false
     "nuclide-working-sets":
