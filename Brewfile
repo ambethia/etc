@@ -17,6 +17,7 @@ brew 'tidy-html5'
 brew 'tmux'
 brew 'trash'
 brew 'tree'
+brew 'watchman'
 brew 'yarn'
 brew 'zsh'
 brew 'zsh-completions'
@@ -45,3 +46,4 @@ cask 'spotify'
 mas 'Affinity Designer', id: 824171161
 mas 'Deckset', id: 847496013
 mas 'Tweetbot', id: 557168941
+mas 'Xcode', id: 497799835
