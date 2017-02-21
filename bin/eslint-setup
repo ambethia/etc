@@ -1,0 +1,4 @@
+#!/usr/bin/env zsh
+
+echo "{\n  \"extends\": [\"standard\", \"standard-react\"]\n}\n" >> .eslintrc
+yarn add eslint eslint-config-standard eslint-config-standard-react eslint-plugin-promise eslint-plugin-react eslint-plugin-standard --dev

@@ -52,8 +52,7 @@
       "activate-power-mode"
       "image-view"
       "emmet-jsx-css-modules"
-      "tree-view"
-      "linter"
+      "nuclide"
     ]
     ignoredNames: [
       ".git"
@@ -68,6 +67,7 @@
     projectHome: "/Users/ambethia/Documents"
     telemetryConsent: "limited"
   editor:
+    fontSize: 16
     invisibles:
       space: " "
     preferredLineLength: 120
@@ -87,8 +87,10 @@
   haxe: {}
   "js-autoimport":
     spaceForNamedImports: false
+  "language-babel":
+    autoIndentJSX: true
   linter:
-    errorPanelHeight: 47
+    errorPanelHeight: 38
   "linter-eslint":
     disableWhenNoEslintrcFileInPath: false
     fixOnSave: true
@@ -117,6 +119,9 @@
   metrics:
     userId: "15d051bf606ae5751075b86ce538bd746bfcfcff"
   nuclide:
+    "nuclide-diagnostics-store":
+      consumeLegacyLinters: false
+      legacyLintOnTheFly: false
     "nuclide-flow":
       canUseFlowBin: true
     "nuclide-home":
@@ -451,6 +456,27 @@
       support_constant: "theme"
       support_type: "colorize"
     goLanguageGo:
+      "attribute-name": "colorize"
+      comment: "contrast"
+      constant_numeric: "theme"
+      enabled: true
+      everythingElse: "theme"
+      keyword: "mute"
+      language: "mute"
+      letiable: "colorize"
+      markup: "defer"
+      name: "colorize"
+      operator: "mute"
+      primitive: "mute"
+      punctuation: "defer"
+      regexp: "theme"
+      source: "colorize"
+      storage_modifier: "mute"
+      storage_type: "mute"
+      string_quoted: "theme"
+      support_constant: "theme"
+      support_type: "colorize"
+    graphqlLanguageGraphql:
       "attribute-name": "colorize"
       comment: "contrast"
       constant_numeric: "theme"

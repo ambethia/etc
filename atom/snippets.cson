@@ -17,4 +17,4 @@
 '.source.jsx':
   'React Icon':
     prefix: 'i'
-    body: "<Icon name='${1}' />"
+    body: "<Icon glyph='${1}' />"
