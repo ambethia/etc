@@ -52,7 +52,6 @@
       "activate-power-mode"
       "image-view"
       "emmet-jsx-css-modules"
-      "tree-view"
       "linter"
     ]
     ignoredNames: [
