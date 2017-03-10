@@ -31,7 +31,7 @@ export BUNDLER_EDITOR='atom'
 
 PATH=/usr/local/bin:/usr/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
-export PATH="$HOME/bin:$PATH"
+export PATH="$HOME/.etc/bin:$PATH"
 
 export MANPATH=$MANPATH:/opt/local/share/man
 export INFOPATH=$INFOPATH:/opt/local/share/info
