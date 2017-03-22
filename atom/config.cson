@@ -53,6 +53,7 @@
       "image-view"
       "emmet-jsx-css-modules"
       "linter"
+      "tree-view"
     ]
     ignoredNames: [
       ".git"
