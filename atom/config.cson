@@ -53,6 +53,8 @@
       "image-view"
       "emmet-jsx-css-modules"
       "nuclide"
+      "language-postcss"
+      "postcss-sorting"
     ]
     ignoredNames: [
       ".git"
@@ -67,7 +69,7 @@
     projectHome: "/Users/ambethia/Documents"
     telemetryConsent: "limited"
   editor:
-    fontSize: 16
+    fontSize: 23
     invisibles:
       space: " "
     preferredLineLength: 120
@@ -90,7 +92,7 @@
   "language-babel":
     autoIndentJSX: true
   linter:
-    errorPanelHeight: 38
+    errorPanelHeight: 459
   "linter-eslint":
     disableWhenNoEslintrcFileInPath: false
     fixOnSave: true
@@ -110,6 +112,8 @@
     onlyRunWhenConfig: true
   "linter-tidy":
     executablePath: "/usr/local/bin/tidy"
+  "linter-ui-default":
+    showPanel: true
   "markdown-preview":
     useGitHubStyle: true
   "markdown-writer":
@@ -208,7 +212,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -221,6 +224,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     cCakeFileLanguageCsharp:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -229,7 +233,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -242,6 +245,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     cLanguageC:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -250,7 +254,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -263,6 +266,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     cLanguageCsharp:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -271,7 +275,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -284,6 +287,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     cScriptFileLanguageCsharp:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -292,7 +296,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -305,6 +308,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     clojureLanguageClojure:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -313,7 +317,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -326,6 +329,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     coffeescriptLanguageCoffeeScript:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -334,7 +338,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -347,6 +350,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     coffeescriptLiterateLanguageCoffeeScript:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -355,7 +359,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -368,6 +371,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     colorOptions:
       fade: 40
       hues: 700
@@ -381,7 +385,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -394,6 +397,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     dockerfileLanguageDocker:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -442,7 +446,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -455,6 +458,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     goLanguageGo:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -463,7 +467,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -476,6 +479,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     graphqlLanguageGraphql:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -484,7 +488,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -497,6 +500,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     hackNuclideLanguageHack:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -505,7 +509,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -526,7 +529,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -539,6 +541,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     javaLanguageJava:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -547,7 +550,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -560,6 +562,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     javaPropertiesLanguageJava:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -568,7 +571,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -581,6 +583,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     javascriptRailsLanguageRubyOnRails:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -589,7 +592,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -602,6 +604,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     jsonLanguageJson:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -610,7 +613,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -623,6 +625,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     lessLanguageLess:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -631,7 +634,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -644,6 +646,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     makefileLanguageMake:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -652,7 +655,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -665,6 +667,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     msonLanguageApiBlueprint:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -693,7 +696,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -706,6 +708,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     objectiveCLanguageObjectiveC:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -714,7 +717,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -727,6 +729,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     perl6LanguagePerl:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -735,7 +738,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -748,6 +750,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     perlLanguagePerl:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -756,7 +759,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -769,6 +771,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     phpLanguagePhp:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -777,7 +780,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -790,6 +792,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     postcssLanguagePostcss:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -798,7 +801,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -811,6 +813,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     propertyListOldStyleLanguagePropertyList:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -819,7 +822,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -832,6 +834,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     pugLanguagePug:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -860,7 +863,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -873,6 +875,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     reasonNuclideLanguageReason:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -881,7 +884,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -902,7 +904,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -915,6 +916,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     rubyLanguageRuby:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -923,7 +925,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -936,6 +937,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     rubyOnRailsLanguageRubyOnRails:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -944,7 +946,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -957,6 +958,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     rubyOnRailsRjsLanguageRubyOnRails:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -965,7 +967,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -978,6 +979,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     rustAtomLanguageRust:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -1006,7 +1008,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -1019,6 +1020,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     scssLanguageSass:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -1027,7 +1029,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -1040,6 +1041,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     sqlLanguageSql:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -1048,7 +1050,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -1061,6 +1062,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     sqlRailsLanguageRubyOnRails:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -1069,7 +1071,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -1082,6 +1083,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     stringsFileLanguageObjectiveC:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -1090,7 +1092,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -1103,6 +1104,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     sugarssLanguagePostcss:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -1111,7 +1113,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -1124,6 +1125,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     tomlLanguageToml:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -1132,7 +1134,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -1145,6 +1146,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     typescriptAtomTypescript:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -1193,7 +1195,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -1206,6 +1207,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
     yamlLanguageYaml:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -1214,7 +1216,6 @@
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"
-      letiable: "colorize"
       markup: "defer"
       name: "colorize"
       operator: "mute"
@@ -1227,6 +1228,7 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "colorize"
   stylefmt:
     formatOnSave: true
   tabs:

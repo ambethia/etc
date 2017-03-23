@@ -1,0 +1,10 @@
+#!/usr/bin/env zsh
+
+cd ~/Developer/vendor/aseprite/build
+git pull
+
+ninja aseprite
+
+cp bin/aseprite /Applications/Aseprite.app/Contents/MacOS/aseprite
+trash /Applications/Aseprite.app/Contents/Resources/data
+cp -r bin/data /Applications/Aseprite.app/Contents/Resources
