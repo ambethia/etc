@@ -41,17 +41,16 @@ atom-pane atom-text-editor {
 }
 
 atom-text-editor.editor {
-  // .syntax--storage.syntax--type.syntax--function.syntax--arrow,
-  // .syntax--keyword.syntax--operator,
-  // .syntax--meta.syntax--brace {
-  //   font-family: "Fira Code";
-  // }
+  .syntax--storage.syntax--type.syntax--function.syntax--arrow,
+  .syntax--keyword.syntax--operator,
+  .syntax--meta.syntax--brace {
+    font-family: "Fira Code";
+  }
 
   .syntax--string.syntax--quoted,
   .syntax--string.syntax--regexp {
     -webkit-font-feature-settings: "liga" off, "calt" off;
   }
-
 
   .syntax--keyword.syntax--control,
   .syntax--entity.syntax--other.syntax--attribute-name.syntax--pseudo-class.syntax--css,
@@ -83,18 +82,5 @@ atom-text-editor.editor {
   .syntax--semanticolor-contrast {
     color: hsl(220, 14%, 82%);
     background-color: transparent;
-  }
-}
-
-.platformio-ide-terminal .xterm {
-  color: hsl(220, 14%, 71%);
-  background-color: hsl(220, 13%, 13%);
-
-  ::selection {
-    background-color: hsl(220, 10%, 60%);
-  }
-
-  .terminal-cursor {
-    background-color: hsl(220, 14%, 90%);
   }
 }
