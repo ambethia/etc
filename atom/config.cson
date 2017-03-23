@@ -66,8 +66,10 @@
       "bower_components"
       "._*"
     ]
+    openEmptyEditorOnStart: false
     projectHome: "/Users/ambethia/Documents"
     telemetryConsent: "limited"
+    useCustomTitleBar: true
   editor:
     fontSize: 23
     invisibles:
@@ -91,8 +93,7 @@
     spaceForNamedImports: false
   "language-babel":
     autoIndentJSX: true
-  linter:
-    errorPanelHeight: 459
+  linter: {}
   "linter-eslint":
     disableWhenNoEslintrcFileInPath: false
     fixOnSave: true
