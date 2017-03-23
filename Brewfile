@@ -40,6 +40,8 @@ cask 'opera-developer'
 cask 'slack'
 cask 'spotify'
 
+cask 'font-fira-code'
+
 # Commented out because it flips out if the tablet
 #   is not connected when you install.
 # cask 'wacom-bamboo-tablet'

@@ -41,10 +41,12 @@ atom-pane atom-text-editor {
 }
 
 atom-text-editor.editor {
-  .syntax--storage.syntax--type.syntax--function.syntax--arrow,
-  .syntax--keyword.syntax--operator,
-  .syntax--meta.syntax--brace {
-    font-family: "Fira Code";
+  .line:not(.cursor-line) {
+    .syntax--storage.syntax--type.syntax--function.syntax--arrow,
+    .syntax--keyword.syntax--operator {
+      font-family: "Fira Code";
+      font-size: 0.918em;
+    }
   }
 
   .syntax--string.syntax--quoted,
