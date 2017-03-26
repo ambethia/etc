@@ -52,11 +52,6 @@
       "automate-power-mode"
       "activate-power-mode"
       "image-view"
-      "emmet-jsx-css-modules"
-      "nuclide"
-      "language-postcss"
-      "postcss-sorting"
-      "no-title-bar"
     ]
     ignoredNames: [
       ".git"
