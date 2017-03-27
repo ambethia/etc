@@ -68,7 +68,7 @@
     telemetryConsent: "limited"
     useCustomTitleBar: true
   editor:
-    fontSize: 21
+    fontSize: 19
     invisibles:
       space: " "
     preferredLineLength: 120
