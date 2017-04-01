@@ -72,4 +72,3 @@ export PATH=${PATH}:${ANDROID_HOME}/platform-tools
 
 eval "$(direnv hook zsh)"
 eval "$(thefuck --alias)"
-eval "$(rbenv init -)"
