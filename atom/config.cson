@@ -53,7 +53,6 @@
       "automate-power-mode"
       "activate-power-mode"
       "image-view"
-      "tree-view"
     ]
     ignoredNames: [
       ".git"
@@ -70,7 +69,7 @@
     telemetryConsent: "limited"
     useCustomTitleBar: true
   editor:
-    fontSize: 19
+    fontSize: 15
     invisibles:
       space: " "
     preferredLineLength: 120
