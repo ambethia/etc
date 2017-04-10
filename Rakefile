@@ -79,18 +79,6 @@ namespace :setup do
     end
   end
 
-  desc 'Create SSH keys'
-  task :ssh do
-    for_file '~/.ssh/id_rsa' do |path|
-      puts 'Creating SSH keys'
-      system %(ssh-keygen -t rsa -b 4096 -f "#{path}" -N "" -C "jasper@ambethia.com")
-      system 'more ~/.ssh/id_rsa.pub | pbcopy'
-      puts 'Public key copied to pasteboard. Go set it up in GitHub, then hit any key to continue...'
-      STDIN.gets
-      system 'git remote set-url origin git@github.com:ambethia/etc.git'
-    end
-  end
-
   desc 'Set a number of OS X preferences'
   task :defaults do
     system './misc/defaults.sh'

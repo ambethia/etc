@@ -11,10 +11,6 @@ I also keep some other crap in here. I use this to bootstrap computers as well a
   - `cd ~/.etc`
   - `rake`
 
-## GitHub
-
-- Add Generated SSH key to [GitHub](https://github.com/settings/ssh). It should already be in the pasteboard.
-
 ## Alfred
 
 - Setup [Alfred](https://www.alfredapp.com)
@@ -29,8 +25,3 @@ I also keep some other crap in here. I use this to bootstrap computers as well a
 # Atom
 
 - In Terminal: `apm stars --install`
-
-# Ruby
-
-- `rbenv install 2.4.0` (or whatever is the latest stable release)
-- `rbenv global 2.4.0` then open a new Terminal session

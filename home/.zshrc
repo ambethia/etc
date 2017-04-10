@@ -7,7 +7,6 @@ antigen use oh-my-zsh
 antigen bundles <<-BUNDLES
   git
   heroku
-  ssh-agent
   mafredri/zsh-async
   sindresorhus/pure
   zsh-users/zsh-completions
