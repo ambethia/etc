@@ -67,7 +67,7 @@
     openEmptyEditorOnStart: false
     projectHome: "/Users/ambethia/Documents"
     telemetryConsent: "limited"
-    useCustomTitleBar: true
+    titleBar: "custom"
   editor:
     fontSize: 19
     invisibles:
