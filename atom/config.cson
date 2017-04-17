@@ -49,10 +49,10 @@
     disabledPackages: [
       "autocomplete"
       "linter-clang"
-      "language-javascript"
       "automate-power-mode"
       "activate-power-mode"
       "image-view"
+      "language-javascript"
     ]
     ignoredNames: [
       ".git"
@@ -564,6 +564,27 @@
       support_type: "colorize"
       variable: "colorize"
     javaPropertiesLanguageJava:
+      "attribute-name": "colorize"
+      comment: "contrast"
+      constant_numeric: "theme"
+      enabled: true
+      everythingElse: "theme"
+      keyword: "mute"
+      language: "mute"
+      markup: "defer"
+      name: "colorize"
+      operator: "mute"
+      primitive: "mute"
+      punctuation: "defer"
+      regexp: "theme"
+      source: "colorize"
+      storage_modifier: "mute"
+      storage_type: "mute"
+      string_quoted: "theme"
+      support_constant: "theme"
+      support_type: "colorize"
+      variable: "colorize"
+    javascriptLanguageJavascript:
       "attribute-name": "colorize"
       comment: "contrast"
       constant_numeric: "theme"
