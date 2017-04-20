@@ -69,13 +69,14 @@
     telemetryConsent: "limited"
     titleBar: "custom"
   editor:
-    fontSize: 19
+    fontSize: 16
     invisibles:
       space: " "
     preferredLineLength: 120
     scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
+    softWrap: true
     softWrapAtPreferredLineLength: true
     softWrapHangingIndent: 2
     zoomFontWhenCtrlScrolling: true
