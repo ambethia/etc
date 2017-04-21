@@ -69,7 +69,6 @@
     telemetryConsent: "limited"
     titleBar: "custom"
   editor:
-    fontSize: 21
     invisibles:
       space: " "
     preferredLineLength: 120
