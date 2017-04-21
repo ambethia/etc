@@ -67,7 +67,6 @@
     openEmptyEditorOnStart: false
     projectHome: "/Users/ambethia/Documents"
     telemetryConsent: "limited"
-    titleBar: "custom"
   editor:
     invisibles:
       space: " "
