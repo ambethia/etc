@@ -17,3 +17,5 @@ alias cask="brew cask"
 alias git=hub
 
 alias rm="if [ -x /usr/local/bin/figlet ]; then figlet 'use trash'; else; echo 'use trash'; fi #"
+
+alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
