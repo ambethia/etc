@@ -53,6 +53,7 @@
       "activate-power-mode"
       "image-view"
       "language-javascript"
+      "emmet-jsx-css-modules"
     ]
     ignoredNames: [
       ".git"
@@ -77,6 +78,8 @@
     softWrapHangingIndent: 2
     zoomFontWhenCtrlScrolling: true
   emmet: {}
+  "emmet-jsx-css-modules":
+    classNamesType: 1
   "exception-reporting":
     userId: "a10c643c-cba3-79b5-895c-b1cbd137b869"
   "expand-region": {}
