@@ -18,3 +18,8 @@
   'React Icon':
     prefix: 'i'
     body: "<Icon glyph='${1}' />"
+
+'.source.js':
+  'Export From':
+    prefix: 'ef'
+    body: "export ${1} from './${1}'"
