@@ -54,6 +54,7 @@
       "image-view"
       "language-javascript"
       "emmet-jsx-css-modules"
+      "semanticolor"
     ]
     ignoredNames: [
       ".git"
@@ -69,7 +70,7 @@
     projectHome: "/Users/ambethia/Documents"
     telemetryConsent: "limited"
   editor:
-    fontSize: 18
+    fontSize: 20
     invisibles:
       space: " "
     preferredLineLength: 120
