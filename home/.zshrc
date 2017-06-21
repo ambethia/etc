@@ -7,16 +7,13 @@ antigen use oh-my-zsh
 antigen bundles <<-BUNDLES
   git
   heroku
+  osx
   mafredri/zsh-async
   sindresorhus/pure
   zsh-users/zsh-completions
   zsh-users/zsh-history-substring-search
   zsh-users/zsh-syntax-highlighting
 BUNDLES
-
-if [ "$OSTYPE"="darwin11.0" ]; then
-  antigen-bundle osx
-fi
 
 antigen apply
 

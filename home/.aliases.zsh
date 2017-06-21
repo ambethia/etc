@@ -21,3 +21,5 @@ alias rm="if [ -x /usr/local/bin/figlet ]; then figlet 'use trash'; else; echo '
 alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
 
 alias bs="browser-sync start -sf ."
+
+alias gg="git add . && git commit -m 'Update'  -m 'A lazy commit.'"

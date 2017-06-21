@@ -4,9 +4,9 @@
 [push]
 	default = matching
 [color]
-  status = auto
-  diff = auto
-  branch = auto
+	status = auto
+	diff = auto
+	branch = auto
 	ui = true
 [filter "media"]
 	required = true
@@ -16,20 +16,20 @@
 	excludesfile = ~/.gitignore
 	editor = atom --wait --safe
 [diff]
-    tool = opendiff
+	tool = opendiff
 [difftool]
-    prompt = false
+	prompt = false
 [difftool "opendiff"]
-    cmd = /usr/bin/opendiff \"$LOCAL\" \"$REMOTE\" -merge \"$MERGED\" | cat
+	cmd = /usr/bin/opendiff \"$LOCAL\" \"$REMOTE\" -merge \"$MERGED\" | cat
 [filter "hawser"]
 	clean = git hawser clean %f
 	smudge = git hawser smudge %f
 	required = true
 [filter "lfs"]
-	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+	clean = git-lfs clean -- %f
 [status]
 	showUntrackedFiles = all
 [merge]
