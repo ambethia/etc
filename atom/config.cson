@@ -69,7 +69,6 @@
     projectHome: "/Users/ambethia/Documents"
     telemetryConsent: "limited"
   editor:
-    fontSize: 42
     invisibles:
       space: " "
     preferredLineLength: 120
@@ -169,7 +168,8 @@
         brightMagenta: "#d291e4"
         brightRed: "#e88388"
         brightYellow: "#ffffff"
-    core: {}
+    core:
+      shell: "/usr/local/bin/zsh"
     iconColors:
       blue: "#65c2cd"
       green: "#d291e4"
@@ -180,6 +180,7 @@
     style:
       fontFamily: "Operator Mono"
       fontSize: "12"
+      theme: "one-dark"
   "project-viewer":
     convertOldData: false
     statusBarVisibility: true
