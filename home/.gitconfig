@@ -14,7 +14,6 @@
 	smudge = git media smudge %f
 [core]
 	excludesfile = ~/.gitignore
-	editor = atom --wait --safe
 [diff]
 	tool = opendiff
 [difftool]
