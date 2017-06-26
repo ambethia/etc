@@ -69,6 +69,7 @@
     projectHome: "/Users/ambethia/Documents"
     telemetryConsent: "limited"
   editor:
+    fontSize: 42
     invisibles:
       space: " "
     preferredLineLength: 120
@@ -1309,7 +1310,6 @@
     position: "Left"
   "tree-view":
     hideIgnoredNames: true
-    hideVcsIgnoredFiles: true
     squashDirectoryNames: true
   welcome:
     showOnStartup: false
