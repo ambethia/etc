@@ -51,7 +51,6 @@
       "linter-clang"
       "automate-power-mode"
       "activate-power-mode"
-      "image-view"
       "language-javascript"
       "emmet-jsx-css-modules"
       "semanticolor"
@@ -71,7 +70,7 @@
     projectHome: "/Users/ambethia/Documents"
     telemetryConsent: "limited"
   editor:
-    fontSize: 11
+    fontSize: 16
     invisibles:
       space: " "
     preferredLineLength: 120
