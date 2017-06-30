@@ -54,7 +54,6 @@
       "language-javascript"
       "emmet-jsx-css-modules"
       "semanticolor"
-      "emmet"
     ]
     ignoredNames: [
       ".git"
