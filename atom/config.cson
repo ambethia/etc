@@ -29,7 +29,7 @@
     minimumWordLength: 4
   "color-picker":
     automaticReplace: true
-    preferredFormat: "HSL"
+    preferredFormat: "HEX"
   core:
     audioBeep: false
     closeDeletedFileTabs: true
@@ -54,6 +54,7 @@
       "language-javascript"
       "emmet-jsx-css-modules"
       "semanticolor"
+      "language-postcss"
     ]
     ignoredNames: [
       ".git"
