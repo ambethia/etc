@@ -18,6 +18,8 @@
       indent_size: 2
     rust:
       beautify_on_save: true
+  "atom-html-preview":
+    scrollToCursor: true
   "atom-ternjs":
     inlineFnCompletionDocumentation: true
     snippetsFirst: true
@@ -70,7 +72,7 @@
     projectHome: "/Users/ambethia/Documents"
     telemetryConsent: "limited"
   editor:
-    fontSize: 21
+    fontSize: 16
     invisibles:
       space: " "
     preferredLineLength: 120
