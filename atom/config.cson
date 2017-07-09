@@ -98,7 +98,6 @@
   linter: {}
   "linter-eslint":
     disableWhenNoEslintrcFileInPath: false
-    fixOnSave: true
     globalNodePath: "/Users/ambethia/.node"
   "linter-glsl": {}
   "linter-htmlhint": {}
@@ -186,6 +185,13 @@
       fontFamily: "Operator Mono"
       fontSize: "12"
       theme: "one-dark"
+  "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
+      showInStatusBar: true
+    prettierOptions:
+      printWidth: 120
+      semi: false
   "project-viewer":
     convertOldData: false
     statusBarVisibility: true
