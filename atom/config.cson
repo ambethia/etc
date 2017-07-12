@@ -72,7 +72,7 @@
     projectHome: "/Users/ambethia/Documents"
     telemetryConsent: "limited"
   editor:
-    fontSize: 24
+    fontSize: 20
     invisibles:
       space: " "
     preferredLineLength: 120
@@ -192,6 +192,7 @@
     prettierOptions:
       printWidth: 120
       semi: false
+    useEslint: true
   "project-viewer":
     convertOldData: false
     statusBarVisibility: true
