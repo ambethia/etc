@@ -192,6 +192,7 @@
     prettierOptions:
       printWidth: 120
       semi: false
+      singleQuote: true
   "project-viewer":
     convertOldData: false
     statusBarVisibility: true
