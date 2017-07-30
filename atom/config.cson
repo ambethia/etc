@@ -55,7 +55,6 @@
       "activate-power-mode"
       "language-javascript"
       "emmet-jsx-css-modules"
-      "semanticolor"
       "language-postcss"
     ]
     ignoredNames: [
@@ -72,7 +71,7 @@
     projectHome: "/Users/ambethia/Documents"
     telemetryConsent: "limited"
   editor:
-    fontSize: 20
+    fontSize: 18
     invisibles:
       space: " "
     preferredLineLength: 120
@@ -116,7 +115,6 @@
     executablePath: "/usr/local/bin/tidy"
   "linter-ui-default":
     panelHeight: 68
-    showPanel: true
   "markdown-preview":
     useGitHubStyle: true
   "markdown-writer":
@@ -187,11 +185,11 @@
       theme: "one-dark"
   "prettier-atom":
     formatOnSaveOptions:
-      enabled: true
       showInStatusBar: true
     prettierOptions:
       printWidth: 120
       semi: false
+      singleQuote: true
     useEslint: true
   "project-viewer":
     convertOldData: false
