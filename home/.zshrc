@@ -8,6 +8,7 @@ antigen bundles <<-BUNDLES
   git
   heroku
   osx
+  ssh-agent
   mafredri/zsh-async
   sindresorhus/pure
   zsh-users/zsh-completions
@@ -16,6 +17,9 @@ antigen bundles <<-BUNDLES
 BUNDLES
 
 antigen apply
+
+zstyle :omz:plugins:ssh-agent agent-forwarding on
+zstyle :omz:plugins:ssh-agent identities id_rsa
 
 ## Editor
 
@@ -68,3 +72,6 @@ export PATH=${PATH}:${ANDROID_HOME}/platform-tools
 
 eval "$(direnv hook zsh)"
 eval "$(thefuck --alias)"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
