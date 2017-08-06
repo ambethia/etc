@@ -71,7 +71,7 @@
     projectHome: "/Users/ambethia/Documents"
     telemetryConsent: "limited"
   editor:
-    fontSize: 31
+    fontSize: 21
     invisibles:
       space: " "
     preferredLineLength: 120
@@ -185,9 +185,11 @@
       theme: "one-dark"
   "prettier-atom":
     formatOnSaveOptions:
+      enabled: true
+      isDisabledIfNotInPackageJson: true
       showInStatusBar: true
     prettierOptions:
-      printWidth: 2
+      printWidth: 120
       semi: false
       singleQuote: true
     useEslint: true
