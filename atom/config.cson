@@ -185,7 +185,6 @@
       theme: "one-dark"
   "prettier-atom":
     formatOnSaveOptions:
-      enabled: true
       showInStatusBar: true
     prettierOptions:
       printWidth: 120
