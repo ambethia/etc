@@ -71,7 +71,6 @@
     projectHome: "/Users/ambethia/Documents"
     telemetryConsent: "limited"
   editor:
-    fontSize: 30
     invisibles:
       space: " "
     preferredLineLength: 120
