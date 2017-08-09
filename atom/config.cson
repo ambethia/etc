@@ -188,6 +188,8 @@
       enabled: true
       isDisabledIfNotInPackageJson: true
       showInStatusBar: true
+    prettierEslintOptions:
+      prettierLast: true
     prettierOptions:
       printWidth: 120
       semi: false
