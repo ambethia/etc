@@ -186,10 +186,8 @@
   "prettier-atom":
     formatOnSaveOptions:
       enabled: true
-      isDisabledIfNotInPackageJson: true
       showInStatusBar: true
-    prettierEslintOptions:
-      prettierLast: true
+    prettierEslintOptions: {}
     prettierOptions:
       printWidth: 120
       semi: false
