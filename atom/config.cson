@@ -20,6 +20,8 @@
       beautify_on_save: true
   "atom-html-preview":
     scrollToCursor: true
+  "atom-ide-ui":
+    "atom-ide-code-format": {}
   "atom-ternjs":
     inlineFnCompletionDocumentation: true
     snippetsFirst: true
@@ -54,9 +56,8 @@
       "automate-power-mode"
       "activate-power-mode"
       "language-javascript"
-      "emmet-jsx-css-modules"
       "language-postcss"
-      "linter-tidy"
+      "prettier-atom"
     ]
     ignoredNames: [
       ".git"
@@ -1263,6 +1264,27 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+    typescriptLanguageTypescript:
+      "attribute-name": "default"
+      comment: "default"
+      constant_numeric: "default"
+      enabled: true
+      everythingElse: "default"
+      keyword: "default"
+      language: "default"
+      markup: "default"
+      name: "default"
+      operator: "default"
+      primitive: "default"
+      punctuation: "default"
+      regexp: "default"
+      source: "default"
+      storage_modifier: "default"
+      storage_type: "default"
+      string_quoted: "default"
+      support_constant: "default"
+      support_type: "default"
+      variable: "default"
     typescriptreactAtomTypescript:
       "attribute-name": "colorize"
       comment: "contrast"
@@ -1283,6 +1305,27 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+    typescriptreactLanguageTypescript:
+      "attribute-name": "default"
+      comment: "default"
+      constant_numeric: "default"
+      enabled: true
+      everythingElse: "default"
+      keyword: "default"
+      language: "default"
+      markup: "default"
+      name: "default"
+      operator: "default"
+      primitive: "default"
+      punctuation: "default"
+      regexp: "default"
+      source: "default"
+      storage_modifier: "default"
+      storage_type: "default"
+      string_quoted: "default"
+      support_constant: "default"
+      support_type: "default"
+      variable: "default"
     xmlLanguageXml:
       "attribute-name": "colorize"
       comment: "contrast"
