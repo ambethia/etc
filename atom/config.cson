@@ -72,6 +72,10 @@
     openEmptyEditorOnStart: false
     projectHome: "/Users/ambethia/Documents"
     telemetryConsent: "limited"
+    themes: [
+      "one-light-ui"
+      "one-light-syntax"
+    ]
   editor:
     invisibles:
       space: " "
