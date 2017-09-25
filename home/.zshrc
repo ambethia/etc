@@ -29,8 +29,6 @@ export BUNDLER_EDITOR='atom'
 
 ## Path
 
-PATH=/usr/local/bin:/usr/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin
-
 export PATH="$HOME/.etc/bin:$PATH"
 
 export MANPATH=$MANPATH:/opt/local/share/man
