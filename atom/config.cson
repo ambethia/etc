@@ -57,7 +57,6 @@
       "activate-power-mode"
       "language-javascript"
       "language-postcss"
-      "prettier-atom"
     ]
     ignoredNames: [
       ".git"
@@ -70,10 +69,15 @@
       "._*"
     ]
     openEmptyEditorOnStart: false
-    projectHome: "/Users/ambethia/Documents"
+    projectHome: "/Users/ambethia/Developer"
     telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "dracula-syntax"
+    ]
+    titleBar: "custom"
   editor:
-    fontSize: 22
+    fontSize: 21
     invisibles:
       space: " "
     preferredLineLength: 120
@@ -471,6 +475,49 @@
       string_quoted: "theme"
       support_constant: "theme"
       support_type: "colorize"
+      variable: "default"
+    erlangConfigFileErlangTermFileLanguageErlang:
+      "attribute-name": "default"
+      comment: "default"
+      constant_numeric: "default"
+      enabled: true
+      everythingElse: "default"
+      keyword: "default"
+      language: "default"
+      markup: "default"
+      name: "default"
+      operator: "default"
+      primitive: "default"
+      punctuation: "default"
+      regexp: "default"
+      source: "default"
+      storage_modifier: "default"
+      storage_type: "default"
+      string_quoted: "default"
+      support_constant: "default"
+      support_type: "default"
+      variable: "default"
+    erlangLanguageErlang:
+      "attribute-name": "default"
+      comment: "default"
+      constant_numeric: "default"
+      enabled: true
+      everythingElse: "default"
+      keyword: "default"
+      language: "default"
+      markup: "default"
+      name: "default"
+      operator: "default"
+      primitive: "default"
+      punctuation: "default"
+      regexp: "default"
+      source: "default"
+      storage_modifier: "default"
+      storage_type: "default"
+      string_quoted: "default"
+      support_constant: "default"
+      support_type: "default"
+      variable: "default"
     gemfileLanguageRuby:
       "attribute-name": "default"
       comment: "default"

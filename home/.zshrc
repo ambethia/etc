@@ -70,6 +70,5 @@ export PATH=${PATH}:${ANDROID_HOME}/platform-tools
 
 eval "$(direnv hook zsh)"
 eval "$(thefuck --alias)"
-
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
+eval "$(pyenv init -)"
+eval "$(rbenv init -)"
