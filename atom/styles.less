@@ -16,12 +16,12 @@ atom-text-editor {
 }
 
 atom-workspace {
-  font-family: "Operator SSm";
+  font-family: 'Operator SSm';
 }
 
 atom-text-editor {
   text-rendering: optimizeLegibility;
-  font-family: "Operator Mono";
+  font-family: 'Operator Mono';
   font-weight: 200;
   line-height: 1.7;
 }
@@ -48,14 +48,14 @@ atom-text-editor.editor {
   .line:not(.cursor-line) {
     .syntax--storage.syntax--type.syntax--function.syntax--arrow,
     .syntax--keyword.syntax--operator {
-      font-family: "Fira Code";
+      font-family: 'Fira Code';
       font-size: 0.918em;
     }
   }
 
   .syntax--string.syntax--quoted,
   .syntax--string.syntax--regexp {
-    -webkit-font-feature-settings: "liga" off, "calt" off;
+    -webkit-font-feature-settings: 'liga' off, 'calt' off;
   }
 
   .syntax--keyword.syntax--control,
@@ -80,13 +80,13 @@ atom-text-editor.editor {
   }
 
   // Don't do semantic colors on bare text in JSX
-  .syntax--JSXNested > .syntax--identifier {
-    color: hsl(95, 38%, 82%) !important;
-  }
+  // .syntax--JSXNested > .syntax--identifier {
+  //   color: hsl(95, 38%, 82%) !important;
+  // }
 
   // Default contrast to _too_ much
-  .syntax--semanticolor-contrast {
-    color: hsl(220, 14%, 82%);
-    background-color: transparent;
-  }
+  // .syntax--semanticolor-contrast {
+  //   color: hsl(220, 14%, 82%);
+  //   background-color: transparent;
+  // }
 }

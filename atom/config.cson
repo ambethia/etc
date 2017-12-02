@@ -72,11 +72,12 @@
     projectHome: "/Users/ambethia/Developer"
     telemetryConsent: "limited"
     themes: [
-      "one-dark-ui"
+      "dracula-ui"
       "dracula-syntax"
     ]
     titleBar: "custom"
   editor:
+    fontSize: 17
     invisibles:
       space: " "
     preferredLineLength: 120
@@ -189,7 +190,6 @@
       theme: "one-dark"
   "prettier-atom":
     formatOnSaveOptions:
-      enabled: true
       showInStatusBar: true
     prettierEslintOptions: {}
     prettierOptions:
@@ -243,7 +243,7 @@
       variable: "default"
     babelEs6JavascriptLanguageBabel:
       "attribute-name": "colorize"
-      comment: "contrast"
+      comment: "theme"
       constant_numeric: "theme"
       enabled: true
       everythingElse: "theme"
@@ -437,7 +437,7 @@
       variable: "colorize"
     defaults:
       "attribute-name": "colorize"
-      comment: "contrast"
+      comment: "theme"
       constant_numeric: "theme"
       everythingElse: "theme"
       keyword: "mute"
@@ -708,7 +708,6 @@
       variable: "colorize"
     javascriptLanguageJavascript:
       "attribute-name": "colorize"
-      comment: "contrast"
       constant_numeric: "theme"
       enabled: true
       everythingElse: "theme"
@@ -1419,7 +1418,7 @@
       "attribute-name": "colorize"
       comment: "contrast"
       constant_numeric: "theme"
-      enabled: true
+      enabled: false
       everythingElse: "theme"
       keyword: "mute"
       language: "mute"

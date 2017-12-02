@@ -72,3 +72,6 @@ eval "$(direnv hook zsh)"
 eval "$(thefuck --alias)"
 eval "$(pyenv init -)"
 eval "$(rbenv init -)"
+
+# OPAM configuration
+. /Users/ambethia/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true

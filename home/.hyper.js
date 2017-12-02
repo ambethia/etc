@@ -1,5 +1,7 @@
 module.exports = {
   config: {
+    // updateChannel: 'canary',
+
     // default font size in pixels for all tabs
     fontSize: 12,
 
@@ -13,10 +15,10 @@ module.exports = {
     cursorShape: 'BLOCK',
 
     // color of the text
-    foregroundColor: '#fff',
+    foregroundColor: '#f8f8f2',
 
     // terminal background color
-    backgroundColor: '#000',
+    backgroundColor: '#282a36',
 
     // border color (window, tabs)
     borderColor: '#333',
@@ -33,34 +35,34 @@ module.exports = {
 
     // custom css to embed in the terminal window
     termCSS: `
-      x-screen {
-        background: transparent !important;
-      }
+
     `,
 
     // custom padding (css format, i.e.: `top right bottom left`)
-    padding: '12px 14px',
+    // padding: '12px 14px',
 
     // the full list. if you're going to provide the full color palette,
     // including the 6 x 6 color cubes and the grayscale map, just provide
     // an array here instead of a color map object
     colors: {
-      black: '#000000',
-      red: '#ff0000',
-      green: '#33ff00',
-      yellow: '#ffff00',
-      blue: '#0066ff',
-      magenta: '#cc00ff',
-      cyan: '#00ffff',
-      white: '#d0d0d0',
-      lightBlack: '#808080',
-      lightRed: '#ff0000',
-      lightGreen: '#33ff00',
-      lightYellow: '#ffff00',
-      lightBlue: '#0066ff',
-      lightMagenta: '#cc00ff',
-      lightCyan: '#00ffff',
-      lightWhite: '#ffffff'
+      // black: '#44475a',
+      // red: '#ff5555',
+      // green: '#50fa7b',
+      // yellow: '#f1fa8c',
+      // blue: '#6272a4',
+      // magenta: '#ff79c6',
+      // cyan: '#8be9fd',
+      // brightBlack: '#999999',
+      // brightWhite: '#ffffff'
+      // white: '#d0d0d0',
+      // lightBlack: '#808080',
+      // lightRed: '#ff0000',
+      // lightGreen: '#33ff00',
+      // lightYellow: '#ffff00',
+      // lightBlue: '#0066ff',
+      // lightMagenta: '#cc00ff',
+      // lightCyan: '#00ffff',
+      // lightWhite: '#ffffff'
     },
 
     // the shell to run when spawning a new session (i.e. /usr/local/bin/fish)
@@ -77,7 +79,7 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-    'hyperterm-atom-dark',
+    'hyper-dracula',
     'hyperterm-tab-icons',
     'hypercwd',
     'hyperlinks',
