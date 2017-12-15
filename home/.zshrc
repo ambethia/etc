@@ -75,3 +75,5 @@ eval "$(rbenv init -)"
 
 # OPAM configuration
 . /Users/ambethia/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
+
+export PATH=/Users/ambethia/.local/bin/luna-studio:$PATH
