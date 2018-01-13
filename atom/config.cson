@@ -78,7 +78,7 @@
     ]
     titleBar: "custom"
   editor:
-    fontSize: 22
+    fontSize: 17
     invisibles:
       space: " "
     preferredLineLength: 120
@@ -1549,6 +1549,7 @@
     position: "Left"
   "tree-view":
     hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
     squashDirectoryNames: true
   welcome:
     showOnStartup: false
