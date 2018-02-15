@@ -58,6 +58,7 @@
       "language-javascript"
       "language-postcss"
       "linter"
+      "emmet-jsx-css-modules"
     ]
     ignoredNames: [
       ".git"
