@@ -103,7 +103,7 @@
   "js-autoimport":
     spaceForNamedImports: false
   "language-babel":
-    autoIndentJSX: true
+    emmetCSSAutocomplete: true
   "language-elm":
     autocompleteEnabled: false
   linter: {}
