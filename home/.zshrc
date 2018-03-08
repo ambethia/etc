@@ -69,6 +69,5 @@ export PATH=${PATH}:${ANDROID_HOME}/platform-tools
 ## Hooks
 
 eval "$(direnv hook zsh)"
-eval "$(thefuck --alias)"
 eval "$(rbenv init -)"
 eval "$(pyenv init -)"
