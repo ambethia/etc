@@ -79,7 +79,6 @@
     ]
     titleBar: "custom"
   editor:
-    fontSize: 16
     invisibles:
       space: " "
     preferredLineLength: 120
