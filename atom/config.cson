@@ -123,7 +123,8 @@
     onlyRunWhenConfig: true
   "linter-tidy":
     executablePath: "/usr/local/bin/tidy"
-  "linter-ui-default": {}
+  "linter-ui-default":
+    showPanel: true
   "markdown-preview":
     useGitHubStyle: true
   "markdown-writer":
