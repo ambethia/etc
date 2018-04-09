@@ -213,8 +213,8 @@
     convertOldData: false
     statusBarVisibility: true
   "rubocop-auto-correct":
+    autoRun: true
     notification: false
-    onlyFixesNotification: false
   semanticolor:
     apiBlueprintLanguageApiBlueprint:
       "attribute-name": "colorize"
