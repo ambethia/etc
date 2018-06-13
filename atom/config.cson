@@ -203,7 +203,6 @@
       showInStatusBar: true
     prettierEslintOptions: {}
     prettierOptions:
-      printWidth: 120
       semi: false
       singleQuote: true
     useEslint: true
