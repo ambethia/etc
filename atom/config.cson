@@ -198,7 +198,6 @@
       theme: "one-dark"
   "prettier-atom":
     formatOnSaveOptions:
-      enabled: true
       excludedGlobs: [
         "index.html"
       ]
