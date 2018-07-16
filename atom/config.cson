@@ -79,7 +79,6 @@
     ]
     titleBar: "custom"
   editor:
-    fontSize: 17
     invisibles:
       space: " "
     preferredLineLength: 120
@@ -198,6 +197,7 @@
       theme: "one-dark"
   "prettier-atom":
     formatOnSaveOptions:
+      enabled: true
       excludedGlobs: [
         "index.html"
       ]
