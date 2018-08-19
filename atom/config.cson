@@ -1544,8 +1544,7 @@
   "theme-switcher":
     syntaxThemeOne: "one-dark-syntax"
     syntaxThemeTwo: "one-light-syntax"
-  "toggle-quotes":
-    quoteCharacters: "`\"'"
+  "toggle-quotes": {}
   "tool-bar":
     position: "Left"
   "tree-view":
@@ -1568,6 +1567,9 @@
   editor:
     preferredLineLength: 120
     softWrapHangingIndent: 2
+".js.source":
+  "toggle-quotes":
+    quoteCharacters: "\"'`"
 ".js.jsx.source":
   editor:
     preferredLineLength: 120
