@@ -1567,12 +1567,12 @@
   editor:
     preferredLineLength: 120
     softWrapHangingIndent: 2
-".js.source":
-  "toggle-quotes":
-    quoteCharacters: "\"'`"
 ".js.jsx.source":
   editor:
     preferredLineLength: 120
+".js.source":
+  "toggle-quotes":
+    quoteCharacters: "\"'`"
 ".markdown.text":
   whitespace:
     removeTrailingWhitespace: false
