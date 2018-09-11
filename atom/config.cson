@@ -74,11 +74,11 @@
     telemetryConsent: "limited"
     themes: [
       "dracula-ui"
-      "dracula-syntax"
+      "one-light-syntax"
     ]
     titleBar: "custom"
   editor:
-    fontSize: 18
+    fontSize: 24
     invisibles:
       space: " "
     preferredLineLength: 120
