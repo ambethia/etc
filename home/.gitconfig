@@ -37,3 +37,5 @@
 	protocol = https
 [credential]
 	helper = osxkeychain
+[submodule]
+	recurse = true

@@ -74,7 +74,7 @@
     telemetryConsent: "limited"
     themes: [
       "dracula-ui"
-      "one-light-syntax"
+      "dracula-syntax"
     ]
     titleBar: "custom"
   editor:
