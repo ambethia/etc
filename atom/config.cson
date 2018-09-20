@@ -70,6 +70,7 @@
       "._*"
     ]
     openEmptyEditorOnStart: false
+    packagesWithKeymapsDisabled: []
     projectHome: "/Users/ambethia/Developer"
     telemetryConsent: "limited"
     themes: [
