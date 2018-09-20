@@ -35,7 +35,6 @@
     automaticReplace: true
     preferredFormat: "HEX"
   core:
-    audioBeep: false
     customFileTypes:
       "source.ini": [
         ".buckconfig"
