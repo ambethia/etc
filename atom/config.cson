@@ -78,7 +78,7 @@
     ]
     titleBar: "custom"
   editor:
-    fontSize: 24
+    fontSize: 25
     invisibles:
       space: " "
     preferredLineLength: 120
@@ -126,6 +126,7 @@
   "linter-tidy":
     executablePath: "/usr/local/bin/tidy"
   "linter-ui-default":
+    panelHeight: 277
     showPanel: true
   "markdown-preview":
     useGitHubStyle: true
@@ -198,9 +199,6 @@
   "prettier-atom":
     formatOnSaveOptions:
       enabled: true
-      excludedGlobs: [
-        "index.html"
-      ]
       showInStatusBar: true
     prettierEslintOptions: {}
     prettierOptions:
