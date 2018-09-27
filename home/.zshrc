@@ -28,7 +28,7 @@ export VISUAL='atom -w'
 export BUNDLER_EDITOR='atom'
 
 ## Path
-
+export PATH="$HOME/bin:$PATH"
 export PATH="$HOME/.etc/bin:$PATH"
 
 export MANPATH=$MANPATH:/opt/local/share/man
