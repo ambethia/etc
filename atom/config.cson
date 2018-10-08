@@ -58,7 +58,6 @@
       "emmet-jsx-css-modules"
       "language-slim"
       "rufo-autoformat"
-      "semanticolor"
     ]
     ignoredNames: [
       ".git"
