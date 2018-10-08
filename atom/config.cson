@@ -1,1592 +1,1741 @@
-"*":
-  "activate-power-mode":
-    comboMode: {}
-    particles:
-      totalCount:
-        max: 200
-  "atom-beautify":
-    css:
-      indent_size: 2
-      newline_between_rules: true
-    general:
-      _analyticsUserId: "45cfdcfc-3085-4a19-ae31-5e814a7e2f8b"
-    html:
-      indent_size: 2
-    js:
-      break_chained_methods: true
-      end_with_newline: true
-      indent_size: 2
-    rust:
-      beautify_on_save: true
-  "atom-html-preview":
-    scrollToCursor: true
-  "atom-ide-ui":
-    "atom-ide-code-format": {}
-  "atom-ternjs":
-    inlineFnCompletionDocumentation: true
-    snippetsFirst: true
-    useSnippets: true
-    useSnippetsAndFunction: true
-  "autocomplete-plus":
-    backspaceTriggersAutocomplete: true
-    includeCompletionsFromAllBuffers: false
-    minimumWordLength: 4
-  "color-picker":
-    automaticReplace: true
-    preferredFormat: "HEX"
-  core:
-    customFileTypes:
-      "source.ini": [
-        ".buckconfig"
-        ".hgrc"
-        ".flowconfig"
-      ]
-      "source.json": [
-        ".arcconfig"
-        "BUCK.autodeps"
-      ]
-      "source.python": [
-        "BUCK"
-      ]
-    disabledPackages: [
-      "autocomplete"
-      "linter-clang"
-      "automate-power-mode"
-      "activate-power-mode"
-      "language-javascript"
-      "language-postcss"
-      "emmet-jsx-css-modules"
-      "language-slim"
-      "rufo-autoformat"
-    ]
-    ignoredNames: [
-      ".git"
-      ".hg"
-      ".svn"
-      ".DS_Store"
-      "Thumbs.db"
-      ".codekit-cache"
-      "bower_components"
-      "._*"
-    ]
-    openEmptyEditorOnStart: false
-    packagesWithKeymapsDisabled: []
-    projectHome: "/Users/ambethia/Developer"
-    telemetryConsent: "limited"
-    themes: [
-      "dracula-ui"
-      "dracula-syntax"
-    ]
-    titleBar: "custom"
-  editor:
-    fontSize: 25
-    invisibles:
-      space: " "
-    preferredLineLength: 120
-    scrollPastEnd: true
-    showIndentGuide: true
-    showInvisibles: true
-    softWrapHangingIndent: 2
-    zoomFontWhenCtrlScrolling: true
-  elmjutsu:
-    cacheDirectory: "/var/folders/cq/35_nm6bj2hs_pzdx81_719q40000gn/T/elmjutsu97975rmlMImWGiagB"
-  emmet: {}
-  "emmet-jsx-css-modules":
-    classNamesType: 1
-    styleObjectName: "styles"
-  "exception-reporting":
-    userId: "a10c643c-cba3-79b5-895c-b1cbd137b869"
-  "expand-region": {}
-  "git-plus":
-    general:
-      _analyticsUserId: "c5b670e2-4076-45ee-8eb6-a559608acb2f"
-  haxe: {}
-  "js-autoimport":
-    spaceForNamedImports: false
-  "language-babel":
-    emmetCSSAutocomplete: true
-  "language-elm":
-    autocompleteEnabled: false
-  linter: {}
-  "linter-eslint":
-    disableWhenNoEslintrcFileInPath: false
-    globalNodePath: "/Users/ambethia/.node"
-  "linter-glsl": {}
-  "linter-htmlhint": {}
-  "linter-js-standard":
-    lintMarkdownFiles: true
-  "linter-jscs":
-    onlyConfig: true
-  "linter-less": {}
-  "linter-rubocop":
-    disableWhenNoConfigFile: true
-  "linter-stylelint":
-    showIgnored: true
-  "linter-stylint":
-    onlyRunWhenConfig: true
-  "linter-tidy":
-    executablePath: "/usr/local/bin/tidy"
-  "linter-ui-default":
-    panelHeight: 277
-    showPanel: true
-  "markdown-preview":
-    useGitHubStyle: true
-  "markdown-writer":
-    relativeImagePath: true
-    siteEngine: "html"
-    tableAlignment: "left"
-  metrics:
-    userId: "15d051bf606ae5751075b86ce538bd746bfcfcff"
-  nuclide:
-    "nuclide-diagnostics-store":
-      consumeLegacyLinters: false
-      legacyLintOnTheFly: false
-    "nuclide-flow":
-      canUseFlowBin: true
-    "nuclide-home":
-      showHome: false
-    "nuclide-working-sets":
-      workingSets: [
-        {
-          active: true
-          name: "MVC"
-          uris: [
-            "/Users/ambethia/Developer/campfire-server/app/controllers/application_controller.rb"
-            "/Users/ambethia/Developer/campfire-server/app/controllers/comments_controller.rb"
-            "/Users/ambethia/Developer/campfire-server/app/controllers/stories_controller.rb"
-            "/Users/ambethia/Developer/campfire-server/app/controllers/tags_controller.rb"
-            "/Users/ambethia/Developer/campfire-server/app/models/comment.rb"
-            "/Users/ambethia/Developer/campfire-server/app/models/story.rb"
-            "/Users/ambethia/Developer/campfire-server/app/models/tag.rb"
-            "/Users/ambethia/Developer/campfire-server/app/models/tagging.rb"
-            "/Users/ambethia/Developer/campfire-server/app/models/user.rb"
-            "/Users/ambethia/Developer/campfire-server/app/serializers"
-            "/Users/ambethia/Developer/campfire-server/db/schema.rb"
-          ]
+{
+  "*": {
+    "activate-power-mode": {
+      "comboMode": {},
+      "particles": {
+        "totalCount": {
+          "max": 200
         }
-      ]
-    use:
-      "nuclide-hack": false
-  "one-dark-ui": {}
-  pigments: {}
-  "platformio-ide-terminal":
-    ansiColors:
-      normal:
-        blue: "#72bef2"
-        green: "#d291e4"
-        red: "#b9c0cb"
-        yellow: "#dbaa79"
-      zBright:
-        brightBlack: "#6f7783"
-        brightBlue: "#72bef2"
-        brightCyan: "#65c2cd"
-        brightGreen: "#a7cc8c"
-        brightMagenta: "#d291e4"
-        brightRed: "#e88388"
-        brightYellow: "#ffffff"
-    core:
-      shell: "/usr/local/bin/zsh"
-    iconColors:
-      blue: "#65c2cd"
-      green: "#d291e4"
-      magenta: "#cf32d0"
-      orange: "#cfa174"
-      pink: "#e88388"
-      yellow: "#f3e493"
-    style:
-      fontFamily: "Operator Mono"
-      fontSize: "12"
-      theme: "one-dark"
-  "prettier-atom":
-    formatOnSaveOptions:
-      enabled: true
-      showInStatusBar: true
-    prettierEslintOptions: {}
-    prettierOptions:
-      printWidth: 120
-      semi: false
-      singleQuote: true
-    useEslint: true
-  "project-viewer":
-    convertOldData: false
-    statusBarVisibility: true
-  "rubo-format": {}
-  "rubocop-auto-correct":
-    autoRun: true
-    notification: false
-  semanticolor:
-    apiBlueprintLanguageApiBlueprint:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-    asciidocLanguageAsciidoc:
-      "attribute-name": "default"
-      comment: "default"
-      constant_numeric: "default"
-      enabled: false
-      everythingElse: "default"
-      keyword: "default"
-      language: "default"
-      markup: "default"
-      name: "default"
-      operator: "default"
-      primitive: "default"
-      punctuation: "default"
-      regexp: "default"
-      source: "default"
-      storage_modifier: "default"
-      storage_type: "default"
-      string_quoted: "default"
-      support_constant: "default"
-      support_type: "default"
-      variable: "default"
-    babelEs6JavascriptLanguageBabel:
-      "attribute-name": "colorize"
-      comment: "theme"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    cCakeFileLanguageCsharp:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    cLanguageC:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    cLanguageCsharp:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    cScriptFileLanguageCsharp:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    clojureLanguageClojure:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    coffeescriptLanguageCoffeeScript:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    coffeescriptLiterateLanguageCoffeeScript:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    colorOptions:
-      fade: 40
-      hues: 700
-      luminosity: 50
-      saturation: 90
-    cssLanguageCss:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    defaults:
-      "attribute-name": "colorize"
-      comment: "theme"
-      constant_numeric: "theme"
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    dockerfileLanguageDocker:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-    dockerignoreLanguageDocker:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "default"
-    elmLanguageElm:
-      "attribute-name": "default"
-      comment: "default"
-      constant_numeric: "default"
-      enabled: true
-      everythingElse: "default"
-      keyword: "default"
-      language: "default"
-      markup: "default"
-      name: "default"
-      operator: "default"
-      primitive: "default"
-      punctuation: "default"
-      regexp: "default"
-      source: "default"
-      storage_modifier: "default"
-      storage_type: "default"
-      string_quoted: "default"
-      support_constant: "default"
-      support_type: "default"
-      variable: "default"
-    erlangConfigFileErlangTermFileLanguageErlang:
-      "attribute-name": "default"
-      comment: "default"
-      constant_numeric: "default"
-      enabled: true
-      everythingElse: "default"
-      keyword: "default"
-      language: "default"
-      markup: "default"
-      name: "default"
-      operator: "default"
-      primitive: "default"
-      punctuation: "default"
-      regexp: "default"
-      source: "default"
-      storage_modifier: "default"
-      storage_type: "default"
-      string_quoted: "default"
-      support_constant: "default"
-      support_type: "default"
-      variable: "default"
-    erlangLanguageErlang:
-      "attribute-name": "default"
-      comment: "default"
-      constant_numeric: "default"
-      enabled: true
-      everythingElse: "default"
-      keyword: "default"
-      language: "default"
-      markup: "default"
-      name: "default"
-      operator: "default"
-      primitive: "default"
-      punctuation: "default"
-      regexp: "default"
-      source: "default"
-      storage_modifier: "default"
-      storage_type: "default"
-      string_quoted: "default"
-      support_constant: "default"
-      support_type: "default"
-      variable: "default"
-    gemfileLanguageRuby:
-      "attribute-name": "default"
-      comment: "default"
-      constant_numeric: "default"
-      enabled: true
-      everythingElse: "default"
-      keyword: "default"
-      language: "default"
-      markup: "default"
-      name: "default"
-      operator: "default"
-      primitive: "default"
-      punctuation: "default"
-      regexp: "default"
-      source: "default"
-      storage_modifier: "default"
-      storage_type: "default"
-      string_quoted: "default"
-      support_constant: "default"
-      support_type: "default"
-      variable: "default"
-    gitConfigLanguageGit:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    goLanguageGo:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    graphqlLanguageGraphql:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    hackNuclideLanguageHack:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    htmlLanguageHtml:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    javaLanguageJava:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    javaPropertiesLanguageJava:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    javascriptLanguageJavascript:
-      "attribute-name": "colorize"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    javascriptRailsLanguageRubyOnRails:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    jsonLanguageJson:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    lessLanguageLess:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    makefileLanguageMake:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    menhirLanguageOcaml:
-      "attribute-name": "default"
-      comment: "default"
-      constant_numeric: "default"
-      enabled: true
-      everythingElse: "default"
-      keyword: "default"
-      language: "default"
-      markup: "default"
-      name: "default"
-      operator: "default"
-      primitive: "default"
-      punctuation: "default"
-      regexp: "default"
-      source: "default"
-      storage_modifier: "default"
-      storage_type: "default"
-      string_quoted: "default"
-      support_constant: "default"
-      support_type: "default"
-      variable: "default"
-    msonLanguageApiBlueprint:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-    nantBuildFileLanguageCsharp:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    nimNim:
-      "attribute-name": "default"
-      comment: "default"
-      constant_numeric: "default"
-      enabled: true
-      everythingElse: "default"
-      keyword: "default"
-      language: "default"
-      markup: "default"
-      name: "default"
-      operator: "default"
-      primitive: "default"
-      punctuation: "default"
-      regexp: "default"
-      source: "default"
-      storage_modifier: "default"
-      storage_type: "default"
-      string_quoted: "default"
-      support_constant: "default"
-      support_type: "default"
-      variable: "default"
-    objectiveCLanguageObjectiveC:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    ocamlLanguageOcaml:
-      "attribute-name": "default"
-      comment: "default"
-      constant_numeric: "default"
-      enabled: true
-      everythingElse: "default"
-      keyword: "default"
-      language: "default"
-      markup: "default"
-      name: "default"
-      operator: "default"
-      primitive: "default"
-      punctuation: "default"
-      regexp: "default"
-      source: "default"
-      storage_modifier: "default"
-      storage_type: "default"
-      string_quoted: "default"
-      support_constant: "default"
-      support_type: "default"
-      variable: "default"
-    ocamllexLanguageOcaml:
-      "attribute-name": "default"
-      comment: "default"
-      constant_numeric: "default"
-      enabled: true
-      everythingElse: "default"
-      keyword: "default"
-      language: "default"
-      markup: "default"
-      name: "default"
-      operator: "default"
-      primitive: "default"
-      punctuation: "default"
-      regexp: "default"
-      source: "default"
-      storage_modifier: "default"
-      storage_type: "default"
-      string_quoted: "default"
-      support_constant: "default"
-      support_type: "default"
-      variable: "default"
-    perl6LanguagePerl:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    perlLanguagePerl:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    phpLanguagePhp:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    postcssLanguagePostcss:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    propertyListOldStyleLanguagePropertyList:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    pugLanguagePug:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-    pythonLanguagePython:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    reasonNuclideLanguageReason:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    regularExpressionsPythonLanguagePython:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    rubyLanguageRuby:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    rubyOnRailsLanguageRubyOnRails:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    rubyOnRailsRjsLanguageRubyOnRails:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    rustAtomLanguageRust:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-    sassLanguageSass:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    scssLanguageSass:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    sqlLanguageSql:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    sqlRailsLanguageRubyOnRails:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    stringsFileLanguageObjectiveC:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    sugarssLanguagePostcss:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    tomlLanguageToml:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    typescriptAtomTypescript:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-    typescriptLanguageTypescript:
-      "attribute-name": "default"
-      comment: "default"
-      constant_numeric: "default"
-      enabled: true
-      everythingElse: "default"
-      keyword: "default"
-      language: "default"
-      markup: "default"
-      name: "default"
-      operator: "default"
-      primitive: "default"
-      punctuation: "default"
-      regexp: "default"
-      source: "default"
-      storage_modifier: "default"
-      storage_type: "default"
-      string_quoted: "default"
-      support_constant: "default"
-      support_type: "default"
-      variable: "default"
-    typescriptreactAtomTypescript:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-    typescriptreactLanguageTypescript:
-      "attribute-name": "default"
-      comment: "default"
-      constant_numeric: "default"
-      enabled: true
-      everythingElse: "default"
-      keyword: "default"
-      language: "default"
-      markup: "default"
-      name: "default"
-      operator: "default"
-      primitive: "default"
-      punctuation: "default"
-      regexp: "default"
-      source: "default"
-      storage_modifier: "default"
-      storage_type: "default"
-      string_quoted: "default"
-      support_constant: "default"
-      support_type: "default"
-      variable: "default"
-    xmlLanguageXml:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: true
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-    yamlLanguageYaml:
-      "attribute-name": "colorize"
-      comment: "contrast"
-      constant_numeric: "theme"
-      enabled: false
-      everythingElse: "theme"
-      keyword: "mute"
-      language: "mute"
-      markup: "defer"
-      name: "colorize"
-      operator: "mute"
-      primitive: "mute"
-      punctuation: "defer"
-      regexp: "theme"
-      source: "colorize"
-      storage_modifier: "mute"
-      storage_type: "mute"
-      string_quoted: "theme"
-      support_constant: "theme"
-      support_type: "colorize"
-      variable: "colorize"
-  stylefmt:
-    formatOnSave: true
-  tabs:
-    enableVcsColoring: true
-    usePreviewTabs: true
-  "terminal-plus":
-    style: {}
-    toggles: {}
-  "theme-switcher":
-    syntaxThemeOne: "one-dark-syntax"
-    syntaxThemeTwo: "one-light-syntax"
-  "toggle-quotes": {}
-  "tool-bar":
-    position: "Left"
-  "tree-view":
-    hideIgnoredNames: true
-    hideVcsIgnoredFiles: true
-    squashDirectoryNames: true
-  welcome:
-    showOnStartup: false
-".asciidoc.source":
-  editor:
-    softWrap: true
-".babel.regexp.source":
-  editor:
-    preferredLineLength: 120
-".basic.html.text":
-  editor:
-    preferredLineLength: 120
-    softWrapHangingIndent: 2
-".css.source":
-  editor:
-    preferredLineLength: 120
-    softWrapHangingIndent: 2
-".js.jsx.source":
-  editor:
-    preferredLineLength: 120
-".js.source":
-  "toggle-quotes":
-    quoteCharacters: "\"'`"
-".markdown.text":
-  whitespace:
-    removeTrailingWhitespace: false
-".pug.source":
-  editor:
-    preferredLineLength: 120
-    softWrapHangingIndent: 2
-".rust.source":
-  editor:
-    preferredLineLength: 99
-".slim.text":
-  editor:
-    autoIndent: true
-    autoIndentOnPaste: false
-    preferredLineLength: 120
-    softWrapHangingIndent: 2
+      }
+    },
+    "atom-beautify": {
+      "css": {
+        "indent_size": 2,
+        "newline_between_rules": true
+      },
+      "general": {
+        "_analyticsUserId": "45cfdcfc-3085-4a19-ae31-5e814a7e2f8b"
+      },
+      "html": {
+        "indent_size": 2
+      },
+      "js": {
+        "break_chained_methods": true,
+        "end_with_newline": true,
+        "indent_size": 2
+      },
+      "rust": {
+        "beautify_on_save": true
+      }
+    },
+    "atom-html-preview": {
+      "scrollToCursor": true
+    },
+    "atom-ide-ui": {
+      "atom-ide-code-format": {}
+    },
+    "atom-ternjs": {
+      "inlineFnCompletionDocumentation": true,
+      "snippetsFirst": true,
+      "useSnippets": true,
+      "useSnippetsAndFunction": true
+    },
+    "autocomplete-plus": {
+      "backspaceTriggersAutocomplete": true,
+      "includeCompletionsFromAllBuffers": false,
+      "minimumWordLength": 4
+    },
+    "color-picker": {
+      "automaticReplace": true,
+      "preferredFormat": "HEX"
+    },
+    "core": {
+      "customFileTypes": {
+        "source.ini": [
+          ".buckconfig",
+          ".hgrc",
+          ".flowconfig"
+        ],
+        "source.json": [
+          ".arcconfig",
+          "BUCK.autodeps"
+        ],
+        "source.python": [
+          "BUCK"
+        ]
+      },
+      "disabledPackages": [
+        "autocomplete",
+        "linter-clang",
+        "automate-power-mode",
+        "activate-power-mode",
+        "language-javascript",
+        "language-postcss",
+        "emmet-jsx-css-modules",
+        "language-slim",
+        "rufo-autoformat"
+      ],
+      "ignoredNames": [
+        ".git",
+        ".hg",
+        ".svn",
+        ".DS_Store",
+        "Thumbs.db",
+        ".codekit-cache",
+        "bower_components",
+        "._*"
+      ],
+      "openEmptyEditorOnStart": false,
+      "packagesWithKeymapsDisabled": [],
+      "projectHome": "/Users/ambethia/Developer",
+      "telemetryConsent": "limited",
+      "themes": [
+        "dracula-ui",
+        "dracula-syntax"
+      ],
+      "titleBar": "custom"
+    },
+    "editor": {
+      "fontSize": 25,
+      "invisibles": {
+        "space": " "
+      },
+      "preferredLineLength": 120,
+      "scrollPastEnd": true,
+      "showIndentGuide": true,
+      "showInvisibles": true,
+      "softWrapHangingIndent": 2,
+      "zoomFontWhenCtrlScrolling": true
+    },
+    "elmjutsu": {
+      "cacheDirectory": "/var/folders/cq/35_nm6bj2hs_pzdx81_719q40000gn/T/elmjutsu97975rmlMImWGiagB"
+    },
+    "emmet": {},
+    "emmet-jsx-css-modules": {
+      "classNamesType": 1,
+      "styleObjectName": "styles"
+    },
+    "exception-reporting": {
+      "userId": "a10c643c-cba3-79b5-895c-b1cbd137b869"
+    },
+    "expand-region": {},
+    "git-plus": {
+      "general": {
+        "_analyticsUserId": "c5b670e2-4076-45ee-8eb6-a559608acb2f"
+      }
+    },
+    "haxe": {},
+    "js-autoimport": {
+      "spaceForNamedImports": false
+    },
+    "language-babel": {
+      "emmetCSSAutocomplete": true
+    },
+    "language-elm": {
+      "autocompleteEnabled": false
+    },
+    "linter": {},
+    "linter-eslint": {
+      "disableWhenNoEslintrcFileInPath": false,
+      "globalNodePath": "/Users/ambethia/.node"
+    },
+    "linter-glsl": {},
+    "linter-htmlhint": {},
+    "linter-js-standard": {
+      "lintMarkdownFiles": true
+    },
+    "linter-jscs": {
+      "onlyConfig": true
+    },
+    "linter-less": {},
+    "linter-rubocop": {
+      "disableWhenNoConfigFile": true
+    },
+    "linter-stylelint": {
+      "showIgnored": true
+    },
+    "linter-stylint": {
+      "onlyRunWhenConfig": true
+    },
+    "linter-tidy": {
+      "executablePath": "/usr/local/bin/tidy"
+    },
+    "linter-ui-default": {
+      "panelHeight": 277
+    },
+    "markdown-preview": {
+      "useGitHubStyle": true
+    },
+    "markdown-writer": {
+      "relativeImagePath": true,
+      "siteEngine": "html",
+      "tableAlignment": "left"
+    },
+    "metrics": {
+      "userId": "15d051bf606ae5751075b86ce538bd746bfcfcff"
+    },
+    "nuclide": {
+      "nuclide-diagnostics-store": {
+        "consumeLegacyLinters": false,
+        "legacyLintOnTheFly": false
+      },
+      "nuclide-flow": {
+        "canUseFlowBin": true
+      },
+      "nuclide-home": {
+        "showHome": false
+      },
+      "nuclide-working-sets": {
+        "workingSets": [
+          {
+            "active": true,
+            "name": "MVC",
+            "uris": [
+              "/Users/ambethia/Developer/campfire-server/app/controllers/application_controller.rb",
+              "/Users/ambethia/Developer/campfire-server/app/controllers/comments_controller.rb",
+              "/Users/ambethia/Developer/campfire-server/app/controllers/stories_controller.rb",
+              "/Users/ambethia/Developer/campfire-server/app/controllers/tags_controller.rb",
+              "/Users/ambethia/Developer/campfire-server/app/models/comment.rb",
+              "/Users/ambethia/Developer/campfire-server/app/models/story.rb",
+              "/Users/ambethia/Developer/campfire-server/app/models/tag.rb",
+              "/Users/ambethia/Developer/campfire-server/app/models/tagging.rb",
+              "/Users/ambethia/Developer/campfire-server/app/models/user.rb",
+              "/Users/ambethia/Developer/campfire-server/app/serializers",
+              "/Users/ambethia/Developer/campfire-server/db/schema.rb"
+            ]
+          }
+        ]
+      },
+      "use": {
+        "nuclide-hack": false
+      }
+    },
+    "one-dark-ui": {},
+    "pigments": {},
+    "platformio-ide-terminal": {
+      "ansiColors": {
+        "normal": {
+          "blue": "#72bef2",
+          "green": "#d291e4",
+          "red": "#b9c0cb",
+          "yellow": "#dbaa79"
+        },
+        "zBright": {
+          "brightBlack": "#6f7783",
+          "brightBlue": "#72bef2",
+          "brightCyan": "#65c2cd",
+          "brightGreen": "#a7cc8c",
+          "brightMagenta": "#d291e4",
+          "brightRed": "#e88388",
+          "brightYellow": "#ffffff"
+        }
+      },
+      "core": {
+        "shell": "/usr/local/bin/zsh"
+      },
+      "iconColors": {
+        "blue": "#65c2cd",
+        "green": "#d291e4",
+        "magenta": "#cf32d0",
+        "orange": "#cfa174",
+        "pink": "#e88388",
+        "yellow": "#f3e493"
+      },
+      "style": {
+        "fontFamily": "Operator Mono",
+        "fontSize": "12",
+        "theme": "one-dark"
+      }
+    },
+    "prettier-atom": {
+      "formatOnSaveOptions": {
+        "enabled": true,
+        "showInStatusBar": true
+      },
+      "prettierEslintOptions": {},
+      "prettierOptions": {
+        "printWidth": 120,
+        "semi": false,
+        "singleQuote": true
+      },
+      "useEslint": true
+    },
+    "project-viewer": {
+      "convertOldData": false,
+      "statusBarVisibility": true
+    },
+    "rubo-format": {},
+    "rubocop-auto-correct": {
+      "autoRun": true,
+      "notification": false
+    },
+    "semanticolor": {
+      "apiBlueprintLanguageApiBlueprint": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize"
+      },
+      "asciidocLanguageAsciidoc": {
+        "attribute-name": "default",
+        "comment": "default",
+        "constant_numeric": "default",
+        "enabled": false,
+        "everythingElse": "default",
+        "keyword": "default",
+        "language": "default",
+        "markup": "default",
+        "name": "default",
+        "operator": "default",
+        "primitive": "default",
+        "punctuation": "default",
+        "regexp": "default",
+        "source": "default",
+        "storage_modifier": "default",
+        "storage_type": "default",
+        "string_quoted": "default",
+        "support_constant": "default",
+        "support_type": "default",
+        "variable": "default"
+      },
+      "babelEs6JavascriptLanguageBabel": {
+        "attribute-name": "colorize",
+        "comment": "theme",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "cCakeFileLanguageCsharp": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "cLanguageC": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "cLanguageCsharp": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "cScriptFileLanguageCsharp": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "clojureLanguageClojure": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "coffeescriptLanguageCoffeeScript": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "coffeescriptLiterateLanguageCoffeeScript": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "colorOptions": {
+        "fade": 40,
+        "hues": 700,
+        "luminosity": 50,
+        "saturation": 90
+      },
+      "cssLanguageCss": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "defaults": {
+        "attribute-name": "colorize",
+        "comment": "theme",
+        "constant_numeric": "theme",
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "dockerfileLanguageDocker": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize"
+      },
+      "dockerignoreLanguageDocker": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "default"
+      },
+      "elmLanguageElm": {
+        "attribute-name": "default",
+        "comment": "default",
+        "constant_numeric": "default",
+        "enabled": true,
+        "everythingElse": "default",
+        "keyword": "default",
+        "language": "default",
+        "markup": "default",
+        "name": "default",
+        "operator": "default",
+        "primitive": "default",
+        "punctuation": "default",
+        "regexp": "default",
+        "source": "default",
+        "storage_modifier": "default",
+        "storage_type": "default",
+        "string_quoted": "default",
+        "support_constant": "default",
+        "support_type": "default",
+        "variable": "default"
+      },
+      "erlangConfigFileErlangTermFileLanguageErlang": {
+        "attribute-name": "default",
+        "comment": "default",
+        "constant_numeric": "default",
+        "enabled": true,
+        "everythingElse": "default",
+        "keyword": "default",
+        "language": "default",
+        "markup": "default",
+        "name": "default",
+        "operator": "default",
+        "primitive": "default",
+        "punctuation": "default",
+        "regexp": "default",
+        "source": "default",
+        "storage_modifier": "default",
+        "storage_type": "default",
+        "string_quoted": "default",
+        "support_constant": "default",
+        "support_type": "default",
+        "variable": "default"
+      },
+      "erlangLanguageErlang": {
+        "attribute-name": "default",
+        "comment": "default",
+        "constant_numeric": "default",
+        "enabled": true,
+        "everythingElse": "default",
+        "keyword": "default",
+        "language": "default",
+        "markup": "default",
+        "name": "default",
+        "operator": "default",
+        "primitive": "default",
+        "punctuation": "default",
+        "regexp": "default",
+        "source": "default",
+        "storage_modifier": "default",
+        "storage_type": "default",
+        "string_quoted": "default",
+        "support_constant": "default",
+        "support_type": "default",
+        "variable": "default"
+      },
+      "gemfileLanguageRuby": {
+        "attribute-name": "default",
+        "comment": "default",
+        "constant_numeric": "default",
+        "enabled": true,
+        "everythingElse": "default",
+        "keyword": "default",
+        "language": "default",
+        "markup": "default",
+        "name": "default",
+        "operator": "default",
+        "primitive": "default",
+        "punctuation": "default",
+        "regexp": "default",
+        "source": "default",
+        "storage_modifier": "default",
+        "storage_type": "default",
+        "string_quoted": "default",
+        "support_constant": "default",
+        "support_type": "default",
+        "variable": "default"
+      },
+      "gitConfigLanguageGit": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "goLanguageGo": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "graphqlLanguageGraphql": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "hackNuclideLanguageHack": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "htmlLanguageHtml": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "javaLanguageJava": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "javaPropertiesLanguageJava": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "javascriptLanguageJavascript": {
+        "attribute-name": "colorize",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "javascriptRailsLanguageRubyOnRails": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "jsonLanguageJson": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "lessLanguageLess": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "makefileLanguageMake": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "menhirLanguageOcaml": {
+        "attribute-name": "default",
+        "comment": "default",
+        "constant_numeric": "default",
+        "enabled": true,
+        "everythingElse": "default",
+        "keyword": "default",
+        "language": "default",
+        "markup": "default",
+        "name": "default",
+        "operator": "default",
+        "primitive": "default",
+        "punctuation": "default",
+        "regexp": "default",
+        "source": "default",
+        "storage_modifier": "default",
+        "storage_type": "default",
+        "string_quoted": "default",
+        "support_constant": "default",
+        "support_type": "default",
+        "variable": "default"
+      },
+      "msonLanguageApiBlueprint": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize"
+      },
+      "nantBuildFileLanguageCsharp": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "nimNim": {
+        "attribute-name": "default",
+        "comment": "default",
+        "constant_numeric": "default",
+        "enabled": true,
+        "everythingElse": "default",
+        "keyword": "default",
+        "language": "default",
+        "markup": "default",
+        "name": "default",
+        "operator": "default",
+        "primitive": "default",
+        "punctuation": "default",
+        "regexp": "default",
+        "source": "default",
+        "storage_modifier": "default",
+        "storage_type": "default",
+        "string_quoted": "default",
+        "support_constant": "default",
+        "support_type": "default",
+        "variable": "default"
+      },
+      "objectiveCLanguageObjectiveC": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "ocamlLanguageOcaml": {
+        "attribute-name": "default",
+        "comment": "default",
+        "constant_numeric": "default",
+        "enabled": true,
+        "everythingElse": "default",
+        "keyword": "default",
+        "language": "default",
+        "markup": "default",
+        "name": "default",
+        "operator": "default",
+        "primitive": "default",
+        "punctuation": "default",
+        "regexp": "default",
+        "source": "default",
+        "storage_modifier": "default",
+        "storage_type": "default",
+        "string_quoted": "default",
+        "support_constant": "default",
+        "support_type": "default",
+        "variable": "default"
+      },
+      "ocamllexLanguageOcaml": {
+        "attribute-name": "default",
+        "comment": "default",
+        "constant_numeric": "default",
+        "enabled": true,
+        "everythingElse": "default",
+        "keyword": "default",
+        "language": "default",
+        "markup": "default",
+        "name": "default",
+        "operator": "default",
+        "primitive": "default",
+        "punctuation": "default",
+        "regexp": "default",
+        "source": "default",
+        "storage_modifier": "default",
+        "storage_type": "default",
+        "string_quoted": "default",
+        "support_constant": "default",
+        "support_type": "default",
+        "variable": "default"
+      },
+      "perl6LanguagePerl": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "perlLanguagePerl": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "phpLanguagePhp": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "postcssLanguagePostcss": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "propertyListOldStyleLanguagePropertyList": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "pugLanguagePug": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize"
+      },
+      "pythonLanguagePython": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "reasonNuclideLanguageReason": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "regularExpressionsPythonLanguagePython": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "rubyLanguageRuby": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "rubyOnRailsLanguageRubyOnRails": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "rubyOnRailsRjsLanguageRubyOnRails": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "rustAtomLanguageRust": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize"
+      },
+      "sassLanguageSass": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "scssLanguageSass": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "sqlLanguageSql": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "sqlRailsLanguageRubyOnRails": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "stringsFileLanguageObjectiveC": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "sugarssLanguagePostcss": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "tomlLanguageToml": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "typescriptAtomTypescript": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize"
+      },
+      "typescriptLanguageTypescript": {
+        "attribute-name": "default",
+        "comment": "default",
+        "constant_numeric": "default",
+        "enabled": true,
+        "everythingElse": "default",
+        "keyword": "default",
+        "language": "default",
+        "markup": "default",
+        "name": "default",
+        "operator": "default",
+        "primitive": "default",
+        "punctuation": "default",
+        "regexp": "default",
+        "source": "default",
+        "storage_modifier": "default",
+        "storage_type": "default",
+        "string_quoted": "default",
+        "support_constant": "default",
+        "support_type": "default",
+        "variable": "default"
+      },
+      "typescriptreactAtomTypescript": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize"
+      },
+      "typescriptreactLanguageTypescript": {
+        "attribute-name": "default",
+        "comment": "default",
+        "constant_numeric": "default",
+        "enabled": true,
+        "everythingElse": "default",
+        "keyword": "default",
+        "language": "default",
+        "markup": "default",
+        "name": "default",
+        "operator": "default",
+        "primitive": "default",
+        "punctuation": "default",
+        "regexp": "default",
+        "source": "default",
+        "storage_modifier": "default",
+        "storage_type": "default",
+        "string_quoted": "default",
+        "support_constant": "default",
+        "support_type": "default",
+        "variable": "default"
+      },
+      "xmlLanguageXml": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": true,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      },
+      "yamlLanguageYaml": {
+        "attribute-name": "colorize",
+        "comment": "contrast",
+        "constant_numeric": "theme",
+        "enabled": false,
+        "everythingElse": "theme",
+        "keyword": "mute",
+        "language": "mute",
+        "markup": "defer",
+        "name": "colorize",
+        "operator": "mute",
+        "primitive": "mute",
+        "punctuation": "defer",
+        "regexp": "theme",
+        "source": "colorize",
+        "storage_modifier": "mute",
+        "storage_type": "mute",
+        "string_quoted": "theme",
+        "support_constant": "theme",
+        "support_type": "colorize",
+        "variable": "colorize"
+      }
+    },
+    "stylefmt": {
+      "formatOnSave": true
+    },
+    "tabs": {
+      "enableVcsColoring": true,
+      "usePreviewTabs": true
+    },
+    "terminal-plus": {
+      "style": {},
+      "toggles": {}
+    },
+    "theme-switcher": {
+      "syntaxThemeOne": "one-dark-syntax",
+      "syntaxThemeTwo": "one-light-syntax"
+    },
+    "toggle-quotes": {},
+    "tool-bar": {
+      "position": "Left"
+    },
+    "tree-view": {
+      "hideIgnoredNames": true,
+      "hideVcsIgnoredFiles": true,
+      "squashDirectoryNames": true
+    },
+    "welcome": {
+      "showOnStartup": false
+    }
+  },
+  ".asciidoc.source": {
+    "editor": {
+      "softWrap": true
+    }
+  },
+  ".babel.regexp.source": {
+    "editor": {
+      "preferredLineLength": 120
+    }
+  },
+  ".basic.html.text": {
+    "editor": {
+      "preferredLineLength": 120,
+      "softWrapHangingIndent": 2
+    }
+  },
+  ".css.source": {
+    "editor": {
+      "preferredLineLength": 120,
+      "softWrapHangingIndent": 2
+    }
+  },
+  ".js.jsx.source": {
+    "editor": {
+      "preferredLineLength": 120
+    }
+  },
+  ".js.source": {
+    "toggle-quotes": {
+      "quoteCharacters": "\"'`"
+    }
+  },
+  ".markdown.text": {
+    "whitespace": {
+      "removeTrailingWhitespace": false
+    }
+  },
+  ".pug.source": {
+    "editor": {
+      "preferredLineLength": 120,
+      "softWrapHangingIndent": 2
+    }
+  },
+  ".rust.source": {
+    "editor": {
+      "preferredLineLength": 99
+    }
+  },
+  ".slim.text": {
+    "editor": {
+      "autoIndent": true,
+      "autoIndentOnPaste": false,
+      "preferredLineLength": 120,
+      "softWrapHangingIndent": 2
+    }
+  }
+}
