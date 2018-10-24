@@ -128,7 +128,6 @@
   "linter-tidy":
     executablePath: "/usr/local/bin/tidy"
   "linter-ui-default":
-    panelHeight: 277
     showPanel: true
   "markdown-preview":
     useGitHubStyle: true
