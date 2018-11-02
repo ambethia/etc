@@ -109,7 +109,6 @@
   linter: {}
   "linter-eslint":
     disableWhenNoEslintrcFileInPath: false
-    globalNodePath: "/Users/ambethia/.node"
   "linter-glsl": {}
   "linter-htmlhint": {}
   "linter-js-standard":
@@ -125,8 +124,7 @@
     onlyRunWhenConfig: true
   "linter-tidy":
     executablePath: "/usr/local/bin/tidy"
-  "linter-ui-default":
-    showPanel: true
+  "linter-ui-default": {}
   "markdown-preview":
     useGitHubStyle: true
   "markdown-writer":
