@@ -36,29 +36,19 @@
     preferredFormat: "HEX"
   core:
     customFileTypes:
-      "source.ini": [
-        ".buckconfig"
-        ".hgrc"
-        ".flowconfig"
-      ]
-      "source.json": [
-        ".arcconfig"
-        "BUCK.autodeps"
-      ]
-      "source.python": [
-        "BUCK"
+      "source.js.jsx": [
+        "js"
       ]
     disabledPackages: [
       "autocomplete"
       "linter-clang"
       "automate-power-mode"
       "activate-power-mode"
-      "language-javascript"
       "language-postcss"
       "emmet-jsx-css-modules"
       "language-slim"
       "linter-rubocop"
-      "autocomplete-snippets"
+      "language-javascript"
     ]
     ignoredNames: [
       ".git"
