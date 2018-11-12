@@ -49,6 +49,7 @@
       "language-slim"
       "linter-rubocop"
       "language-javascript"
+      "autocomplete-snippets"
     ]
     ignoredNames: [
       ".git"
