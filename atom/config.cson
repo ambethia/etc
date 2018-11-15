@@ -39,6 +39,9 @@
       "source.js.jsx": [
         "js"
       ]
+      "text.html.ruby": [
+        "html (rails)"
+      ]
     disabledPackages: [
       "autocomplete"
       "linter-clang"
