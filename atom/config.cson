@@ -49,7 +49,6 @@
       "activate-power-mode"
       "language-postcss"
       "emmet-jsx-css-modules"
-      "language-slim"
       "linter-rubocop"
       "language-javascript"
       "autocomplete-snippets"
