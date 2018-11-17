@@ -734,6 +734,7 @@
       variable: "colorize"
     javascriptLanguageJavascript:
       "attribute-name": "colorize"
+      comment: "default"
       constant_numeric: "theme"
       enabled: true
       everythingElse: "theme"
