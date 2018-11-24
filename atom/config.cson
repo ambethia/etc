@@ -118,8 +118,7 @@
     onlyRunWhenConfig: true
   "linter-tidy":
     executablePath: "/usr/local/bin/tidy"
-  "linter-ui-default":
-    panelHeight: 277
+  "linter-ui-default": {}
   "markdown-preview":
     useGitHubStyle: true
   "markdown-writer":
