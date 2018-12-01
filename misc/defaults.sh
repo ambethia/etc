@@ -20,4 +20,4 @@ defaults write com.apple.dock static-only -bool TRUE
 defaults write com.apple.dock autohide -bool true
 defaults write com.apple.dock autohide-time-modifier -float 1
 
- killall Dock
+killall Dock
