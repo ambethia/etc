@@ -11,6 +11,7 @@ FILE_MAP = {}.tap do |map|
     end
   end
   map['atom'] = '~/.atom'
+  map['code'] = '~/Library/Application Support/Code/User'
 end
 
 desc 'Links the dot files into home directory'
