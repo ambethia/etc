@@ -76,5 +76,7 @@
   "workbench.statusBar.visible": false,
   "workbench.startupEditor": "newUntitledFile",
   "window.zoomLevel": 0,
-  "workbench.colorTheme": "Dracula"
+  "workbench.colorTheme": "Dracula",
+  "editor.tabSize": 3,
+  "editor.tabCompletion": "on"
 }
