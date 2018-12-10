@@ -79,5 +79,7 @@
   "window.zoomLevel": 0,
   "workbench.colorTheme": "Dracula",
   "editor.tabSize": 2,
-  "editor.tabCompletion": "on"
+  "editor.tabCompletion": "on",
+  "git.confirmSync": false,
+  "git.autofetch": true
 }
