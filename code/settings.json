@@ -81,5 +81,6 @@
   "editor.tabSize": 2,
   "editor.tabCompletion": "on",
   "git.confirmSync": false,
-  "git.autofetch": true
+  "git.autofetch": true,
+  "explorer.confirmDelete": false
 }
