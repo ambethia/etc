@@ -23,9 +23,9 @@ zstyle :omz:plugins:ssh-agent identities id_rsa
 
 ## Editor
 
-export EDITOR='atom -w'
-export VISUAL='atom -w'
-export BUNDLER_EDITOR='atom'
+export EDITOR='code -w'
+export VISUAL='code -w'
+export BUNDLER_EDITOR='code'
 
 ## Path
 export PATH="$HOME/bin:$PATH"
