@@ -82,5 +82,6 @@
   "editor.tabCompletion": "on",
   "git.confirmSync": false,
   "git.autofetch": true,
-  "explorer.confirmDelete": false
+  "explorer.confirmDelete": false,
+  "git.enableSmartCommit": true
 }
