@@ -189,7 +189,6 @@
       theme: "one-dark"
   "prettier-atom":
     formatOnSaveOptions:
-      enabled: true
       showInStatusBar: true
     prettierEslintOptions: {}
     prettierOptions:
