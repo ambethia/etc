@@ -83,5 +83,6 @@
   "git.confirmSync": false,
   "git.autofetch": true,
   "explorer.confirmDelete": false,
-  "git.enableSmartCommit": true
+  "git.enableSmartCommit": true,
+  "editor.multiCursorModifier": "ctrlCmd"
 }
