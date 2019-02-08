@@ -84,5 +84,6 @@
   "git.autofetch": true,
   "explorer.confirmDelete": false,
   "git.enableSmartCommit": true,
-  "editor.multiCursorModifier": "alt"
+  "editor.multiCursorModifier": "alt",
+  "terminal.integrated.rendererType": "dom"
 }
