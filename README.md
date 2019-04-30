@@ -26,7 +26,3 @@ I also keep some other crap in here. I use this to bootstrap computers as well a
 
 - `sudo dscl . -create /Users/$USER UserShell /usr/local/bin/zsh`
 - TODO: Automate this.
-
-# Atom
-
-- In Terminal: `apm stars --install`

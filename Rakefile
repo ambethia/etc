@@ -10,7 +10,6 @@ FILE_MAP = {}.tap do |map|
       map[file] = real_file
     end
   end
-  map['atom'] = '~/.atom'
   map['code'] = '~/Library/Application Support/Code/User'
 end
 

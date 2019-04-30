@@ -57,6 +57,11 @@ export PATH="$PATH:./node_modules/.bin"
 export PATH="$PATH:`yarn global bin`"
 export PATH="$HOME/.node/bin:$PATH"
 
+# Ruby
+
+source /usr/local/share/chruby/chruby.sh
+source /usr/local/share/chruby/auto.sh
+
 ## Android
 
 export ANDROID_HOME="$HOME/Library/Android/sdk"
@@ -69,5 +74,4 @@ export PATH=${PATH}:${ANDROID_HOME}/platform-tools
 ## Hooks
 
 eval "$(direnv hook zsh)"
-eval "$(rbenv init -)"
 eval "$(pyenv init -)"

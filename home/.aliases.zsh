@@ -8,7 +8,7 @@ alias rx="killall -SIGTERM redis-server"
 alias rdu="launchctl load /usr/local/opt/redis/homebrew.mxcl.redis.plist"
 alias rdd="launchctl unload /usr/local/opt/redis/homebrew.mxcl.redis.plist"
 
-alias etc="atom ~/.etc"
+alias etc="code ~/.etc"
 alias etc-run="cd ~/.etc && rake"
 alias etc-up="cd ~/.etc && rake update"
 
