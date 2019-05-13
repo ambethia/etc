@@ -34,6 +34,12 @@
     "erb": "html",
     "javascript": "javascriptreact"
   },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx",
+    "xml": {
+      "attr_quotes": "single"
+    }
+  },
   "eslint.autoFixOnSave": true,
   "eslint.run": "onType",
   "explorer.openEditors.visible": 0,
