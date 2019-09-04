@@ -91,5 +91,7 @@
   "explorer.confirmDelete": false,
   "git.enableSmartCommit": true,
   "editor.multiCursorModifier": "alt",
-  "terminal.integrated.rendererType": "dom"
+  "terminal.integrated.rendererType": "dom",
+  "prettier.semi": false,
+  "prettier.singleQuote": true
 }
