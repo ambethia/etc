@@ -93,5 +93,15 @@
   "editor.multiCursorModifier": "alt",
   "terminal.integrated.rendererType": "dom",
   "prettier.semi": false,
-  "prettier.singleQuote": true
+  "prettier.singleQuote": true,
+  "prettier.disableLanguages": [
+    "vue",
+    "sass"
+  ],
+  "prettier.htmlWhitespaceSensitivity": "ignore",
+  "sass.disableAutoIndent": true,
+  "sass.format.deleteCompact": false,
+  "sass.format.deleteEmptyRows": false,
+  "sass.format.enabled": false,
+  "sass.format.deleteWhitespace": false
 }
