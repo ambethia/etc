@@ -1,4 +1,7 @@
 {
     "editor.matchBrackets": false,
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "Dracula",
+    "eslint.autoFixOnSave": true
 }
