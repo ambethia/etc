@@ -1,1 +1,4 @@
-{}
+{
+    "editor.matchBrackets": false,
+    "workbench.startupEditor": "newUntitledFile"
+}
