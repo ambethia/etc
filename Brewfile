@@ -1,6 +1,6 @@
 tap 'homebrew/bundle'
-tap 'caskroom/versions'
-tap 'caskroom/fonts'
+tap 'homebrew/cask-versions'
+tap 'homebrew/cask-fonts'
 
 brew 'antigen'
 brew 'direnv'
