@@ -3,5 +3,6 @@
     "workbench.startupEditor": "newUntitledFile",
     "workbench.activityBar.visible": false,
     "workbench.colorTheme": "Dracula",
-    "eslint.autoFixOnSave": true
+    "eslint.autoFixOnSave": true,
+    "editor.renderWhitespace": "all"
 }
