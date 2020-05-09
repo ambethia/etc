@@ -4,5 +4,8 @@
     "workbench.activityBar.visible": false,
     "workbench.colorTheme": "Dracula",
     "eslint.autoFixOnSave": true,
-    "editor.renderWhitespace": "all"
+    "editor.renderWhitespace": "all",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    }
 }
