@@ -117,7 +117,7 @@ def link_file(source, target)
 end
 
 def notify(msg)
-  if system "/usr/local/bin/terminal-notifier -message \"#{msg}\" -title \"~/.etc\" -activate com.apple.Terminal -group dotfiles"
+  if system "terminal-notifier -message \"#{msg}\" -title \"~/.etc\" -activate com.apple.Terminal -group dotfiles"
     return
   end
   system "osascript -e 'tell app \"System Events\" to display dialog \"#{msg} (PS: install terminal-notifier, dummy)\"'"
