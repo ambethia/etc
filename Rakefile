@@ -1,17 +1,18 @@
 require 'rake'
 
-FILE_MAP = {}.tap do |map|
-  files = Dir.glob('home/**/*', File::FNM_DOTMATCH).reject { |f| /DS_Store/ =~ f }
-  files.each do |file|
-    real_file = '~/' + file.gsub(%r{home/}, '')
-    if File.directory?(file)
-      `mkdir -p #{real_file}`
-    else
-      map[file] = real_file
+FILE_MAP =
+  {}.tap do |map|
+    files =
+      Dir.glob('home/**/*', File::FNM_DOTMATCH).reject { |f| /DS_Store/ =~ f }
+    files.each do |file|
+      real_file = '~/' + file.gsub(%r{home/}, '')
+      if File.directory?(file)
+        `mkdir -p #{real_file}`
+      else
+        map[file] = real_file
+      end
     end
   end
-  map['code'] = '~/Library/Application Support/Code/User'
-end
 
 desc 'Links the dot files into home directory'
 task :link do
@@ -112,10 +113,12 @@ end
 
 def link_file(source, target)
   puts "linking #{target}"
-  system %(ln -s "$PWD/#{source}" "#{File.expand_path(target)}")
+  system "ln -s \"$PWD/#{source}\" \"#{File.expand_path(target)}\""
 end
 
 def notify(msg)
-  return if system %(/usr/local/bin/terminal-notifier -message "#{msg}" -title "~/.etc" -activate com.apple.Terminal -group dotfiles)
-  system %(osascript -e 'tell app "System Events" to display dialog "#{msg} (PS: install terminal-notifier, dummy)"')
+  if system "/usr/local/bin/terminal-notifier -message \"#{msg}\" -title \"~/.etc\" -activate com.apple.Terminal -group dotfiles"
+    return
+  end
+  system "osascript -e 'tell app \"System Events\" to display dialog \"#{msg} (PS: install terminal-notifier, dummy)\"'"
 end

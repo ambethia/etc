@@ -21,8 +21,3 @@ I also keep some other crap in here. I use this to bootstrap computers as well a
 # Fonts
 
 - Install [Operator](http://www.typography.com/fonts/operator/overview/) (Mono & SSm)
-
-# Z Shell
-
-- `sudo dscl . -create /Users/$USER UserShell /usr/local/bin/zsh`
-- TODO: Automate this.

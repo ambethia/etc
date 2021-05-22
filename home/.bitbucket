@@ -1,6 +1,0 @@
-[auth]
-username = ambethia
-
-[options]
-scm = git
-protocol = ssh
