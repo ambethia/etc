@@ -39,3 +39,5 @@
 	helper = osxkeychain
 [submodule]
 	recurse = true
+[pull]
+	rebase = true
