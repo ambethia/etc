@@ -1,5 +1,7 @@
 ## Antigen
 
+eval "$(/opt/homebrew/bin/brew shellenv)"
+FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
 source $(brew --prefix)/share/antigen/antigen.zsh
 
 antigen use oh-my-zsh
@@ -10,7 +12,6 @@ antigen bundles <<-BUNDLES
   osx
   ssh-agent
   mafredri/zsh-async
-  sindresorhus/pure
   zsh-users/zsh-completions
   zsh-users/zsh-history-substring-search
   zsh-users/zsh-syntax-highlighting
@@ -20,6 +21,9 @@ antigen apply
 
 zstyle :omz:plugins:ssh-agent agent-forwarding on
 zstyle :omz:plugins:ssh-agent identities id_rsa
+
+autoload -U promptinit; promptinit
+prompt pure
 
 ## Editor
 
@@ -51,8 +55,6 @@ export LC_ALL=en_US.UTF-8
 
 ## Hooks
 
-eval "$(/opt/homebrew/bin/brew shellenv)"
 eval "$(direnv hook zsh)"
 eval "$(rbenv init -)"
 eval "$(direnv hook zsh)"
-
