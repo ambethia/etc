@@ -1,6 +1,6 @@
 [user]
 	name = Jason L Perry
-	email = jason@suncoast.io
+	email = ambethia@users.noreply.github.com
 [push]
 	default = matching
 [color]
@@ -41,3 +41,5 @@
 	recurse = true
 [pull]
 	rebase = true
+[init]
+	defaultBranch = main

@@ -3,7 +3,6 @@ tap 'homebrew/cask-versions'
 tap 'homebrew/cask-fonts'
 
 brew 'antigen'
-brew 'chruby'
 brew 'direnv'
 brew 'git'
 brew 'hub'
@@ -22,9 +21,7 @@ cask '1password'
 cask 'alfred'
 cask 'firefox'
 cask 'github'
-cask 'google-chrome'
 cask 'slack'
-cask 'spotify'
 cask 'visual-studio-code'
 mas 'Affinity Designer', id: 824_171_161
 mas 'Xcode', id: 497_799_835

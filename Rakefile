@@ -5,7 +5,7 @@ FILE_MAP =
     files =
       Dir.glob('home/**/*', File::FNM_DOTMATCH).reject { |f| /DS_Store/ =~ f }
     files.each do |file|
-      real_file = '~/' + file.gsub(%r{home/}, '')
+      real_file = "~/#{file.gsub(%r{home/}, '')}"
       if File.directory?(file)
         `mkdir -p #{real_file}`
       else

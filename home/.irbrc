@@ -12,7 +12,7 @@ IRB.conf[:HISTORY_FILE] = "#{ENV['HOME']}/.irb-save-history"
 begin
   require 'awesome_print'
 rescue LoadError
-  puts "No awesome_print :("
+  # puts "No awesome_print :("
 end
 
 # Simple prompt mode
@@ -42,17 +42,17 @@ if defined?(AwesomePrint)
 end
 
 # If we are in Rails
-if ENV['RAILS_ENV'] || defined?(Rails)
-  # Customize the IRB prompt
-  app_name = Rails.application.class.parent_name.downcase
-  app_env  = Rails.env[0...3]
+# if ENV['RAILS_ENV'] || defined?(Rails)
+#   # Customize the IRB prompt
+#   app_name = Rails.application.class.parent_name.downcase
+#   app_env  = Rails.env[0...3]
 
-  IRB.conf[:PROMPT] ||= {}
-  IRB.conf[:PROMPT][:RAILS] = {
-    PROMPT_I: "#{app_name}> ",
-    PROMPT_S: "#{app_name}* ",
-    PROMPT_C: "#{app_name}? ",
-    RETURN: "=> %s\n"
-  }
-  IRB.conf[:PROMPT_MODE] = :RAILS
-end
+#   IRB.conf[:PROMPT] ||= {}
+#   IRB.conf[:PROMPT][:RAILS] = {
+#     PROMPT_I: "#{app_name}> ",
+#     PROMPT_S: "#{app_name}* ",
+#     PROMPT_C: "#{app_name}? ",
+#     RETURN: "=> %s\n"
+#   }
+#   IRB.conf[:PROMPT_MODE] = :RAILS
+# end
