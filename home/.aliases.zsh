@@ -25,3 +25,5 @@ alias bs="browser-sync start -sf ."
 alias gg="git add .; git commit -m 'Update'  -m 'A lazy commit.'; git push origin"
 
 alias random-word='sed `perl -e "print int rand(99999)"`"q;d" /usr/share/dict/words'
+
+alias ip="curl https://canhazip.com"
