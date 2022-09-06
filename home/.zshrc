@@ -1,19 +1,25 @@
+
+# Homebrew
+
 eval "$(/opt/homebrew/bin/brew shellenv)"
+export HOMEBREW_NO_ENV_HINTS=1
 
-## Antigen
+# Spaceship
 
-FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
-source $(brew --prefix)/share/antigen/antigen.zsh
+source "/opt/homebrew/opt/spaceship/spaceship.zsh"
+
+# Antigen
+
+source /opt/homebrew/share/antigen/antigen.zsh
 
 antigen bundles <<-BUNDLES
   git
   osx
+  ssh-agent
   zsh-users/zsh-completions
   zsh-users/zsh-history-substring-search
   zsh-users/zsh-syntax-highlighting
 BUNDLES
-
-antigen theme spaceship-prompt spaceship
 
 antigen apply
 
@@ -24,6 +30,7 @@ export VISUAL='code -w'
 export BUNDLER_EDITOR='code'
 
 ## Path
+
 export PATH="$HOME/bin:$PATH"
 export PATH="$HOME/.etc/bin:$PATH"
 

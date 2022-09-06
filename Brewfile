@@ -1,19 +1,12 @@
 tap 'homebrew/bundle'
-tap 'homebrew/cask-versions'
-tap 'homebrew/cask-fonts'
 
 brew 'antigen'
 brew 'direnv'
 brew 'git'
 brew 'hub'
 brew 'mas'
-brew 'node'
-brew 'postgresql'
-brew 'pure'
-brew 'terminal-notifier'
 brew 'trash'
 brew 'tree'
-brew 'yarn'
 brew 'zsh'
 brew 'zsh-completions'
 
@@ -23,5 +16,5 @@ cask 'firefox'
 cask 'github'
 cask 'slack'
 cask 'visual-studio-code'
+
 mas 'Affinity Designer', id: 824_171_161
-mas 'Xcode', id: 497_799_835
