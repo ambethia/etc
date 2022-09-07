@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-cd ~/Developer/vendor/aseprite/build
+cd ~/Code/aseprite/build
 git pull
 
 ninja aseprite

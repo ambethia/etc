@@ -17,3 +17,9 @@ alias gg="git add .; git commit -m 'Update'  -m 'A lazy commit.'; git push origi
 alias random-word='sed `perl -e "print int rand(99999)"`"q;d" /usr/share/dict/words'
 
 alias ip="curl https://canhazip.com"
+
+alias ls='lsd'
+alias l='ls -l'
+alias la='ls -a'
+alias lla='ls -la'
+alias lt='ls --tree'
