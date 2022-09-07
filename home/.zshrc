@@ -12,6 +12,8 @@ source "/opt/homebrew/opt/spaceship/spaceship.zsh"
 
 source /opt/homebrew/share/antigen/antigen.zsh
 
+antigen use oh-my-zsh
+
 antigen bundles <<-BUNDLES
   git
   osx

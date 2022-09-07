@@ -1,2 +1,4 @@
 icons:
-  separator: '  '
+  separator: ' '
+
+layout: grid

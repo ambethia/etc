@@ -19,7 +19,8 @@ alias random-word='sed `perl -e "print int rand(99999)"`"q;d" /usr/share/dict/wo
 alias ip="curl https://canhazip.com"
 
 alias ls='lsd'
-alias l='ls -l'
+alias l='ls -1'
+alias ll='ls -l'
 alias la='ls -a'
 alias lla='ls -la'
 alias lt='ls --tree'

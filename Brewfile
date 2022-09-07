@@ -19,4 +19,3 @@ cask 'slack'
 cask 'visual-studio-code'
 
 mas 'Affinity Designer', id: 824_171_161
-``
