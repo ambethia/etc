@@ -3,3 +3,5 @@
 	email = ambethia@users.noreply.github.com
 [init]
 	defaultBranch = main
+[hub]
+	protocol = https

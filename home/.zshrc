@@ -57,3 +57,5 @@ export LC_ALL=en_US.UTF-8
 ## Hooks
 
 eval "$(direnv hook zsh)"
+
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
