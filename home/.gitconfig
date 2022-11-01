@@ -1,7 +1,12 @@
 [user]
 	name = Jason L Perry
-	email = ambethia@users.noreply.github.com
+	email = 298+ambethia@users.noreply.github.com
 [init]
 	defaultBranch = main
 [hub]
 	protocol = https
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f

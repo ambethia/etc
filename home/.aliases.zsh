@@ -1,14 +1,12 @@
 #!/usr/bin/env zsh
 
-alias pgs="pg_ctl -D /usr/local/var/postgres start"
-alias pgx="pg_ctl -D /usr/local/var/postgres stop"
+alias pgs="pg_ctl -D postgres start"
+alias pgx="pg_ctl -D postgres stop"
 
-alias rs="redis-server /usr/local/etc/redis.conf"
+alias rs="redis-server /opt/homebrew/etc/redis.conf"
 alias rx="killall -SIGTERM redis-server"
 
 alias etc="code ~/.etc"
-
-alias cask="brew cask"
 
 alias git=hub
 
