@@ -1,4 +1,3 @@
-
 # Homebrew
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
@@ -67,3 +66,8 @@ export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
 eval "$(direnv hook zsh)"
 
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
+
+# 1p
+
+eval "$(op completion zsh)"
+compdef _op op
