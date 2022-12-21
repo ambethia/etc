@@ -65,7 +65,7 @@ export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
 
 eval "$(direnv hook zsh)"
 
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
+. $(brew --prefix asdf)/libexec/asdf.sh
 
 # 1p
 
