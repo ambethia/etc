@@ -3,10 +3,6 @@
 eval "$(/opt/homebrew/bin/brew shellenv)"
 export HOMEBREW_NO_ENV_HINTS=1
 
-# Spaceship
-
-source "/opt/homebrew/opt/spaceship/spaceship.zsh"
-
 # Antigen
 
 source /opt/homebrew/share/antigen/antigen.zsh
