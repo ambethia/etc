@@ -67,3 +67,10 @@ eval "$(direnv hook zsh)"
 
 eval "$(op completion zsh)"
 compdef _op op
+
+# bun completions
+[ -s "/Users/jason/.bun/_bun" ] && source "/Users/jason/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
