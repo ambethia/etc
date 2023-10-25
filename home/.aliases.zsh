@@ -10,7 +10,8 @@ alias etc="code ~/.etc"
 
 alias git=hub
 
-alias gg="git add .; git commit -m '' --allow-empty-message; git remote | grep -q 'origin' && git push origin; :"
+alias gc="git add .; git commit -m '' --allow-empty-message"
+alias gg="gc; git remote | grep -q 'origin' && git push origin; :"
 
 alias random-word='sed `perl -e "print int rand(99999)"`"q;d" /usr/share/dict/words'
 
