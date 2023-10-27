@@ -12,3 +12,5 @@
 	clean = git-lfs clean -- %f
 [core]
 	excludesfile = /Users/jason/.gitignore
+[push]
+	autoSetupRemote = true
