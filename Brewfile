@@ -1,5 +1,3 @@
-tap 'homebrew/bundle'
-
 brew 'antigen'
 brew 'asdf'
 brew 'direnv'

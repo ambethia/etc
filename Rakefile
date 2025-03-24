@@ -74,7 +74,7 @@ namespace :setup do
       system 'brew update'
       system 'brew bundle install' unless system 'brew bundle check'
     else
-      system 'ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"'
+      system '/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"'
       t.reenable
       t.invoke
     end
@@ -117,6 +117,5 @@ def link_file(source, target)
 end
 
 def notify(msg)
-  system "/opt/homebrew/bin/terminal-notifier -message \"#{msg}\" -title \"~/.etc\" -activate com.apple.Terminal -group dotfiles"
-  # system "osascript -e 'tell app \"System Events\" to display dialog \"#{msg} (PS: install terminal-notifier, dummy)\"'"
+  system "osascript -e 'display notification \"#{msg}\" with title \"~/.etc\"'"
 end
