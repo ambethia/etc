@@ -72,7 +72,7 @@ namespace :setup do
     brewed = system 'which brew'
     if brewed
       system 'brew update'
-      system 'brew bundle install' unless system 'brew bundle check'
+      system 'brew bundle install'
     else
       system '/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"'
       t.reenable
