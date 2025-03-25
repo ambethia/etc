@@ -15,7 +15,7 @@ cask '1password'
 cask 'adobe-creative-cloud'
 cask 'autodesk-fusion'
 cask 'cursor'
-cask 'discord'
+cask 'dropbox'
 cask 'firefox'
 cask 'ghostty'
 cask 'github'
@@ -25,9 +25,10 @@ cask 'sigmaos'
 cask 'slack'
 cask 'visual-studio-code'
 
-# Games
+# Gaming
 cask 'battle-net'
 cask 'curseforge'
+cask 'discord'
 cask 'steam'
 
 mas 'Affinity Designer', id: 824_171_161
