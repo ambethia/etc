@@ -70,3 +70,5 @@ compdef _op op
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+alias claude="/Users/jason/.claude/local/claude"
