@@ -49,26 +49,19 @@ fi
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
-## Ruby
+## ASDF
 
-export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
+fpath=(${ASDF_DATA_DIR:-$HOME/.asdf}/completions $fpath)
+autoload -Uz compinit && compinit
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 
 ## Hooks
 
 eval "$(direnv hook zsh)"
 
-. $(brew --prefix asdf)/libexec/asdf.sh
-
 # 1p
 
 eval "$(op completion zsh)"
 compdef _op op
-
-# bun completions
-[ -s "/Users/jason/.bun/_bun" ] && source "/Users/jason/.bun/_bun"
-
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
 
 alias claude="/Users/jason/.claude/local/claude"
